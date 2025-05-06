@@ -113,3 +113,15 @@ print(x)  # Output: apple
 print(y)  # Output: banana
 print(z)  # Output: cherry
 #Output: apple banana cherry
+
+#Output Variables
+# # You can also use the print() function to output multiple variables at once:
+# # Example:
+# x = "John"
+# y = "Doe" 
+# z = 30
+# # print(x, y, z)  # Output: John Doe 30
+x = "John"
+y = "Doe"
+z = 30
+print(x, y, z)  # Output: John Doe 30
