@@ -125,3 +125,11 @@ x = "John"
 y = "Doe"
 z = 30
 print(x, y, z)  # Output: John Doe 30
+
+#Output Variables
+#The Python print() function is often used to output variables.
+x = "Python is awesome"
+y = "Python is easy to learn"
+print(x)
+print(y)
+#Output: Python is awesome
