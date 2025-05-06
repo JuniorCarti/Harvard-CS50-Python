@@ -70,13 +70,13 @@
 # x = 5
 # y = "John"
 # z = 3.
-x = 5
-y = "John"
-z = 3.14
+#x = 5
+#y = "John"
+#z = 3.14
 # # You can also use the type() function to check the type of a variable:
-print(type(x))  # Output: <class 'int'>
-print(type(y))  # Output: <class 'str'>
-print(type(z))  # Output: <class 'float'>
+#print(type(x))  # Output: <class 'int'>
+#print(type(y))  # Output: <class 'str'>
+#print(type(z))  # Output: <class 'float'>
 #
 # print(type(x))  # Output: <class 'int'>
 # print(type(y))  # Output: <class 'str'>
@@ -89,15 +89,15 @@ print(type(z))  # Output: <class 'float'>
 # print(type(x))  # Output: <class 'str'>   
 
 #Many Values to Multiple Variables
-x, y, z = "Orange", "Banana", "Cherry"
-print(x)
-print(y)
-print(z)
+#x, y, z = "Orange", "Banana", "Cherry"
+#print(x)
+#print(y)
+#print(z)
 #One Value to Multiple Variables
-x = y = z = "Orange"
-print(x)
-print(y)
-print(z)
+#x = y = z = "Orange"
+#print(x)
+#print(y)
+#print(z)
 #Output: Orange Orange Orange
 #Unpack a Collection
 # If you have a collection of values in a list, tuple, or set, you can unpack them into variables.
@@ -107,11 +107,11 @@ print(z)
 # print(x)  # Output: apple
 # print(y)  # Output: banana
 # print(z)  # Output: cherry
-fruits = ["apple", "banana", "cherry"]
-x, y, z = fruits
-print(x)  # Output: apple
-print(y)  # Output: banana
-print(z)  # Output: cherry
+#fruits = ["apple", "banana", "cherry"]
+#x, y, z = fruits
+#print(x)  # Output: apple
+#print(y)  # Output: banana
+#print(z)  # Output: cherry
 #Output: apple banana cherry
 
 #Output Variables
@@ -121,18 +121,34 @@ print(z)  # Output: cherry
 # y = "Doe" 
 # z = 30
 # # print(x, y, z)  # Output: John Doe 30
-x = "John"
-y = "Doe"
-z = 30
-print(x, y, z)  # Output: John Doe 30
+#x = "John"
+#y = "Doe"
+#z = 30
+#print(x, y, z)  # Output: John Doe 30
 
 #Output Variables
 #The Python print() function is often used to output variables.
-x = "Python is awesome"
-y = "Python is easy to learn"
-z = "Python is fun"
-print(x)
-print(y)
-print(z)
-print(x, y, z)  # Output: Python is awesome Python is easy to learn Python is fun
+#x = "Python is awesome"
+#y = "Python is easy to learn"
+#z = "Python is fun"
+#print(x)
+#print(y)
+#print(z)
+#print(x, y, z)  # Output: Python is awesome Python is easy to learn Python is fun
 #Output: Python is awesome
+
+#Global Variables
+# # Variables that are created outside of a function are known as global variables.
+# # Global variables can be accessed from any function in the program.
+# # Example:
+# x = "global variable"  # global variable
+# def my_function():
+#     print(x)  # This will print the global variable x
+# my_function()  # Output: global variable
+# # You can also change the value of a global variable inside a function using the global keyword:
+# # Example:
+# x = "global variable"  # global variable
+# def my_function():
+#     global x  # Declare x as a global variable
+#     x = "local variable"  # This will change the global variable x
+#     print(x)  # This will print the local variable x
