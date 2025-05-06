@@ -87,3 +87,9 @@ print(type(z))  # Output: <class 'float'>
 # print(type(x))  # Output: <class 'int'>   
 # x = "Hello, World!"  # string
 # print(type(x))  # Output: <class 'str'>   
+
+#Many Values to Multiple Variables
+x, y, z = "Orange", "Banana", "Cherry"
+print(x)
+print(y)
+print(z)
