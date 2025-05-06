@@ -12,3 +12,20 @@ print(x)
 print(y)  # integer
 # Variable names should be descriptive and meaningful to make the code more readable.
 # It is a good practice to use lowercase letters for variable names and separate words with underscores (e.g., my_variable).
+x = 4
+x = "John"
+print(x)
+
+
+# # However, it is also common to use camelCase (e.g., myVariable) in some coding styles.
+# # Python is case-sensitive, so "myVar" and "myvar" are different variables.
+# # Python allows you to assign multiple variables at once, like this:
+# # x, y, z = 1, 2, 3
+x, y, z = 1, 2, 3
+# # This assigns 1 to x, 2 to y, and 3 to z.
+print(x, y, z)
+# # You can also assign the same value to multiple variables in one line:
+# # x = y = z = 0
+x = y = z = 0
+# # This assigns 0 to x, y, and z.
+print(x, y, z)
