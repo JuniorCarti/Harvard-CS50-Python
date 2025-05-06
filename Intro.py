@@ -35,3 +35,12 @@
 # - Python uses new lines to complete a command, unlike other programming languages that often use semicolons or parentheses.
 # - Python relies on indentation (whitespace) to define scope, such as the scope of loops, functions, and classes.
 # - Other programming languages often use curly brackets to define scope.
+
+print("Hello, World!")  # This is a comment. It will not be executed.
+# The print() function is used to output data to the standard output device (screen).   
+# The parentheses are used to enclose the data to be printed.
+# The string "Hello, World!" is enclosed in double quotes, indicating that it is a string literal.
+# Strings can also be enclosed in single quotes, e.g., 'Hello, World!'
+# The print() function can also be used to print multiple strings or variables by separating them with commas.
+# For example: print("Hello", "World!") will output: Hello World!
+print("Hello", "World!")  
