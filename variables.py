@@ -50,3 +50,11 @@ z = 3.14
 # # To fix this, you can cast the integer to a string:
 # print(str(x) + y)  # Output: "5John"
 print(str(x) + y)  # Output: "5John"
+# # You can also cast the string to an integer:
+# y = int(y)  # This will cause an error because "John" cannot be converted to an integer.
+# # To fix this, you can use a valid integer string:
+# y = "10"
+# y = int(y)  # Now this will work.
+y = "10"
+y = int(y)  # Now this will work.
+print(x + y)  # Output: 15
