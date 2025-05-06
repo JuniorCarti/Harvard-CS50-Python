@@ -29,3 +29,24 @@ print(x, y, z)
 x = y = z = 0
 # # This assigns 0 to x, y, and z.
 print(x, y, z)
+
+#Casting Variables
+# # Casting is the process of converting a variable from one type to another.   
+# # Python has several built-in functions for this purpose:
+# # int() - converts to an integer
+# # float() - converts to a floating-point number
+# # str() - converts to a string
+# # Example:
+# x = 5
+# y = "John"    
+# z = 3.14
+x = 5
+y = "John"
+z = 3.14
+
+#print(x + y)  # This will cause an error because you cannot add an integer and a string.
+
+# # print(x + y)  # This will cause an error because you cannot add an integer and a string.
+# # To fix this, you can cast the integer to a string:
+# print(str(x) + y)  # Output: "5John"
+print(str(x) + y)  # Output: "5John"
