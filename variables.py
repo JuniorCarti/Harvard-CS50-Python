@@ -58,3 +58,9 @@ print(str(x) + y)  # Output: "5John"
 y = "10"
 y = int(y)  # Now this will work.
 print(x + y)  # Output: 15
+# # You can also cast the float to an integer:
+# z = int(z)  # This will truncate the decimal part.
+# # Now z will be 3.
+z = int(z)  # This will truncate the decimal part.
+# # Now z will be 3.
+print(z)  # Output: 3
