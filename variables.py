@@ -64,3 +64,19 @@ print(x + y)  # Output: 15
 z = int(z)  # This will truncate the decimal part.
 # # Now z will be 3.
 print(z)  # Output: 3
+#Get the Type of a Variable
+# # You can use the type() function to get the type of a variable:
+# # Example:
+# x = 5
+# y = "John"
+# z = 3.14
+#
+# print(type(x))  # Output: <class 'int'>
+# print(type(y))  # Output: <class 'str'>
+# print(type(z))  # Output: <class 'float'>
+# # You can also use the type() function to check the type of a variable:
+# # Example:
+# x = 5
+# print(type(x))  # Output: <class 'int'>   
+# x = "Hello, World!"  # string
+# print(type(x))  # Output: <class 'str'>   
