@@ -99,3 +99,17 @@ print(x)
 print(y)
 print(z)
 #Output: Orange Orange Orange
+#Unpack a Collection
+# If you have a collection of values in a list, tuple, or set, you can unpack them into variables.
+# Example: 
+# fruits = ["apple", "banana", "cherry"]
+# x, y, z = fruits
+# print(x)  # Output: apple
+# print(y)  # Output: banana
+# print(z)  # Output: cherry
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)  # Output: apple
+print(y)  # Output: banana
+print(z)  # Output: cherry
+#Output: apple banana cherry
