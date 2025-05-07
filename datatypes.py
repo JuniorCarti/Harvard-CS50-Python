@@ -113,3 +113,17 @@ print(type(x)) # <class 'float'>
 print(type(y)) # <class 'float'>
 print(type(z)) # <class 'float'>
 print(type(w)) # <class 'float'>
+
+#complex
+# A complex number is a number that has both a real and an imaginary part.
+# Complex numbers are represented in Python using the complex data type, which is a built-in type for representing complex numbers.
+# Complex numbers can be created using the complex() function or by using the j suffix to indicate the imaginary part.
+# For example, 3 + 4j represents a complex number with a real part of 3 and an imaginary part of 4.
+# Similarly, 5 - 2j represents a complex number with a real part of 5 and an imaginary part of -2.
+# Complex numbers can be used in mathematical operations just like integers and floats, including addition, subtraction, multiplication, and division.
+# Python also supports complex conjugation, which is the operation of changing the sign of the imaginary part of a complex number.
+# The complex conjugate of a complex number a + bj is a - bj.
+# The complex() function can be used to create complex numbers from real and imaginary parts.
+# The real and imaginary parts of a complex number can be accessed using the real and imag attributes, respectively.
+# The abs() function can be used to get the magnitude (absolute value) of a complex number.
+# The phase() function can be used to get the phase angle (argument) of a complex number.
