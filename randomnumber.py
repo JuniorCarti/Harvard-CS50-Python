@@ -43,3 +43,9 @@ print(random.uniform(1, 10)) # Returns a random float number between the specifi
 print(random.seed(10)) # Initializes the random number generator with the specified seed value.
 print(random.getstate()) # Returns the current state of the random number generator.
 print(random.setstate(random.getstate())) # Restores the state of the random number generator to the specified state.
+print(random.randrange(1, 10, 2)) # Returns a randomly selected element from range(start, stop[, step]).
+print(random.randint(1, 10)) # Returns a random integer N such that a <= N <= b.
+print(random.choice(['apple', 'banana', 'cherry'])) # Returns a randomly selected element from seq.
+print(random.shuffle(['apple', 'banana', 'cherry'])) # Shuffles the sequence x in place.
+print(random.sample(['apple', 'banana', 'cherry'], 2)) # Returns a k length list of unique elements chosen from the population sequence.
+print(random.uniform(1, 10)) # Returns a random float number between the specified start and stop values.
