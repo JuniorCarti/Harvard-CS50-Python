@@ -127,3 +127,7 @@ print(type(w)) # <class 'float'>
 # The real and imaginary parts of a complex number can be accessed using the real and imag attributes, respectively.
 # The abs() function can be used to get the magnitude (absolute value) of a complex number.
 # The phase() function can be used to get the phase angle (argument) of a complex number.
+x = 3 + 4j
+y = 5 - 2j
+z = complex(3, 4)
+w = complex(5, -2)
