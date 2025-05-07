@@ -39,3 +39,7 @@ print(random.randint(1, 10)) # Returns a random integer between the specified st
 print(random.choice(['apple', 'banana', 'cherry'])) # Returns a random element from the specified sequence (list, tuple, or string).
 print(random.shuffle(['apple', 'banana', 'cherry'])) # Shuffles the elements of the specified sequence in place.
 print(random.sample(['apple', 'banana', 'cherry'], 2)) # Returns a list of k unique elements chosen from the specified sequence.
+print(random.uniform(1, 10)) # Returns a random float number between the specified start and stop values.
+print(random.seed(10)) # Initializes the random number generator with the specified seed value.
+print(random.getstate()) # Returns the current state of the random number generator.
+print(random.setstate(random.getstate())) # Restores the state of the random number generator to the specified state.
