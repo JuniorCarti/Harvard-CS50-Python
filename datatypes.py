@@ -172,3 +172,12 @@ f = range(5)
 g = None
 h = 5.0
 
+a = float(x) # Converts x to an float
+b = int(y) # Converts y to an int
+c = int(z) # Converts z to a int
+d = str(x) # Converts x to a string
+
+print(type(a)) # <class 'float'>
+print(type(b)) # <class 'int'>
+print(type(c)) # <class 'int'>  
+print(type(d)) # <class 'str'>
