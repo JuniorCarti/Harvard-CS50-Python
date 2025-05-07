@@ -11,3 +11,4 @@ def myfunc():
   print("Python is " + x)
 
 myfunc()
+#This is a simple example of how to use global variables in Python
