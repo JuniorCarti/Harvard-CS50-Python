@@ -5,10 +5,18 @@
 #Global variables are variables that are declared outside of a function and can be accessed inside the function
 #Global variables are declared using the global keyword
 #Global variables are used to store data that can be accessed by all functions in the project
-x = "awesome"
+#x = "awesome"
 
-def myfunc():
-  print("Python is " + x)
+#def myfunc():
+ # print("Python is " + x)
 
-myfunc()
+#myfunc()
 #This is a simple example of how to use global variables in Python
+
+x = "awesome"
+def myfunc():
+    global x
+    x = "fantastic"
+    print("Python is " + x)
+myfunc()
+print("Python is " + x)
