@@ -104,3 +104,12 @@ print(type(10.5)) # <class 'float'>
 # Floats can also be negative, e.g., -5.5.
 # Floats can be used in mathematical operations just like integers, including addition, subtraction, multiplication, and division.
 # Python also supports float division, which returns a float result even if the division is exact.
+x = 10.5
+y = -5.5
+z = 1.5e2
+w = 2.5e-3
+
+print(type(x)) # <class 'float'>
+print(type(y)) # <class 'float'>
+print(type(z)) # <class 'float'>
+print(type(w)) # <class 'float'>
