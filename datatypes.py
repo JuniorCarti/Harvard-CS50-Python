@@ -67,3 +67,29 @@ z = 3 + 4j
 print(type(x)) # <class 'int'>
 print(type(y)) # <class 'float'>
 print(type(z)) # <class 'complex'>
+#integer
+# An integer is a whole number, positive or negative, without decimals.
+# Integers can be of any length, and Python automatically handles large integers.
+# Integers can be created using decimal, binary, octal, or hexadecimal notation.
+# Decimal: Base 10, e.g., 10, -5
+# Binary: Base 2, e.g., 0b1010 (which is 10 in decimal)
+# Octal: Base 8, e.g., 0o12 (which is 10 in decimal)
+# Hexadecimal: Base 16, e.g., 0xA (which is 10 in decimal)
+# Python supports arbitrary-precision integers, meaning you can work with very large numbers without worrying about overflow.
+# Python automatically converts large integers to a long type when necessary.
+# Python also supports negative integers, which are represented with a minus sign (-) in front of the number.
+# Negative integers can be used in mathematical operations just like positive integers.
+# Python provides built-in functions for working with integers, such as abs() to get the absolute value, pow() to raise a number to a power, and divmod() to get the quotient and remainder of a division operation.
+# Python also supports integer arithmetic, including addition, subtraction, multiplication, and division.
+# Integer division can be performed using the // operator, which returns the quotient without the remainder.
+# Python also supports the modulo operator % to get the remainder of a division operation.
+x = 10
+y = -5
+print(type(x)) # <class 'int'>
+print(type(y)) # <class 'int'>
+print(type(0b1010)) # <class 'int'>
+print(type(0o12)) # <class 'int'>
+print(type(0xA)) # <class 'int'>
+print(type(10)) # <class 'int'>
+print(type(-5)) # <class 'int'>
+print(type(10.5)) # <class 'float'>
