@@ -131,3 +131,7 @@ x = 3 + 4j
 y = 5 - 2j
 z = complex(3, 4)
 w = complex(5, -2)
+print(type(x)) # <class 'complex'>
+print(type(y)) # <class 'complex'>  
+print(type(z)) # <class 'complex'>
+print(type(w)) # <class 'complex'>
