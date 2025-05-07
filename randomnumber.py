@@ -35,3 +35,7 @@ import random
 
 print(random.random()) # Returns a random float number between 0.0 and 1.0.
 print(random.randrange(1, 10)) # Returns a random integer between the specified start and stop values (inclusive of start and exclusive of stop).
+print(random.randint(1, 10)) # Returns a random integer between the specified start and stop values (inclusive of both start and stop).
+print(random.choice(['apple', 'banana', 'cherry'])) # Returns a random element from the specified sequence (list, tuple, or string).
+print(random.shuffle(['apple', 'banana', 'cherry'])) # Shuffles the elements of the specified sequence in place.
+print(random.sample(['apple', 'banana', 'cherry'], 2)) # Returns a list of k unique elements chosen from the specified sequence.
