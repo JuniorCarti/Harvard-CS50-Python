@@ -135,3 +135,23 @@ print(type(x)) # <class 'complex'>
 print(type(y)) # <class 'complex'>  
 print(type(z)) # <class 'complex'>
 print(type(w)) # <class 'complex'>
+
+#type conversion
+# Type conversion is the process of converting a value from one data type to another.
+# In Python, you can convert between different data types using built-in functions. The most common type conversion functions are:
+# 1. int(): Converts a value to an integer.
+# 2. float(): Converts a value to a float.
+# 3. str(): Converts a value to a string.
+# 4. bool(): Converts a value to a boolean.
+# 5. list(): Converts a value to a list.
+# 6. tuple(): Converts a value to a tuple.
+# 7. set(): Converts a value to a set.  
+# 8. dict(): Converts a value to a dictionary.
+# 9. complex(): Converts a value to a complex number.
+# 10. bytes(): Converts a value to bytes.
+# 11. bytearray(): Converts a value to a bytearray.
+# 12. memoryview(): Converts a value to a memoryview.
+# 13. frozenset(): Converts a value to a frozenset.
+# 14. range(): Converts a value to a range object.
+# 15. NoneType: Represents the absence of a value or a null value.
+# 16. Enum: Represents a set of named values.
