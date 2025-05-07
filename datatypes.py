@@ -13,3 +13,43 @@
 # 9. User-defined Types:	Custom classes and objects
 # 10. Enumerations:	Enum classes
 # 11. Data Classes:	Dataclasses for creating classes with built-in methods
+
+#Getting the data type of an object
+# You can use the type() function to get the data type of an object.
+# The type() function returns the type of the object. The type() function is a built-in function in Python that returns the type of an object. It can be used to check the data type of a variable or an expression. The type() function takes one argument, which is the object whose type you want to check. It returns the type of the object as a string.
+x = "Hello World"
+print(type(x)) # <class 'str'>
+x = 20
+print(type(x)) # <class 'int'>
+x = 20.5
+print(type(x)) # <class 'float'>
+x = ["apple", "banana", "cherry"]
+print(type(x)) # <class 'list'>
+x = ("apple", "banana", "cherry")
+print(type(x)) # <class 'tuple'>
+x = range(5)
+print(type(x)) # <class 'range'>
+x = {"name": "John", "age": 36}
+print(type(x)) # <class 'dict'>
+x = {"apple", "banana", "cherry"}
+print(type(x)) # <class 'set'>
+x = frozenset({"apple", "banana", "cherry"})
+print(type(x)) # <class 'frozenset'>
+x = True
+print(type(x)) # <class 'bool'>
+x = b"Hello"
+print(type(x)) # <class 'bytes'>
+x = bytearray(5)
+print(type(x)) # <class 'bytearray'>
+x = memoryview(bytes(5))
+print(type(x)) # <class 'memoryview
+x = None
+print(type(x)) # <class 'NoneType'>
+x = 5
+print(type(x)) # <class 'int'>
+x = 5.0
+print(type(x)) # <class 'float'>
+x = 5 + 2j
+print(type(x)) # <class 'complex'>
+x = 5.0 + 2j
+print(type(x)) # <class 'complex'>
