@@ -53,3 +53,11 @@ x = 5 + 2j
 print(type(x)) # <class 'complex'>
 x = 5.0 + 2j
 print(type(x)) # <class 'complex'>
+
+
+#python numbers
+# Python Numbers
+# Python has three built-in numeric data types:
+# 1. int (integer): Represents whole numbers, both positive and negative, without decimals.
+# 2. float (floating-point): Represents real numbers, both positive and negative, with decimals.
+# 3. complex: Represents complex numbers, which are numbers with a real and imaginary part.
