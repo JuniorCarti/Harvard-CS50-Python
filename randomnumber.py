@@ -30,3 +30,8 @@
 # - random.vonmisesvariate(mu, kappa): Returns a random float number between negative pi and positive pi, with the specified mu and kappa values.
 # - random.paretovariate(alpha): Returns a random float number between 0 and positive infinity, with the specified alpha value.
 # - random.weibullvariate(alpha, beta): Returns a random float number between 0 and positive infinity, with the specified alpha and beta values.
+
+import random
+
+print(random.random()) # Returns a random float number between 0.0 and 1.0.
+print(random.randrange(1, 10)) # Returns a random integer between the specified start and stop values (inclusive of start and exclusive of stop).
