@@ -1,7 +1,5 @@
 #Python Casting
-x = 5
-y = "John"
-z = 3.14
+#Casting is the process of converting a value from one data type to another. In Python, you can use the following functions to cast values:
 #Casting
 #Casting is the process of converting a value from one data type to another. In Python, you can use the following functions to cast values:
 # - int(): Converts a value to an integer.
@@ -27,3 +25,17 @@ z = 3.14
 # - help(): Displays the documentation of a value.
 # - eval(): Evaluates a string as a Python expression.
 # - exec(): Executes a string as a Python statement.
+
+x = 5
+y = "John"
+z = 3.14
+
+a = True
+b = False
+c = None
+d = [1, 2, 3]
+e = (1, 2, 3)
+f = {1, 2, 3}
+g = {1: "one", 2: "two", 3: "three"}
+h = complex(1, 2)
+i = bytes(5)
