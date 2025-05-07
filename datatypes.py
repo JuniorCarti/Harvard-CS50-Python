@@ -181,3 +181,9 @@ print(type(a)) # <class 'float'>
 print(type(b)) # <class 'int'>
 print(type(c)) # <class 'int'>  
 print(type(d)) # <class 'str'>
+
+print(type(e)) # <class 'frozenset'>
+print(type(f)) # <class 'range'>    
+print(type(g)) # <class 'NoneType'>
+print(type(h)) # <class 'float'>
+
