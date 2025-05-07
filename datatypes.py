@@ -93,3 +93,14 @@ print(type(0xA)) # <class 'int'>
 print(type(10)) # <class 'int'>
 print(type(-5)) # <class 'int'>
 print(type(10.5)) # <class 'float'>
+
+#Float
+# A float is a number that has a decimal point or is in exponential (scientific) notation.
+#Float, or "floating point number" is a number, positive or negative, containing one or more decimals.
+# Floats can also be represented in scientific notation, which is a way of expressing very large or very small numbers using powers of 10.
+# For example, 1.5e2 represents 1.5 * 10^2, which is equal to 150.0.
+# Similarly, 2.5e-3 represents 2.5 * 10^-3, which is equal to 0.0025.
+# Floats can be created using decimal notation, e.g., 10.5, or using scientific notation, e.g., 1.5e2.
+# Floats can also be negative, e.g., -5.5.
+# Floats can be used in mathematical operations just like integers, including addition, subtraction, multiplication, and division.
+# Python also supports float division, which returns a float result even if the division is exact.
