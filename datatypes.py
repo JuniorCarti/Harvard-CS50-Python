@@ -155,3 +155,20 @@ print(type(w)) # <class 'complex'>
 # 14. range(): Converts a value to a range object.
 # 15. NoneType: Represents the absence of a value or a null value.
 # 16. Enum: Represents a set of named values.
+x = 5
+y = 2.5
+z = "10"
+w = True
+v = [1, 2, 3]
+u = (1, 2, 3)
+t = {1, 2, 3}
+s = {"name": "John", "age": 36}
+a = 3 + 4j
+b = b"Hello"
+c = bytearray(5)
+d = memoryview(bytes(5))
+e = frozenset({"apple", "banana", "cherry"})
+f = range(5)
+g = None
+h = 5.0
+
