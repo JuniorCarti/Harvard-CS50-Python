@@ -61,3 +61,9 @@ print(type(x)) # <class 'complex'>
 # 1. int (integer): Represents whole numbers, both positive and negative, without decimals.
 # 2. float (floating-point): Represents real numbers, both positive and negative, with decimals.
 # 3. complex: Represents complex numbers, which are numbers with a real and imaginary part.
+x = 5
+y = 2.5
+z = 3 + 4j
+print(type(x)) # <class 'int'>
+print(type(y)) # <class 'float'>
+print(type(z)) # <class 'complex'>
