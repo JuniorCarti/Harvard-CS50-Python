@@ -54,3 +54,12 @@ x = "Hello World"
 y = "Hello World"
 print(x[5:])
 print(y[5:])
+
+#Negative Indexing
+#Use negative indexing to start the slice from the end of the string
+#x = "Hello World"
+#y = "Hello World"
+x = "Hello World"
+y = "Hello World"
+print(x[-5:-2])
+print(y[-5:-2])
