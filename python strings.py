@@ -69,4 +69,14 @@ print(y[3])
 x = "Hello World"
 for i in x:
     print(i)
-    
+#String Length
+# To get the length of a string, use the len() function.
+# x = "Hello World" 
+# y = "Hello World"
+# print(len(x))
+# print(len(y))
+x = "Hello World"
+y = "Hello World"
+print(len(x))
+print(len(y))
+
