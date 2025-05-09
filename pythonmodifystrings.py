@@ -113,3 +113,11 @@ x = "Hello World"
 y = "Hello World"
 print(x.isalnum())
 print(y.isalnum())
+
+#The isalpha() method returns True if all characters in the string are alphabetic
+#x = "Hello World"
+#y = "Hello World"
+x = "Hello World"
+y = "Hello World"
+print(x.isalpha())
+print(y.isalpha())
