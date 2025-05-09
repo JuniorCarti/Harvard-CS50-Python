@@ -57,3 +57,10 @@ y = "Hello World"
 print(x.split())
 print(y.split())
 
+#The join() method joins the elements of a list into a string
+#x = ["Hello", "World"]
+#y = ["Hello", "World"]
+x = ["Hello", "World"]
+y = ["Hello", "World"]
+print(" ".join(x))
+print(" ".join(y))
