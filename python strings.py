@@ -7,3 +7,12 @@
 x= "Hello World"
 y= 'Hello World'
 print(x)
+
+#Quotes Inside Quotes
+# You can use three double quotes or three single quotes to create a multiline string.
+# x = """Hello
+# World"""
+# y = '''Hello
+# World'''
+# print(x)
+# print(y)
