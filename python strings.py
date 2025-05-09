@@ -60,3 +60,13 @@ print(x[0])
 print(y[1])
 print(x[2])
 print(y[3])
+
+#Looping Through a String
+# You can loop through the string with a for loop.
+# x = "Hello World"
+# for i in x:
+#     print(i)
+x = "Hello World"
+for i in x:
+    print(i)
+    
