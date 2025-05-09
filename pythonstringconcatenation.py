@@ -53,3 +53,8 @@ u = "!"
 print(s + t + u)
 joined_string = " ".join([s, t, u])
 print(joined_string)
+
+# Concatenating strings with a separator
+separator = ", "
+joined_string_with_separator = separator.join([s, t, u])
+print(joined_string_with_separator)
