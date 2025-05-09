@@ -129,3 +129,11 @@ x = "Hello World"
 y = "Hello World"
 print(x.isdigit())
 print(y.isdigit())
+
+#The islower() method returns True if all characters in the string are lower case
+#x = "Hello World"
+#y = "Hello World"
+x = "hello world"
+y = "Hello World"
+print(x.islower())
+print(y.islower())
