@@ -42,3 +42,21 @@ World"""
 y = '''Hello
 World'''
 print(x)
+
+#Strings are Arrays
+# A string is an array of bytes representing Unicode characters.
+# You can access the characters in a string by referring to the index number.
+# The index number starts at 0.
+# x = "Hello World"
+# y = "Hello World"
+# print(x[0])
+# print(y[1])
+# print(x[2])
+# print(y[3])
+
+x = "Hello World"
+y = "Hello World"
+print(x[0])
+print(y[1])
+print(x[2])
+print(y[3])
