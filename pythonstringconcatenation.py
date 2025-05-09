@@ -51,3 +51,5 @@ s = "Hello"
 t = "World"
 u = "!"
 print(s + t + u)
+joined_string = " ".join([s, t, u])
+print(joined_string)
