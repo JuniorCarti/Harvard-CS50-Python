@@ -16,3 +16,7 @@ print(x)
 # World'''
 # print(x)
 # print(y)
+print("Hello World")
+print('Hello World')
+print("Hello 'Jonah'")
+print('Hello "Jonah"')
