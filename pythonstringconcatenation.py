@@ -58,3 +58,9 @@ print(joined_string)
 separator = ", "
 joined_string_with_separator = separator.join([s, t, u])
 print(joined_string_with_separator)
+
+# Concatenating strings with a prefix and suffix
+prefix = "Greeting: "
+suffix = "!"
+joined_string_with_prefix_suffix = prefix + separator.join([s, t]) + suffix
+print(joined_string_with_prefix_suffix)
