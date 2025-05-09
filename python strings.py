@@ -90,4 +90,14 @@ x = "Hello World"
 y = "Hello World"
 print("H" in x)
 print("H" in y)
+#Check if Not
+# To check if a certain phrase or character is NOT present in a string, we can use the keyword not in.
+# x = "Hello World"
+# y = "Hello World" 
+# print("H" not in x)
+# print("H" not in y)
+x = "Hello World"
+y = "Hello World"
+print("H" not in x)
+print("H" not in y)
 
