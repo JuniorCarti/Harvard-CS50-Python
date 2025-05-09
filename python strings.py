@@ -29,3 +29,16 @@ print('Hello "Jonah"')
 x = "Hello World"
 y = 'Hello World'
 print(x)
+
+#multiline string
+# x = """Hello
+# World"""  
+# y = '''Hello
+# World'''
+# print(x)
+# print(y)
+x = """Hello
+World"""
+y = '''Hello
+World'''
+print(x)
