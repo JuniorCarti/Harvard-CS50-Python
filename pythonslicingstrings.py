@@ -36,3 +36,12 @@ b = "Hello World"
 c = "Hello World"
 print(b[0:5])
 print(c[0:5])
+
+#Slice From the Start
+#You can omit the start index and the slice will start at the beginning of the string
+#x = "Hello World"
+#y = "Hello World"
+x = "Hello World"
+y = "Hello World"
+print(x[:5])
+print(y[:5])
