@@ -76,3 +76,8 @@ custom_prefix = "Start: "
 custom_suffix = " :End"
 joined_string_with_custom_format = custom_prefix + custom_separator.join([s, t, u]) + custom_suffix
 print(joined_string_with_custom_format)
+
+# Concatenating strings with a custom separator and prefix and suffix and a custom format
+custom_format_with_custom_separator = "{}{}{}"
+formatted_string_with_custom_separator = custom_format_with_custom_separator.format(custom_prefix, custom_separator.join([s, t, u]), custom_suffix)
+print(formatted_string_with_custom_separator)
