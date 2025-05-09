@@ -12,3 +12,36 @@
 # # The join() method can be used to concatenate strings with a custom prefix and suffix
 # # The join() method can be used to concatenate strings with a custom separator and prefix and suffix
 # # The join() method can be used to concatenate strings with a custom separator and prefix and suffix and a custom format
+a = "Hello"
+b = "World"
+c = "!"
+d = " "
+e = " "
+f = " "
+g = " "
+h = " "
+i = " "
+j = " "
+k = " "
+l = " "
+m = " "
+n = " "
+o = " "
+p = " "
+q = " "
+r = " "
+s = " "
+t = " "
+u = " "
+v = " "
+w = " "
+x = " "
+y = " "
+z = " "
+print(a + b + c)
+print(a + d + b + c)
+print(a + e + b + c)
+print(a + f + b + c)
+print(a + g + b + c)
+print(a + h + b + c)
+print(a + i + b + c)
