@@ -20,3 +20,12 @@ print("Hello World")
 print('Hello World')
 print("Hello 'Jonah'")
 print('Hello "Jonah"')
+
+# Assigning a String to a Variable
+# x = "Hello World"
+# y = 'Hello World'
+# print(x)
+# print(y)
+x = "Hello World"
+y = 'Hello World'
+print(x)
