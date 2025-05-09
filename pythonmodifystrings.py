@@ -161,3 +161,5 @@ x = "   "
 y = "Hello World"
 print(x.isspace())
 print(y.isspace())
+
+
