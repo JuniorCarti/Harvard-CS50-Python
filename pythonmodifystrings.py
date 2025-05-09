@@ -145,3 +145,11 @@ x = "HELLO WORLD"
 y = "Hello World"
 print(x.isupper())
 print(y.isupper())
+
+#The istitle() method returns True if the string follows the rules of a title
+#x = "Hello World"
+#y = "Hello World"
+x = "Hello World"
+y = "Hello World"
+print(x.istitle())
+print(y.istitle())
