@@ -41,3 +41,11 @@ y = " Hello World "
 print(x.rstrip())
 print(y.rstrip())
 
+#Replace String
+#The replace() method replaces a string with another string
+#x = "Hello World"
+#y = "Hello World"
+x = "Hello World"
+y = "Hello World"
+print(x.replace("H", "J"))
+print(y.replace("H", "D"))
