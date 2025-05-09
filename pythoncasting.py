@@ -28,12 +28,12 @@
 
 x = 5
 y = "John"
-z = 3.14
+z = int(3.14)
 
 a = True
 b = False
 c = None
-d = int [1, 2, 3] 
+d = [1, 2, 3] 
 e = (1, 2, 3)
 f = {1, 2, 3}
 g = {1: "one", 2: "two", 3: "three"}
