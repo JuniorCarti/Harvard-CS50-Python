@@ -16,3 +16,12 @@ x = "Hello World"
 y = "Hello World"
 print(x.lower())
 print(y.lower())
+
+#Remove Whitespace
+#The strip() method removes any whitespace from the beginning or the end of a string        
+#x = " Hello World "
+#y = " Hello World "
+x = " Hello World "
+y = " Hello World "
+print(x.strip())
+print(y.strip())
