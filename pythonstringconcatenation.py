@@ -64,3 +64,8 @@ prefix = "Greeting: "
 suffix = "!"
 joined_string_with_prefix_suffix = prefix + separator.join([s, t]) + suffix
 print(joined_string_with_prefix_suffix)
+
+# Concatenating strings with a custom format
+custom_format = "{} - {} - {}"
+formatted_string = custom_format.format(s, t, u)
+print(formatted_string)
