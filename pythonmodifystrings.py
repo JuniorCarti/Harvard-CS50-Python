@@ -87,3 +87,11 @@ print(x.count("H"))
 print(y.count("H"))
 print(x.count("l"))
 print(y.count("l"))
+
+#The startswith() method returns True if the string starts with the specified value
+#x = "Hello World"
+#y = "Hello World"
+x = "Hello World"
+y = "Hello World"
+print(x.startswith("H"))
+print(y.startswith("H"))
