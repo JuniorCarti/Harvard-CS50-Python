@@ -80,3 +80,14 @@ y = "Hello World"
 print(len(x))
 print(len(y))
 
+#Check String
+# To check if a certain phrase or character is present in a string, we can use the keyword in.
+# x = "Hello World"
+# y = "Hello World"
+# print("H" in x)
+# print("H" in y)
+x = "Hello World"
+y = "Hello World"
+print("H" in x)
+print("H" in y)
+
