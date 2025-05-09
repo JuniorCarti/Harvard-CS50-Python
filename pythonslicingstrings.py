@@ -31,3 +31,8 @@
 #The negative index starts at -13 for the thirteenth to last character in the string
 #The negative index starts at -14 for the fourteenth to last character in the string
 #The negative index starts at -15 for the fifteenth to last character in the string
+
+b = "Hello World"
+c = "Hello World"
+print(b[0:5])
+print(c[0:5])
