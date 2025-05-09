@@ -153,3 +153,11 @@ x = "Hello World"
 y = "Hello World"
 print(x.istitle())
 print(y.istitle())
+
+#The isspace() method returns True if all characters in the string are whitespace
+#x = "Hello World"
+#y = "Hello World"
+x = "   "
+y = "Hello World"
+print(x.isspace())
+print(y.isspace())
