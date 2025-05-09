@@ -137,3 +137,11 @@ x = "hello world"
 y = "Hello World"
 print(x.islower())
 print(y.islower())
+
+#The isupper() method returns True if all characters in the string are upper case
+#x = "Hello World"
+#y = "Hello World"
+x = "HELLO WORLD"
+y = "Hello World"
+print(x.isupper())
+print(y.isupper())
