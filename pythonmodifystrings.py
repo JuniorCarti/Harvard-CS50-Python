@@ -25,3 +25,10 @@ x = " Hello World "
 y = " Hello World "
 print(x.strip())
 print(y.strip())
+#The lstrip() method removes any whitespace from the beginning of a string
+#x = " Hello World "
+#y = " Hello World "
+x = " Hello World " 
+y = " Hello World "
+print(x.lstrip())
+print(y.lstrip())
