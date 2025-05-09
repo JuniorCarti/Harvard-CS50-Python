@@ -64,3 +64,10 @@ x = ["Hello", "World"]
 y = ["Hello", "World"]
 print(" ".join(x))
 print(" ".join(y))
+#The find() method finds a specified value in a string
+#x = "Hello World"
+#y = "Hello World"
+x = "Hello World"
+y = "Hello World"
+print(x.find("H"))
+print(y.find("H"))
