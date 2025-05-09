@@ -45,3 +45,12 @@ x = "Hello World"
 y = "Hello World"
 print(x[:5])
 print(y[:5])
+
+#Slice To the End
+#You can omit the end index and the slice will go to the end of the string
+#x = "Hello World"
+#y = "Hello World"
+x = "Hello World"
+y = "Hello World"
+print(x[5:])
+print(y[5:])
