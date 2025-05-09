@@ -49,3 +49,11 @@ x = "Hello World"
 y = "Hello World"
 print(x.replace("H", "J"))
 print(y.replace("H", "D"))
+#The split() method splits a string into a list
+#x = "Hello World"
+#y = "Hello World"
+x = "Hello World"   
+y = "Hello World"
+print(x.split())
+print(y.split())
+
