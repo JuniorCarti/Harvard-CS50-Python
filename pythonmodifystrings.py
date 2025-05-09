@@ -7,3 +7,12 @@ x = "Hello World"
 y = "Hello World"
 print(x.upper())
 print(y.upper())
+
+#Lower Case
+#The lower() method returns the string in lower case
+#x = "Hello World"
+#y = "Hello World"
+x = "Hello World"
+y = "Hello World"
+print(x.lower())
+print(y.lower())
