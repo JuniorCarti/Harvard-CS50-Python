@@ -95,3 +95,12 @@ x = "Hello World"
 y = "Hello World"
 print(x.startswith("H"))
 print(y.startswith("H"))
+
+#The endswith() method returns True if the string ends with the specified value
+#x = "Hello World"
+#y = "Hello World"
+x = "Hello World"
+y = "Hello World"
+print(x.endswith("d"))
+print(y.endswith("d"))
+
