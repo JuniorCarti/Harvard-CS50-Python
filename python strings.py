@@ -101,3 +101,9 @@ y = "Hello World"
 print("H" not in x)
 print("H" not in y)
 
+txt = "The best things in life are free!"
+# Check if "free" is present in the string
+print("free" in txt)
+# Check if "expensive" is NOT present in the string
+print("expensive" not in txt)
+
