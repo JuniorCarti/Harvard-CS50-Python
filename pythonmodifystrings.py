@@ -121,3 +121,11 @@ x = "Hello World"
 y = "Hello World"
 print(x.isalpha())
 print(y.isalpha())
+
+#The isdigit() method returns True if all characters in the string are digits
+#x = "Hello World"
+#y = "Hello World"
+x = "Hello World"
+y = "Hello World"
+print(x.isdigit())
+print(y.isdigit())
