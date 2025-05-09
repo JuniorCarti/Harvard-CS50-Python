@@ -71,3 +71,10 @@ x = "Hello World"
 y = "Hello World"
 print(x.find("H"))
 print(y.find("H"))
+#The index() method finds a specified value in a string
+#x = "Hello World"
+#y = "Hello World"
+x = "Hello World"
+y = "Hello World"
+print(x.index("H"))
+print(y.index("H"))
