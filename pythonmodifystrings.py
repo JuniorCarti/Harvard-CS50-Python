@@ -78,3 +78,12 @@ x = "Hello World"
 y = "Hello World"
 print(x.index("H"))
 print(y.index("H"))
+#The count() method returns the number of times a specified value occurs in a string
+#x = "Hello World"
+#y = "Hello World"
+x = "Hello World"
+y = "Hello World"
+print(x.count("H"))
+print(y.count("H"))
+print(x.count("l"))
+print(y.count("l"))
