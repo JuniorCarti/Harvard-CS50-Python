@@ -32,3 +32,12 @@ x = " Hello World "
 y = " Hello World "
 print(x.lstrip())
 print(y.lstrip())
+
+#The rstrip() method removes any whitespace from the end of a string
+#x = " Hello World "
+#y = " Hello World "
+x = " Hello World "
+y = " Hello World "
+print(x.rstrip())
+print(y.rstrip())
+
