@@ -45,3 +45,9 @@ print(a + f + b + c)
 print(a + g + b + c)
 print(a + h + b + c)
 print(a + i + b + c)
+
+
+s = "Hello"
+t = "World"
+u = "!"
+print(s + t + u)
