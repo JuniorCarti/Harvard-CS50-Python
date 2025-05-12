@@ -111,3 +111,14 @@ print(thislist)
 mylist = ['apple', 'banana', 'cherry']
 mylist[0] = 'kiwi'
 print(mylist[1])
+
+#Python - Add List Items
+#append() method
+#The append() method adds an item to the end of the list:
+thislist = ["apple", "banana", "cherry"]
+thislist.append("orange")
+print(thislist)
+thislist.append("kiwi")
+print(thislist)
+thislist.append("mango")
+print(thislist)
