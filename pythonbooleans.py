@@ -34,4 +34,11 @@ print("10 != 9 is", 10 != 9)
 #meaning of <= is less than or equal to
 print("10 >= 9 is", 10 >= 9)
 print("10 <= 9 is", 10 <= 9)
+#meaning of and is logical and
+#meaning of or is logical or
+#meaning of not is logical not
+print("10 > 9 and 9 > 8 is", 10 > 9 and 9 > 8)
+print("10 > 9 or 9 > 8 is", 10 > 9 or 9 > 8)    
+print("not(10 > 9) is", not(10 > 9))
+
 
