@@ -211,6 +211,23 @@ print(bool(x))  # True
 print(bool(y))  # True
 print(bool(x and y))  # True
 
+#One more value, or object in this case, evaluates to False, and that is if you have an object that is made from a class with a __len__ function that returns 0 or False:
+class MyClass:
+    def __len__(self):
+        return 0
+    def __bool__(self):
+        return False
+    def __str__(self):
+        return "MyClass object"
+    def __repr__(self):
+        return "MyClass object"
+    def __eq__(self, other):
+        return False
+    def __ne__(self, other):
+        return True
+    def __lt__(self, other):
+        return False
+
 
 
 
