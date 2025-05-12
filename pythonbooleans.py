@@ -183,6 +183,14 @@ else:
 print(bool("Hello"))  # True
 print(bool(""))  # False
 
+x = 5
+y = 0
+print(bool(x))  # True
+print(bool(y))  # False
+print(bool([1, 2, 3]))  # True
+print(bool([]))  # False
+print(bool({"key": "value"}))  # True
+print(bool({}))  # False
 
 
 
