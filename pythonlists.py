@@ -46,3 +46,14 @@ print(thislist[2]) #third item
 print(thislist[-1]) #last item
 print(thislist[-2]) #second last item
 print(thislist[-3]) #third last item
+
+#range of indexes
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+print(thislist[2:5]) #items from index 2 to index 5 (not included)
+print(thislist[:4]) #items from index 0 to index 4 (not included)
+print(thislist[2:]) #items from index 2 to the end
+print(thislist[-4:-1]) #items from index -4 to index -1 (not included)
+print(thislist[-4:]) #items from index -4 to the end
+print(thislist[:-1]) #items from index 0 to index -1 (not included)
+print(thislist[-1:]) #items from index -1 to the end
+print(thislist[1:4]) #items from index 1 to index 4 (not included)
