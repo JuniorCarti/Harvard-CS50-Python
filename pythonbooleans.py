@@ -73,6 +73,12 @@ if my_list:
     print("List is not empty")
 else:
     print("List is empty")
+#Check if a dictionary is empty or not:
+my_dict = {"key": "value"}
+if my_dict:
+    print("Dictionary is not empty")
+else:
+    print("Dictionary is empty")
 
 
 
