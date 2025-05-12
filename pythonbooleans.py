@@ -153,6 +153,34 @@ if isinstance(my_var, bool):
 else:
     print("Variable is not a boolean")
 
+#Evaluate Values and Variables
+#The bool() function allows you to evaluate any value, and give you True or False in return,
+#Example
+#The following values evaluate to False:
+#1. Any string, except empty strings
+#2. Any number, except 0
+#3. Any list, tuple, set, or dictionary, except empty ones
+#4. None
+#5. False
+#6. Any object that is not empty
+#7. Any object that is not None
+#8. Any object that is not False
+#9. Any object that is not 0
+#10. Any object that is not an empty string
+#11. Any object that is not an empty list
+#12. Any object that is not an empty tuple
+#13. Any object that is not an empty set
+#14. Any object that is not an empty dictionary
+#15. Any object that is not an empty file
+#16. Any object that is not an empty array
+#17. Any object that is not an empty matrix
+#18. Any object that is not an empty vector
+#19. Any object that is not an empty string
+#20. Any object that is not an empty list
+#21. Any object that is not an empty tuple
+#22. Any object that is not an empty set
+
+
 
 
 
