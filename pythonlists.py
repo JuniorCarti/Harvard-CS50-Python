@@ -14,3 +14,16 @@ print(thislist)
 #list length
 thislist = ["apple", "banana", "cherry"]
 print(len(thislist))
+
+#List items are indexed, the first item has index [0], the second item has index [1], etc.
+thislist = ["apple", "banana", "cherry"]
+print(thislist[1])
+print(thislist[0])
+print(thislist[2])
+print(thislist[-1])
+print(thislist[-2])
+print(thislist[-3])
+
+#List items can be of any data type:
+thislist = ["apple", "banana", "cherry", 1, 2, 3]
+print(thislist)
