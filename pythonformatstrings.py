@@ -166,7 +166,12 @@ age = 25
 txt = StringTokenizer("My name is {}, and I am {}".format(name, age), " ")
 while txt.has_more_tokens():
     print(txt.next_token())
-    
+
+    #Placeholders and Modifiers
+#Placeholders
+#Placeholders are special characters that are used to indicate where a value should be inserted in a string.
+#Placeholders are often used in string formatting to create dynamic strings.
+
 
 
 
