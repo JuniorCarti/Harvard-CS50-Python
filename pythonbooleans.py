@@ -60,6 +60,13 @@ if number % 2 == 0:
 else:
     print(f"{number} is odd")
 
+#Check if a string is empty or not:
+string = ""
+if string:
+    print("String is not empty")
+else:
+    print("String is empty")
+
 
 
 
