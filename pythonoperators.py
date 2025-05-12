@@ -37,3 +37,9 @@ x = 5
 y = 10
 z = x * y
 print(z)
+
+#In the example below, we use the / operator to divide two values:
+x = 5
+y = 10
+z = x / y
+print(z)
