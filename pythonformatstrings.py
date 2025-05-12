@@ -25,3 +25,13 @@ age = 25
 txt = "My name is John, and I am " + str(age)
 print(txt)
 
+#You can also use the format() method to format strings:
+#But we can combine strings and numbers by using f-strings or the format() method!
+
+
+#Using f-strings
+name = "John"
+age = 25
+txt = f"My name is {name}, and I am {age}"
+print(txt)
+
