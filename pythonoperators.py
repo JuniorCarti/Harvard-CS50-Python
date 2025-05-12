@@ -43,3 +43,21 @@ x = 5
 y = 10
 z = x / y
 print(z)
+
+#In the example below, we use the % operator to get the modulus of two values:
+x = 5
+y = 10
+z = x % y
+print(z)
+
+#In the example below, we use the ** operator to get the exponent of two values:
+x = 5
+y = 10
+z = x ** y
+print(z)
+
+#In the example below, we use the // operator to get the floor division of two values:
+x = 5
+y = 10
+z = x // y
+print(z)
