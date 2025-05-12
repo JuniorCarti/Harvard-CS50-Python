@@ -171,6 +171,32 @@ while txt.has_more_tokens():
 #Placeholders
 #Placeholders are special characters that are used to indicate where a value should be inserted in a string.
 #Placeholders are often used in string formatting to create dynamic strings.
+#A placeholder can contain variables, operations, functions, and modifiers to format the value.
+#Placeholders can be used to format strings in a variety of ways, including:
+# - Padding
+# - Alignment
+# - Truncation
+# - Number formatting
+# - Date formatting
+# - Time formatting
+# - Currency formatting
+# - Percentage formatting
+# - Scientific notation formatting
+# - Hexadecimal formatting
+# - Binary formatting
+# - Octal formatting
+# - String formatting
+# - String interpolation
+# - String concatenation
+# - String manipulation
+# - String comparison
+# - String searching
+# - String replacement
+# - String splitting
+# - String joining
+# - String stripping
+# - String formatting with f-strings
+# - String formatting with str.format() etc.
 
 
 
