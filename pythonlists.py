@@ -57,3 +57,16 @@ print(thislist[-4:]) #items from index -4 to the end
 print(thislist[:-1]) #items from index 0 to index -1 (not included)
 print(thislist[-1:]) #items from index -1 to the end
 print(thislist[1:4]) #items from index 1 to index 4 (not included)
+
+#Check if Item Exists
+thislist = ["apple", "banana", "cherry"]
+if "apple" in thislist:
+    print("Yes, 'apple' is in the fruits list")
+if "banana" in thislist:
+    print("Yes, 'banana' is in the fruits list")
+if "cherry" in thislist:
+    print("Yes, 'cherry' is in the fruits list")
+if "orange" in thislist:
+    print("Yes, 'orange' is in the fruits list")
+if "kiwi" in thislist:
+    print("Yes, 'kiwi' is in the fruits list")
