@@ -67,6 +67,13 @@ if string:
 else:
     print("String is empty")
 
+#Check if a list is empty or not:
+my_list = [1, 2, 3]
+if my_list:
+    print("List is not empty")
+else:
+    print("List is empty")
+
 
 
 
