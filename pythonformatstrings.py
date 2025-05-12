@@ -65,3 +65,22 @@ txt.write(", and I am ")
 txt.write(str(age))
 print(txt.getvalue())
 
+#Using StringBuilder
+class StringBuilder:
+    def __init__(self):
+        self.strings = []
+    
+    def append(self, string):
+        self.strings.append(string)
+    
+    def getvalue(self):
+        return ''.join(self.strings)
+name = "John"
+age = 25
+txt = StringBuilder()
+txt.append("My name is ")
+txt.append(name)
+txt.append(", and I am ")
+txt.append(str(age))
+print(txt.getvalue())
+
