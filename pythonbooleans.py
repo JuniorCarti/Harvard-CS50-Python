@@ -45,4 +45,15 @@ print("not(10 > 9) is", not(10 > 9))
 print("10 is 9 is", 10 is 9)
 print("10 is not 9 is", 10 is not 9)
 
+#Print a message based on whether the condition is True or False:
+x = 10
+y = 20
+if x > y:
+    print("x is greater than y")
+else:
+    print("x is less than or equal to y")
+    
+
+
+
 
