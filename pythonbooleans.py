@@ -104,6 +104,12 @@ if my_var:
     print("Variable is True")
 else:
     print("Variable is False")
+#Check if a variable is a string or not:
+my_var = "Hello"
+if isinstance(my_var, str):
+    print("Variable is a string")
+else:
+    print("Variable is not a string")
 
 
 
