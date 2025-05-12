@@ -53,5 +53,11 @@ print(txt)
 #meaning of \v is vertical tab
 txt = "We are the so-called \x41Vikings\x41from the north."
 print(txt)
-#meaning of \x41 is hexadecimal value
+#meaning of \x41 is hexadecimal value   
+txt = "We are the so-called \u0041Vikings\u0041from the north."
+print(txt)
+#meaning of \u0041 is unicode value
+txt = "We are the so-called \U00000041Vikings\U00000041from the north."
+print(txt)
+#meaning of \U00000041 is unicode value
 
