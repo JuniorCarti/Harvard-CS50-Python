@@ -180,7 +180,8 @@ else:
 #21. Any object that is not an empty tuple
 #22. Any object that is not an empty set
 
-
+print(bool("Hello"))  # True
+print(bool(""))  # False
 
 
 
