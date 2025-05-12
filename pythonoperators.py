@@ -61,3 +61,18 @@ x = 5
 y = 10
 z = x // y
 print(z)
+
+#Python Assignment Operators
+#Python Assignment Operators are used to assign values to variables.
+#=
+#+=
+#-=
+#*=
+#/=
+#%=
+#**=
+#//=
+x+= 5
+y = 10
+z = x + y
+print(z)
