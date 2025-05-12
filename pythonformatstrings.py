@@ -54,3 +54,14 @@ age = 25
 txt = Template("My name is $name, and I am $age").substitute(name=name, age=age)    
 print(txt)
 
+#Using StringIO
+from io import StringIO
+name = "John"
+age = 25
+txt = StringIO()
+txt.write("My name is ")
+txt.write(name)
+txt.write(", and I am ")
+txt.write(str(age))
+print(txt.getvalue())
+
