@@ -30,4 +30,8 @@ print("10 < 9 is", 10 < 9)
 #meaning of != is not equal to
 print("10 == 9 is", 10 == 9)
 print("10 != 9 is", 10 != 9)
+#meaning of >= is greater than or equal to
+#meaning of <= is less than or equal to
+print("10 >= 9 is", 10 >= 9)
+print("10 <= 9 is", 10 <= 9)
 
