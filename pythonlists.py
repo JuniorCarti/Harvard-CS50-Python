@@ -79,3 +79,8 @@ thislist[0] = "watermelon"
 print(thislist)
 thislist[2] = "kiwi"
 print(thislist)
+
+#change a range of item values
+thislist = ["apple", "banana", "cherry"]
+thislist[1:2] = ["blackcurrant", "watermelon", "kiwi", "mango"] 
+print(thislist)
