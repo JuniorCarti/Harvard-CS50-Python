@@ -47,3 +47,10 @@ age = 25
 txt = "My name is %s, and I am %d" % (name, age)
 print(txt)
 
+#Using Template strings
+from string import Template
+name = "John"
+age = 25
+txt = Template("My name is $name, and I am $age").substitute(name=name, age=age)    
+print(txt)
+
