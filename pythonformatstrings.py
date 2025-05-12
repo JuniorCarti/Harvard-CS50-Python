@@ -230,6 +230,17 @@ y = 10
 txt = "The sum of {} and {} is {}".format(x, y, x + y)
 print(txt)
 
+#A placeholder can contain Python code, like math operations:
+x = 5
+y = 10
+txt = "The sum of {0} and {1} is {2}".format(x, y, x + y)
+print(txt)
+
+x = 5
+y = 10
+txt = "The sum of {x} and {y} is {sum}".format(x=x, y=y, sum=x + y)
+print(txt)
+
 
 
 
