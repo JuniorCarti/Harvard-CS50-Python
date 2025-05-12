@@ -198,6 +198,12 @@ while txt.has_more_tokens():
 # - String formatting with f-strings
 # - String formatting with str.format() etc.
 
+price = 49.99
+quantity = 3
+total = price * quantity
+txt = "The total price is ${:.2f}".format(total)
+print(txt)
+
 
 
 
