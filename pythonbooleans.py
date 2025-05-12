@@ -40,5 +40,9 @@ print("10 <= 9 is", 10 <= 9)
 print("10 > 9 and 9 > 8 is", 10 > 9 and 9 > 8)
 print("10 > 9 or 9 > 8 is", 10 > 9 or 9 > 8)    
 print("not(10 > 9) is", not(10 > 9))
+#meaning of is is identity operator
+#meaning of is not is identity operator
+print("10 is 9 is", 10 is 9)
+print("10 is not 9 is", 10 is not 9)
 
 
