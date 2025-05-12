@@ -21,3 +21,6 @@
 # # # Boolean values are often used in CSV operations to manipulate CSV files
 # # # Boolean values are often used in YAML operations to manipulate YAML files
 # # # Boolean values are often used in HTML operations to manipulate HTML documents
+
+print("10 > 9 is", 10 > 9)
+print("10 < 9 is", 10 < 9)
