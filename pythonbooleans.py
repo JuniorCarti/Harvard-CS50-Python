@@ -140,6 +140,18 @@ if isinstance(my_var, set):
     print("Variable is a set")
 else:
     print("Variable is not a set")
+#Check if a variable is a tuple or not:
+my_var = (1, 2, 3)
+if isinstance(my_var, tuple):
+    print("Variable is a tuple")
+else:
+    print("Variable is not a tuple")
+#Check if a variable is a boolean or not:
+my_var = True
+if isinstance(my_var, bool):
+    print("Variable is a boolean")
+else:
+    print("Variable is not a boolean")
 
 
 
