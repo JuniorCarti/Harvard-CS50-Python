@@ -103,4 +103,23 @@ txt.append(", and I am ")
 txt.append(str(age))
 print(txt.getvalue())
 
+#Using StringWriter
+class StringWriter:
+    def __init__(self):
+        self.string = ""
+    
+    def write(self, string):
+        self.string += string
+    
+    def getvalue(self):
+        return self.string
+name = "John"
+age = 25
+txt = StringWriter()
+txt.write("My name is ")
+txt.write(name)
+txt.write(", and I am ")
+txt.write(str(age))
+print(txt.getvalue())
+
 
