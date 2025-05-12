@@ -227,7 +227,16 @@ class MyClass:
         return True
     def __lt__(self, other):
         return False
-
+#Functions can Return a Boolean
+#You can create functions that returns a Boolean Value:
+def is_even(num):
+    return num % 2 == 0
+def is_odd(num):
+    return num % 2 != 0
+def is_positive(num):
+    return num > 0
+def is_negative(num):
+    return num < 0
 
 
 
