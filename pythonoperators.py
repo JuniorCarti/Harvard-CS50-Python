@@ -76,3 +76,30 @@ x+= 5
 y = 10
 z = x + y
 print(z)
+
+#python bitwise operators
+#python bitwise operators are used to perform bitwise operations on variables and values.
+#&
+#|
+#^
+#~
+#<<
+#>>
+#operator precedence
+#operator precedence is the order in which operators are evaluated in an expression.
+#example:
+#x = 5
+#y = 10
+#z = x + y * 2
+#In the example above, the multiplication operator (*) has a higher precedence than the addition operator (+), so the multiplication is performed first.
+#This means that the expression is evaluated as follows:
+#z = x + (y * 2)
+#z = 5 + (10 * 2)
+#z = 5 + 20
+#z = 25
+x = 5
+y = 10
+z = x + y * 2
+print(z)
+
+#operator associativity
