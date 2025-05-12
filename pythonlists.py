@@ -27,3 +27,9 @@ print(thislist[-3])
 #List items can be of any data type:
 thislist = ["apple", "banana", "cherry", 1, 2, 3]
 print(thislist)
+
+
+#type of list
+thislist = ["apple", "banana", "cherry"]
+print(type(thislist))
+
