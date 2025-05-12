@@ -128,3 +128,11 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist.extend(["orange", "kiwi", "mango"])
 print(thislist)
+thislist.extend(["watermelon", "blackcurrant"])
+
+#Add Any Iterable
+thislist = ["apple", "banana", "cherry"]
+thislist.extend(("orange", "kiwi", "mango")) # note the double round-brackets
+print(thislist)
+thislist.extend({"watermelon", "blackcurrant"})
+print(thislist)
