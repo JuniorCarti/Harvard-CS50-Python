@@ -268,4 +268,10 @@ txt = "The modulus of {0} and {1} is {2}".format(x, y, x % y)
 print(txt)
 
 
+y = 10
+x = 5
+z = 80
+txt = "The modulus of {0} and {1} and {2} is {3}".format(x, y, z, x % y % z)
+print(txt)
+
 
