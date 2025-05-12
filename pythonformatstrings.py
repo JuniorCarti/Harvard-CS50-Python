@@ -213,6 +213,11 @@ price = 40.99
 txt = "The price is {:.2f} dollars".format(price)
 print(txt)
 
+#Display the price with 2 decimals:
+price = 40.99
+txt = f"The price is {price:.2f} dollars"
+print(txt)
+
 
 
 
