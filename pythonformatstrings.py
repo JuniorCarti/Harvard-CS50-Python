@@ -15,3 +15,13 @@
 #String Formatting with StringIO and StringBuilder and StringWriter and StringReader and StringTokenizer and StringTokenizer
 #String Formatting with StringIO and StringBuilder and StringWriter and StringReader and StringTokenizer and StringTokenizer and StringTokenizer
 #String Formatting with StringIO and StringBuilder and StringWriter and StringReader and StringTokenizer and StringTokenizer and StringTokenizer and StringTokenizer
+#age = 25
+#txt = "My name is John, and I am" + age
+#print(txt)
+#will get an error 
+#TypeError: can only concatenate str (not "int") to str
+#To fix this, you can use the str() function to convert the integer to a string:
+age = 25
+txt = "My name is John, and I am " + str(age)
+print(txt)
+
