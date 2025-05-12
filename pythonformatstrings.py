@@ -84,3 +84,23 @@ txt.append(", and I am ")
 txt.append(str(age))
 print(txt.getvalue())
 
+#Using StringBuffer
+class StringBuffer:
+    def __init__(self):
+        self.buffer = []
+    
+    def append(self, string):
+        self.buffer.append(string)
+    
+    def getvalue(self):
+        return ''.join(self.buffer)
+name = "John"
+age = 25
+txt = StringBuffer()
+txt.append("My name is ")
+txt.append(name)
+txt.append(", and I am ")
+txt.append(str(age))
+print(txt.getvalue())
+
+
