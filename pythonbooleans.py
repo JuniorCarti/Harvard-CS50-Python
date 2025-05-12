@@ -128,6 +128,12 @@ if isinstance(my_var, list):
     print("Variable is a list")
 else:
     print("Variable is not a list")
+#Check if a variable is a dictionary or not:
+my_var = {"key": "value"}
+if isinstance(my_var, dict):
+    print("Variable is a dictionary")
+else:
+    print("Variable is not a dictionary")
 
 
 
