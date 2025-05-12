@@ -191,6 +191,18 @@ print(bool([1, 2, 3]))  # True
 print(bool([]))  # False
 print(bool({"key": "value"}))  # True
 print(bool({}))  # False
+print(bool(None))  # False
+print(bool(False))  # False
+print(bool(True))  # True
+print(bool(0))  # False
+print(bool(1))  # True
+print(bool(0.0))  # False
+print(bool(1.0))  # True
+print(bool("False"))  # True
+print(bool("True"))  # True
+print(bool("0"))  # True
+print(bool("1"))  # True
+print(bool("None"))  # True
 
 
 
