@@ -142,6 +142,32 @@ age = 25
 txt = StringReader("My name is {}, and I am {}".format(name, age))
 print(txt.read(20))
 
+#Using StringTokenizer
+class StringTokenizer:
+    def __init__(self, string, delimiter):
+        self.tokens = string.split(delimiter)
+        self.index = 0
+    
+    def next_token(self):
+        if self.index < len(self.tokens):
+            token = self.tokens[self.index]
+            self.index += 1
+            return token
+        else:
+            raise StopIteration("No more tokens")
+    
+    def has_more_tokens(self):
+        return self.index < len(self.tokens)
+    
+    def getvalue(self):
+        return ' '.join(self.tokens)
+name = "John"
+age = 25
+txt = StringTokenizer("My name is {}, and I am {}".format(name, age), " ")
+while txt.has_more_tokens():
+    print(txt.next_token())
+    
+
 
 
 
