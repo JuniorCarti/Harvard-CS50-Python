@@ -22,5 +22,12 @@
 # # # Boolean values are often used in YAML operations to manipulate YAML files
 # # # Boolean values are often used in HTML operations to manipulate HTML documents
 
+#meaning of > is greater than
+#meaning of < is less than
 print("10 > 9 is", 10 > 9)
 print("10 < 9 is", 10 < 9)
+#meaning of == is equal to
+#meaning of != is not equal to
+print("10 == 9 is", 10 == 9)
+print("10 != 9 is", 10 != 9)
+
