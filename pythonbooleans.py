@@ -110,6 +110,24 @@ if isinstance(my_var, str):
     print("Variable is a string")
 else:
     print("Variable is not a string")
+#Check if a variable is an integer or not:
+my_var = 10
+if isinstance(my_var, int):
+    print("Variable is an integer")
+else:
+    print("Variable is not an integer")
+#Check if a variable is a float or not:
+my_var = 10.5
+if isinstance(my_var, float):
+    print("Variable is a float")
+else:
+    print("Variable is not a float")
+#Check if a variable is a list or not:
+my_var = [1, 2, 3]
+if isinstance(my_var, list):
+    print("Variable is a list")
+else:
+    print("Variable is not a list")
 
 
 
