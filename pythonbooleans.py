@@ -204,6 +204,13 @@ print(bool("0"))  # True
 print(bool("1"))  # True
 print(bool("None"))  # True
 
+x  = "Hello"
+y = 15
+
+print(bool(x))  # True
+print(bool(y))  # True
+print(bool(x and y))  # True
+
 
 
 
