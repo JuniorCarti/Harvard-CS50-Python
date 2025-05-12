@@ -92,6 +92,19 @@ if my_tuple:
 else:
     print("Tuple is empty")
 
+#Check if a variable is None or not:
+my_var = None
+if my_var is None:
+    print("Variable is None")
+else:
+    print("Variable is not None")
+#Check if a variable is True or False:
+my_var = True
+if my_var:
+    print("Variable is True")
+else:
+    print("Variable is False")
+
 
 
 
