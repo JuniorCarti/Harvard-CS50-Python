@@ -254,6 +254,12 @@ y = 10
 txt = "The modulus of {0} and {1} is {2}".format(x, y, x % y)
 print(txt)
 
+#A placeholder can contain Python code, like math operations:
+x = 5
+y = 10
+txt = "The modulus of {x} and {y} is {mod}".format(x=x, y=y, mod=x % y)
+print(txt)
+
 
 
 
