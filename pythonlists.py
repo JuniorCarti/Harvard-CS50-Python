@@ -136,3 +136,9 @@ thislist.extend(("orange", "kiwi", "mango")) # note the double round-brackets
 print(thislist)
 thislist.extend({"watermelon", "blackcurrant"})
 print(thislist)
+
+#remove() method
+#The remove() method removes the specified item:
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("banana")
+print(thislist)
