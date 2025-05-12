@@ -107,3 +107,7 @@ thislist.insert(4, "watermelon")
 print(thislist)
 thislist.insert(5, "blackcurrant")
 print(thislist)
+
+mylist = ['apple', 'banana', 'cherry']
+mylist[0] = 'kiwi'
+print(mylist[1])
