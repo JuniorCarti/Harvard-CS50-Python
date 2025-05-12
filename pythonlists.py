@@ -122,3 +122,9 @@ thislist.append("kiwi")
 print(thislist)
 thislist.append("mango")
 print(thislist)
+
+#extend() method
+#The extend() method adds the elements of an iterable (list, set, tuple, etc.) to the end of the current list:
+thislist = ["apple", "banana", "cherry"]
+thislist.extend(["orange", "kiwi", "mango"])
+print(thislist)
