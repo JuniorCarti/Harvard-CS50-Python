@@ -123,3 +123,25 @@ txt.write(str(age))
 print(txt.getvalue())
 
 
+#Using StringReader
+class StringReader:
+    def __init__(self, string):
+        self.string = string
+        self.index = 0
+    
+    def read(self, size):
+        start = self.index
+        end = start + size
+        self.index = end
+        return self.string[start:end]
+    
+    def getvalue(self):
+        return self.string
+name = "John"
+age = 25
+txt = StringReader("My name is {}, and I am {}".format(name, age))
+print(txt.read(20))
+
+
+
+
