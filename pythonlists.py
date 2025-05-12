@@ -70,3 +70,12 @@ if "orange" in thislist:
     print("Yes, 'orange' is in the fruits list")
 if "kiwi" in thislist:
     print("Yes, 'kiwi' is in the fruits list")
+
+    #python - Change Item Value
+thislist = ["apple", "banana", "cherry"]
+thislist[1] = "blackcurrant"
+print(thislist)
+thislist[0] = "watermelon"
+print(thislist)
+thislist[2] = "kiwi"
+print(thislist)
