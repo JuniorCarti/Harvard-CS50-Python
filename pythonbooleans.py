@@ -52,7 +52,16 @@ if x > y:
     print("x is greater than y")
 else:
     print("x is less than or equal to y")
-    
+
+#Check if a number is even or odd:
+number = 17
+if number % 2 == 0:
+    print(f"{number} is even")
+else:
+    print(f"{number} is odd")
+
+
+
 
 
 
