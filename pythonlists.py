@@ -94,3 +94,16 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist[1:3] = ["blackcurrant", "watermelon"]
 print(thislist)
+
+#The insert() method inserts an item at the specified index:
+thislist = ["apple", "banana", "cherry"]
+thislist.insert(1, "orange")
+print(thislist)
+thislist.insert(2, "kiwi")
+print(thislist)
+thislist.insert(3, "mango")
+print(thislist)
+thislist.insert(4, "watermelon")
+print(thislist)
+thislist.insert(5, "blackcurrant")
+print(thislist)
