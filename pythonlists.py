@@ -36,3 +36,13 @@ print(type(thislist))
 #the list constructor
 thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
 print(thislist)
+
+#Python - Access List Items
+#You can access the list items by referring to the index number:
+thislist = ["apple", "banana", "cherry"]
+print(thislist[0]) #first item
+print(thislist[1]) #second item
+print(thislist[2]) #third item
+print(thislist[-1]) #last item
+print(thislist[-2]) #second last item
+print(thislist[-3]) #third last item
