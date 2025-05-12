@@ -47,4 +47,11 @@ print(txt)
 #meaning of \a is alert
 txt = "We are the so-called \fVikings\ffrom the north."
 print(txt)
+#meaning of \f is form feed
+txt = "We are the so-called \vVikings\vfrom the north."
+print(txt)
+#meaning of \v is vertical tab
+txt = "We are the so-called \x41Vikings\x41from the north."
+print(txt)
+#meaning of \x41 is hexadecimal value
 
