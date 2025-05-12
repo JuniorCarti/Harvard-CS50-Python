@@ -89,3 +89,8 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist[1:3] = ["blackcurrant"]
 print(thislist)
+
+#Change the second and third value by replacing it with two values:
+thislist = ["apple", "banana", "cherry"]
+thislist[1:3] = ["blackcurrant", "watermelon"]
+print(thislist)
