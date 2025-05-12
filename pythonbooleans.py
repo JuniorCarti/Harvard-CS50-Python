@@ -134,6 +134,12 @@ if isinstance(my_var, dict):
     print("Variable is a dictionary")
 else:
     print("Variable is not a dictionary")
+#Check if a variable is a set or not:
+my_var = {1, 2, 3}
+if isinstance(my_var, set):
+    print("Variable is a set")
+else:
+    print("Variable is not a set")
 
 
 
