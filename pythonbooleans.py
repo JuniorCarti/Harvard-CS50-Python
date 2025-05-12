@@ -79,6 +79,18 @@ if my_dict:
     print("Dictionary is not empty")
 else:
     print("Dictionary is empty")
+#Check if a set is empty or not:
+my_set = {1, 2, 3}
+if my_set:
+    print("Set is not empty")
+else:
+    print("Set is empty")
+#Check if a tuple is empty or not:
+my_tuple = (1, 2, 3)
+if my_tuple:
+    print("Tuple is not empty")
+else:
+    print("Tuple is empty")
 
 
 
