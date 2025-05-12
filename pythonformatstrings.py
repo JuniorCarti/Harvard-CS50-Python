@@ -204,6 +204,10 @@ total = price * quantity
 txt = "The total price is ${:.2f}".format(total)
 print(txt)
 
+price = 40.99
+txt = f"The price is {price} dollars"
+print(txt)
+
 
 
 
