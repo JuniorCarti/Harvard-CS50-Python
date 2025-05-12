@@ -26,3 +26,11 @@
 #Escape characters are used to represent characters that cannot be typed directly into a string.
 txt = "We are the so-called \"Vikings\" from the north."
 print(txt)
+
+#txt = 'We are the so-called \'Vikings\' from the north.'
+# print(txt)
+# txt = "We are the so-called \Vikings\ from the north."
+# print(txt)
+txt = "We are the so-called \nVikings\nfrom the north."
+print(txt)
+
