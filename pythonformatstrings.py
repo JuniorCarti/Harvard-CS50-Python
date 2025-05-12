@@ -41,3 +41,9 @@ age = 25
 txt = "My name is {}, and I am {}".format(name, age)
 print(txt)
 
+#Using the % operator
+name = "John"
+age = 25
+txt = "My name is %s, and I am %d" % (name, age)
+print(txt)
+
