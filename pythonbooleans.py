@@ -237,6 +237,22 @@ def is_positive(num):
     return num > 0
 def is_negative(num):
     return num < 0
+def is_zero(num):
+    return num == 0
+def is_not_zero(num):
+    return num != 0
+def is_greater_than(num1, num2):
+    return num1 > num2
+def is_less_than(num1, num2):
+    return num1 < num2
+def is_equal(num1, num2):
+    return num1 == num2
+def is_not_equal(num1, num2):
+    return num1 != num2
+def is_greater_than_or_equal(num1, num2):
+    return num1 >= num2
+def is_less_than_or_equal(num1, num2):
+    return num1 <= num2
 
 
 
