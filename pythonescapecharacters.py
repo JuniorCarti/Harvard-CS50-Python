@@ -34,3 +34,17 @@ print(txt)
 txt = "We are the so-called \nVikings\nfrom the north."
 print(txt)
 
+txt = "We are the so-called \tVikings\tfrom the north."
+print(txt)
+txt = "We are the so-called \bVikings\bfrom the north."
+print(txt)
+#meaning of \b is backspace
+txt = "We are the so-called \rVikings\rfrom the north."
+print(txt)
+#meaning of \r is carriage return
+txt = "We are the so-called \aVikings\afrom the north."
+print(txt)
+#meaning of \a is alert
+txt = "We are the so-called \fVikings\ffrom the north."
+print(txt)
+
