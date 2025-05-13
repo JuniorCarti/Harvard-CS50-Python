@@ -26,8 +26,7 @@ def download_wine_data():
         wine_data = pd.concat([red_wine, white_wine], ignore_index=True)
         
         
-       
-        
+    
         return wine_data
     
     except Exception as e:
