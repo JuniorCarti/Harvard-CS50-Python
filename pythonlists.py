@@ -371,3 +371,9 @@ print(thislist)
 thislist = ["banana", "cherry", "apple"]
 thislist.reverse()
 print(thislist)
+
+#Python - Copy Lists
+#The copy() method returns a shallow copy of the list.
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+print(mylist)
