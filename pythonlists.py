@@ -377,3 +377,8 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 mylist = thislist.copy()
 print(mylist)
+
+#The list() method returns a copy of the list.
+thislist = ["apple", "banana", "cherry"]
+mylist = list(thislist)
+print(mylist)
