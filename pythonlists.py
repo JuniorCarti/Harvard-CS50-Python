@@ -168,3 +168,13 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist.pop(1)
 print(thislist)
+
+#pop the last item
+thislist = ["apple", "banana", "cherry"]
+thislist.pop()
+print(thislist)
+
+#pop the first item
+thislist = ["apple", "banana", "cherry"]
+thislist.pop(0)
+print(thislist)
