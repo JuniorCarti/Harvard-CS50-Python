@@ -394,3 +394,9 @@ print(mylist)
 thislist = ["apple", "banana", "cherry"]
 mylist = ", ".join(thislist)
 print(mylist)
+
+#The join() method can be used to join a list of strings into a single string:
+thislist = ["apple", "banana", "cherry"]
+mylist = ", ".join(thislist)
+print(mylist)
+
