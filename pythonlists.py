@@ -437,5 +437,9 @@ print(thislist)
 thislist = list("banana")
 print(thislist)
 
+#The list() constructor can be used to make a list from a tuple:
+thislist = list(("apple", "banana", "cherry"))
+print(thislist)
+
 
 
