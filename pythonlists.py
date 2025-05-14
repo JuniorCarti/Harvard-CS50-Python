@@ -405,3 +405,9 @@ list2 = ["orange", "kiwi", "mango"]
 list3 = list1 + list2
 print(list3)
 
+#append two lists
+list1 = ["apple", "banana", "cherry"]
+list2 = ["orange", "kiwi", "mango"]
+list1.append(list2)
+print(list1)
+
