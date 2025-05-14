@@ -225,3 +225,7 @@ while i < len(thislist):
 thislist = ["apple", "banana", "cherry"]
 newlist = [x for x in thislist]
 print(newlist)
+#Looping Using List Comprehension with Condition
+thislist = ["apple", "banana", "cherry"]
+newlist = [x for x in thislist if "a" in x]
+print(newlist)
