@@ -229,3 +229,11 @@ print(newlist)
 thislist = ["apple", "banana", "cherry"]
 newlist = [x for x in thislist if "a" in x]
 print(newlist)
+
+#list comprehension
+thislist = ["apple", "banana", "cherry"]
+newlist = []
+for x in thislist:
+    newlist.append(x)
+print(newlist)
+
