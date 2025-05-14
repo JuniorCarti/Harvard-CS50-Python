@@ -431,5 +431,8 @@ print(list1)
 #sort()	Sorts the list
 #The list() constructor creates a list in Python.
 #The list() constructor can be used to make a list.
+thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
+print(thislist)
+
 
 
