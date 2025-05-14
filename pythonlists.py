@@ -259,3 +259,24 @@ print(thislist)
 #List Comprehension with Nested Loops
 thislist = [x + y for x in ["apple", "banana", "cherry"] for y in ["orange", "kiwi", "mango"]]
 print(thislist)
+
+#the syntax of list comprehension
+#newlist = [expression for item in iterable if condition == True]
+#The expression is the current item in the iteration, but it is also the outcome, or result, of the iteration.
+#The for item in iterable is a for loop that goes through the iterable, collecting the items.
+#The if condition is like a filter that only accepts the items that evaluate to True.
+#The result is a new list, leaving the old list unchanged.
+#The filter() function
+#The filter() function is used to create an output list of values that pass a certain condition from a function.
+#The filter() function takes two arguments: a function and an iterable.
+#The function is a test that is run for each item in the iterable. The items that evaluate to True are included in the result.
+#The filter() function returns an iterator, so you need to convert it to a list to see the result.
+#The filter() function can be used to filter a list of numbers:
+thislist = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+def myfunc(x):
+    if x % 2 == 0:
+        return True
+    else:
+        return False
+thislist = list(filter(myfunc, thislist))
+print(thislist)
