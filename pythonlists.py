@@ -333,3 +333,8 @@ print(thislist)
 thislist = [100, 50, 65, 82, 23]
 thislist.sort(key = lambda x: abs(x - 50))
 print(thislist)
+
+#Sort the list based on how close the number is to 50, descending:
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(key = lambda x: abs(x - 50), reverse = True)
+print(thislist)
