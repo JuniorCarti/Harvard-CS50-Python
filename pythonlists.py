@@ -147,3 +147,12 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist.remove(thislist[1])
 print(thislist)
+
+#remove the specified item
+thislist = ["apple", "banana", "cherry"]
+thislist.remove("banana")   
+print(thislist)
+thislist.remove("cherry")
+print(thislist)
+thislist.remove("apple")
+print(thislist)
