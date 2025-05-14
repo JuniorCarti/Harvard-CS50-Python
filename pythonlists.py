@@ -366,3 +366,8 @@ print(thislist)
 thislist = ["banana", "cherry", "apple"]
 thislist.reverse()
 print(thislist)
+
+#The reverse() method reverses the current sorting order of the elements.
+thislist = ["banana", "cherry", "apple"]
+thislist.reverse()
+print(thislist)
