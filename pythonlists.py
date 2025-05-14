@@ -445,5 +445,9 @@ print(thislist)
 thislist = list({"apple", "banana", "cherry"})
 print(thislist)
 
+#The list() constructor can be used to make a list from a dictionary:
+thislist = list({"name": "John", "age": 36})
+print(thislist)
+
 
 
