@@ -449,5 +449,9 @@ print(thislist)
 thislist = list({"name": "John", "age": 36})
 print(thislist)
 
+#The list() constructor can be used to make a list from a range:
+thislist = list(range(1, 10))
+print(thislist)
+
 
 
