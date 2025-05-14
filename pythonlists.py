@@ -156,3 +156,8 @@ thislist.remove("cherry")
 print(thislist)
 thislist.remove("apple")
 print(thislist)
+
+#remove the first occurrence of the specified value
+thislist = ["apple", "banana", "cherry", "banana"]
+thislist.remove("banana")
+print(thislist)
