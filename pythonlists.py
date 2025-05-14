@@ -361,3 +361,8 @@ print(thislist)
 thislist = ["banana", "cherry", "apple"]
 thislist.sort(key = len, reverse = False)
 print(thislist)
+
+#Reverse Order
+thislist = ["banana", "cherry", "apple"]
+thislist.reverse()
+print(thislist)
