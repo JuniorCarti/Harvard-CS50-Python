@@ -248,3 +248,7 @@ print(thislist)
 #You can also add conditions to the list comprehension, to create a list of squares, but only for even numbers:
 thislist = [x**2 for x in range(10) if x % 2 == 0]
 print(thislist)
+#List Comprehension with Multiple For Clauses
+#You can also use multiple for clauses in a list comprehension:
+thislist = [x + y for x in ["apple", "banana", "cherry"] for y in ["orange", "kiwi", "mango"]]
+print(thislist)
