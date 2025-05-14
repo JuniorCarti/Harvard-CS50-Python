@@ -221,3 +221,7 @@ i = 0
 while i < len(thislist):
     print(thislist[i])
     i += 1
+#Looping Using List Comprehension
+thislist = ["apple", "banana", "cherry"]
+newlist = [x for x in thislist]
+print(newlist)
