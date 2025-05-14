@@ -290,3 +290,10 @@ def myfunc(x):
         return False
 thislist = list(filter(myfunc, thislist))
 print(thislist)
+
+thislist = ["apple", "banana", "cherry"]
+thislist[1] = "blackcurrant"
+print(thislist)
+thislist = ["apple", "banana", "cherry"]
+thislist[0] = "watermelon"
+print(thislist)
