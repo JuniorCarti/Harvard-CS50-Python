@@ -342,3 +342,8 @@ print(thislist)
 thislist = [100, 50, 65, 82, 23]
 thislist.sort(key = lambda x: abs(x - 50), reverse = False)
 print(thislist)
+
+#Case Insensitive Sort
+thislist = ["banana", "Cherry", "apple"]
+thislist.sort(key = str.lower)
+print(thislist)
