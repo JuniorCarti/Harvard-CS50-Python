@@ -400,3 +400,8 @@ thislist = ["apple", "banana", "cherry"]
 mylist = ", ".join(thislist)
 print(mylist)
 
+list1 = ["apple", "banana", "cherry"]
+list2 = ["orange", "kiwi", "mango"]
+list3 = list1 + list2
+print(list3)
+
