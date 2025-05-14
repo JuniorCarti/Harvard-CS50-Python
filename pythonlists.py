@@ -347,3 +347,8 @@ print(thislist)
 thislist = ["banana", "Cherry", "apple"]
 thislist.sort(key = str.lower)
 print(thislist)
+
+#Sort the list based on the length of the values
+thislist = ["banana", "cherry", "apple"]
+thislist.sort(key = len)
+print(thislist)
