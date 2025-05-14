@@ -323,3 +323,8 @@ print(thislist)
 thislist = ["banana", "cherry", "apple"]
 thislist.sort()
 print(thislist)
+
+#custom sort function
+thislist = ["BANANA", "cherry", "apple"]
+thislist.sort(key = str.lower)
+print(thislist)
