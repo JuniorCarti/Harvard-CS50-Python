@@ -215,4 +215,9 @@ while i < len(thislist):
 thislist = ["apple", "banana", "cherry"]
 for i in range(len(thislist)):
     print(thislist[i])
-    
+#You can also loop through the list items by using a while loop:
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+    print(thislist[i])
+    i += 1
