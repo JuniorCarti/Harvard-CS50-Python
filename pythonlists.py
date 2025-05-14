@@ -256,3 +256,6 @@ print(thislist)
 #List Comprehension with Nested Loops
 thislist = [x + y for x in ["apple", "banana", "cherry"] for y in ["orange", "kiwi", "mango"]]
 print(thislist)
+#List Comprehension with Nested Loops
+thislist = [x + y for x in ["apple", "banana", "cherry"] for y in ["orange", "kiwi", "mango"]]
+print(thislist)
