@@ -417,3 +417,19 @@ list2 = ["orange", "kiwi", "mango"]
 list1.extend(list2)
 print(list1)
 
+#python - List Methods
+#Python has a set of built-in methods that you can use on lists.
+#append()	Adds an element at the end of the list
+#clear()	Removes all the elements from the list
+#copy()	Returns a copy of the list
+#count()	Returns the number of elements with the specified value
+#extend()	Adds the elements of a list (or any iterable), to the end of the current list
+#insert()	Adds an element at the specified position
+#pop()	Removes the element at the specified position
+#remove()	Removes the first item with the specified value
+#reverse()	Reverses the order of the list
+#sort()	Sorts the list
+#The list() constructor creates a list in Python.
+#The list() constructor can be used to make a list.
+
+
