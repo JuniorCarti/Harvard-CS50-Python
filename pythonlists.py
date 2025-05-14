@@ -191,6 +191,9 @@ print(thislist)
 
 #del the whole list
 thislist = ["apple", "banana", "cherry"]
-del thislist
+#del thislist #this will cause an error because "thislist" no longer exists
 print(thislist)
 #The clear() method empties the list:
+thislist = ["apple", "banana", "cherry"]
+thislist.clear()
+print(thislist)
