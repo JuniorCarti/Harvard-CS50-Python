@@ -328,3 +328,8 @@ print(thislist)
 thislist = ["BANANA", "cherry", "apple"]
 thislist.sort(key = str.lower)
 print(thislist)
+
+#Sort the list based on how close the number is to 50:
+thislist = [100, 50, 65, 82, 23]
+thislist.sort(key = lambda x: abs(x - 50))
+print(thislist)
