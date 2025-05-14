@@ -188,3 +188,9 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 del thislist[-1]
 print(thislist)
+
+#del the whole list
+thislist = ["apple", "banana", "cherry"]
+del thislist
+print(thislist)
+#The clear() method empties the list:
