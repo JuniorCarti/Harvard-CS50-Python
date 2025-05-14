@@ -197,3 +197,10 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist.clear()
 print(thislist)
+
+
+#python loop lists
+#You can loop through the list items by using a for loop:
+thislist = ["apple", "banana", "cherry"]
+for x in thislist:
+    print(x)
