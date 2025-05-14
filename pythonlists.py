@@ -441,5 +441,9 @@ print(thislist)
 thislist = list(("apple", "banana", "cherry"))
 print(thislist)
 
+#The list() constructor can be used to make a list from a set:
+thislist = list({"apple", "banana", "cherry"})
+print(thislist)
+
 
 
