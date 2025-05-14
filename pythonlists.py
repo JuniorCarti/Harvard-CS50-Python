@@ -244,3 +244,7 @@ print(newlist)
 #For example, to create a list of squares:
 thislist = [x**2 for x in range(10)]
 print(thislist)
+#List Comprehension with Condition
+#You can also add conditions to the list comprehension, to create a list of squares, but only for even numbers:
+thislist = [x**2 for x in range(10) if x % 2 == 0]
+print(thislist)
