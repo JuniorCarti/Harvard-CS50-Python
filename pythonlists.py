@@ -185,3 +185,6 @@ thislist = ["apple", "banana", "cherry"]
 del thislist[1]
 print(thislist)
 #del the last item
+thislist = ["apple", "banana", "cherry"]
+del thislist[-1]
+print(thislist)
