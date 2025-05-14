@@ -387,3 +387,10 @@ print(mylist)
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
 mylist = thislist[:]
 print(mylist)
+
+#python - Join Lists
+#The join() method takes all items in an iterable and joins them into one string.
+#A string must be specified as the separator.
+thislist = ["apple", "banana", "cherry"]
+mylist = ", ".join(thislist)
+print(mylist)
