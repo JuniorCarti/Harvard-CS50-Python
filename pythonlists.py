@@ -211,3 +211,8 @@ i = 0
 while i < len(thislist):
     print(thislist[i])
     i += 1
+#You can also loop through the list items by referring to their index number:
+thislist = ["apple", "banana", "cherry"]
+for i in range(len(thislist)):
+    print(thislist[i])
+    
