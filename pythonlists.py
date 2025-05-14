@@ -252,3 +252,7 @@ print(thislist)
 #You can also use multiple for clauses in a list comprehension:
 thislist = [x + y for x in ["apple", "banana", "cherry"] for y in ["orange", "kiwi", "mango"]]
 print(thislist)
+
+#List Comprehension with Nested Loops
+thislist = [x + y for x in ["apple", "banana", "cherry"] for y in ["orange", "kiwi", "mango"]]
+print(thislist)
