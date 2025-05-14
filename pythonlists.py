@@ -303,3 +303,8 @@ print(thislist)
 thislist = ["banana", "cherry", "apple"]
 thislist.sort()
 print(thislist)
+
+#Sort Descending
+thislist = ["banana", "cherry", "apple"]
+thislist.sort(reverse = True)
+print(thislist)
