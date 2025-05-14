@@ -280,3 +280,13 @@ def myfunc(x):
         return False
 thislist = list(filter(myfunc, thislist))
 print(thislist)
+
+#The filter() function can be used to filter a list of strings:
+thislist = ["apple", "banana", "cherry", "kiwi", "mango"]
+def myfunc(x):
+    if "a" in x:
+        return True
+    else:
+        return False
+thislist = list(filter(myfunc, thislist))
+print(thislist)
