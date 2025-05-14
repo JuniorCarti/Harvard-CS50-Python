@@ -178,3 +178,10 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist.pop(0)
 print(thislist)
+
+#del keyword
+#The del keyword removes the specified index:
+thislist = ["apple", "banana", "cherry"]
+del thislist[1]
+print(thislist)
+#del the last item
