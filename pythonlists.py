@@ -204,3 +204,10 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 for x in thislist:
     print(x)
+
+#You can also use a while loop to loop through the list items by referring to their index number:
+thislist = ["apple", "banana", "cherry"]
+i = 0
+while i < len(thislist):
+    print(thislist[i])
+    i += 1
