@@ -382,3 +382,8 @@ print(mylist)
 thislist = ["apple", "banana", "cherry"]
 mylist = list(thislist)
 print(mylist)
+
+#use the slice method to copy a list
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+mylist = thislist[:]
+print(mylist)
