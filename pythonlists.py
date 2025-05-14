@@ -433,6 +433,9 @@ print(list1)
 #The list() constructor can be used to make a list.
 thislist = list(("apple", "banana", "cherry")) # note the double round-brackets
 print(thislist)
+#The list() constructor can be used to make a list from a string:
+thislist = list("banana")
+print(thislist)
 
 
 
