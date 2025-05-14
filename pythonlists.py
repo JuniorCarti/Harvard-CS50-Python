@@ -142,3 +142,8 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist.remove("banana")
 print(thislist)
+
+#remove the specified index
+thislist = ["apple", "banana", "cherry"]
+thislist.remove(thislist[1])
+print(thislist)
