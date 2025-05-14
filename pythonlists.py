@@ -297,3 +297,9 @@ print(thislist)
 thislist = ["apple", "banana", "cherry"]
 thislist[0] = "watermelon"
 print(thislist)
+
+#python - Sort Lists
+#The sort() method sorts the list ascending by default.
+thislist = ["banana", "cherry", "apple"]
+thislist.sort()
+print(thislist)
