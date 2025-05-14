@@ -453,5 +453,9 @@ print(thislist)
 thislist = list(range(1, 10))
 print(thislist)
 
+#The list() constructor can be used to make a list from a string:
+thislist = list("banana")
+print(thislist)
+
 
 
