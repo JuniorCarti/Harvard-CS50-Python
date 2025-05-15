@@ -37,6 +37,9 @@ print(empty_tuple)
 string_tuples = ('Apple', 'Cherry', 'Banana', 'Orange')
 print(string_tuples)
 
+#tuples allow duplicate values
+duplicate_strings = ('apple', 'orange', 'apple', 'banana', 'mango', 'banana')
+print(duplicate_strings)
 
 
 
