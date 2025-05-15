@@ -21,6 +21,10 @@ print(Eldohub_courses)
 mixed_tuples = ("Apple", 1, "Banana", True, "House")
 print(mixed_tuples)
 
+#Nested tuples
+nested_tuples = (("Apple", "Orange"), (1,2,4,5,6,7))
+print(nested_tuples)
+
 
 
 
