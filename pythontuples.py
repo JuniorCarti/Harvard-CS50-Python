@@ -122,6 +122,9 @@ for country in countries:
 for index, value in enumerate(countries):
     print(f"Index {index}: {value}")
 
+for index, value in enumerate(colors):
+    print(f"Index {index}: {value}")
+
 
 
 
