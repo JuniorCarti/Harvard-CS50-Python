@@ -156,15 +156,10 @@ s = slice(0, 1, 2)
 print(schools[s])
 
 """Indexing: Access specific elements using positive or negative indices.
-
 Slicing: Extract a range of elements using start, stop, and step values.
-
 Nested Tuples: Access nested elements using multiple indices.
-
 Iterating: Loop through the tuple using for or enumerate().
-
 Unpacking: Assign multiple elements to multiple variables in one statement.
-
 Slice Object: Use slice() for more complex slicing."""
 
 #✅ Updating Tuples in Python
@@ -172,6 +167,16 @@ Slice Object: Use slice() for more complex slicing."""
 #its elements cannot be modified, added, or removed directly. 
 # However, there are some techniques to simulate updates.
 #1. Convert Tuple to List and Update
+"""The most common method to update a tuple is to:
+Convert the tuple to a list.
+Update the list.
+Convert the list back to a tuple."""
+
+names = ("kim", "Abby", "Sharon", "bella", "Frank", "Joyce")
+
+#convert to list
+name_list = list(names)
+print(name_list)
 
 
 
