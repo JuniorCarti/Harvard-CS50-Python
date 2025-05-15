@@ -74,5 +74,7 @@ print(tuple_constructor)
 #Indexing starts at 0 for the first item and -1 for the last item.
 #Syntax: tuple[index]
 
+cars = ("Benz", "Subaru", "Audi SportBack", "Toyota Hilux", "Prado 2025")
+print(cars[0])
 
 
