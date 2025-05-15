@@ -196,6 +196,18 @@ print(numbers)
 numbers = numbers + (5,6,7,8,9)
 print(numbers)
 
+#3. Removing Elements from a Tuple
+#We cannot use methods like remove() or pop() directly. Instead, we:
+#Convert the tuple to a list, remove the element, and convert back to a tuple.
+fruits = ("apple", "banana", "cherry", "mango")
+#convert to list
+fruit_list = list(fruits)
+#remove mango
+fruit_list.remove("mango")
+#convert back to a tuple
+fruits = tuple(fruit_list)
+print(fruits)
+
 
 
 
