@@ -94,6 +94,9 @@ print(numbers[1:4])
 print(numbers[4:8])
 print(numbers[:4])
 print(numbers[4:])
+print(numbers[::4]) ## Output: (1, 3, 5, 7, 9) (every fourth item)
+print(numbers[4::])
+print(numbers[::-1])
 
 
 
