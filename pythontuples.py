@@ -182,6 +182,8 @@ name_list = list(names)
 name_list[1] = "ridge"
 
 #convert back to tuple
+names = tuple(name_list)
+print(names)
 
 
 
