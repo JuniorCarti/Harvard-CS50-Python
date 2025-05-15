@@ -82,4 +82,7 @@ print(cars[3])
 print(cars[-1])
 print(cars[-3])
 
+#If you access an index that does not exist, it raises an IndexError:
+#print(cars[-6])
+
 
