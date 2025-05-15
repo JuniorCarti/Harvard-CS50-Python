@@ -125,6 +125,13 @@ for index, value in enumerate(countries):
 for index, value in enumerate(colors):
     print(f"Index {index}: {value}")
 
+#checking for existense of an item
+counties = ('kisumu', 'nairobi', 'busia', 'nakuru', 'mombasa', 'kwale', 'naivasha')
+print("machakos" in counties)
+print("kisumu" in counties)
+print("nairobi" in counties)
+print("naivasha" in counties) 
+
 
 
 
