@@ -90,6 +90,8 @@ print(cars[-3])
 #Slicing creates a new tuple from the specified range.
 numbers = (1,2,3,4,5,6,7,8,9,10)
 print(numbers[0:3])
+print(numbers[1:4])
+print(numbers[4:8])
 
 
 
