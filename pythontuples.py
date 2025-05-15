@@ -142,6 +142,14 @@ phones_brands = ('Samsung', 'Iphone 16', 'Tecno Spark4', 'Infinix')
 for i in range(len(phones_brands)):
     print(f"Index {i}: {phones_brands[i]} ")
 
+#accessing tuple elements using unpacking
+coordinates = (10,20,30)
+x,y,z = coordinates
+
+print(x)
+print(y)
+print(z)
+
 
 
 
