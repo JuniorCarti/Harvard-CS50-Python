@@ -3,3 +3,16 @@
 # Tuples are defined by enclosing the elements in parentheses ().
 # Tuples can contain any type of data, including other tuples.
 # Tuples are often used to return multiple values from a function.
+
+mytuple = ("apple", "banana", "cherry")
+print(mytuple)
+
+#Create a Tuple:
+# Creating a tuple
+my_tuple = (1, 2, 3)
+print(my_tuple)  # Output: (1, 2, 3)
+
+
+
+
+
