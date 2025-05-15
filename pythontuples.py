@@ -71,6 +71,8 @@ tuple_constructor = tuple(('mercedes benz', 'Rav4', 'Audi', 'Bentley', 'Subaru')
 print(tuple_constructor)
 
 #accessing tuples by index
+#Indexing starts at 0 for the first item and -1 for the last item.
+#Syntax: tuple[index]
 
 
 
