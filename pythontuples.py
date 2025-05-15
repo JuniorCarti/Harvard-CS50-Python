@@ -25,6 +25,10 @@ print(mixed_tuples)
 nested_tuples = (("Apple", "Orange"), (1,2,4,5,6,7))
 print(nested_tuples)
 
+#single element tuple
+single_element_tuple = (5,)
+print(single_element_tuple)
+
 
 
 
