@@ -185,6 +185,14 @@ name_list[1] = "ridge"
 names = tuple(name_list)
 print(names)
 
+#2. Adding Elements to a Tuple
+#Since tuples are immutable, you cannot use append() or insert(). Instead, we can:
+#Convert to a list, add the new element, and convert back to a tuple.
+numbers = (1,2,3,4)
+#Adding a single element
+numbers = numbers + (5,)
+print(numbers)
+
 
 
 
