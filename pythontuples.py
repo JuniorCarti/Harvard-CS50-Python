@@ -86,6 +86,10 @@ print(cars[-3])
 #print(cars[-6])
 
 #slicing tuples
+#Syntax: tuple[start:end:step]
+#Slicing creates a new tuple from the specified range.
+numbers = (1,2,3,4,5,6,7,8,9,10)
+print(numbers[0:3])
 
 
 
