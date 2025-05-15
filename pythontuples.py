@@ -118,5 +118,10 @@ countries = ("Kenya", "Tanzania", "Morrocco", "Tunisia", "South Africa", "Uganda
 for country in countries:
     print(countries)
 
+#We can also access both index and value using enumerate():
+for index, value in enumerate(countries):
+    print(f"Index {index}: {value}")
+
+
 
 
