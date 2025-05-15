@@ -101,5 +101,10 @@ print(numbers[::-1])
 #negative slicing
 print(numbers[-4:-1])
 
+# Accessing Nested Tuples
+#Tuples can contain other tuples (nested tuples). We access nested elements using multiple indices.
+tuples_nested = (1, (1,2,3,4,5), ("Benz", "Audi", "Prado"), ("orange", "mango", "banana", "apple"))
+print(tuples_nested[1])
+
 
 
