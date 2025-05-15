@@ -12,6 +12,9 @@ print(mytuple)
 my_tuple = (1, 2, 3)
 print(my_tuple)  # Output: (1, 2, 3)
 
+Eldohub_courses = ("Networking and Cyber Security", "Full Stack Web", "Data Science", "Digital Literacy", "Graphic Design")
+print(Eldohub_courses)
+
 
 
 
