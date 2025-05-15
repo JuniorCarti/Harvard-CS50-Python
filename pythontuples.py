@@ -132,6 +132,9 @@ print("kisumu" in counties)
 print("nairobi" in counties)
 print("naivasha" in counties) 
 
+#accessing tuple length
+print(len(counties))
+
 
 
 
