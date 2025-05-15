@@ -155,6 +155,18 @@ schools = (("Eldohub"), ("ALX"),  "Moringa", "Cyber Shujjaa", "Linux Foundations
 s = slice(0, 1, 2)
 print(schools[s])
 
+"""Indexing: Access specific elements using positive or negative indices.
+
+Slicing: Extract a range of elements using start, stop, and step values.
+
+Nested Tuples: Access nested elements using multiple indices.
+
+Iterating: Loop through the tuple using for or enumerate().
+
+Unpacking: Assign multiple elements to multiple variables in one statement.
+
+Slice Object: Use slice() for more complex slicing."""
+
 
 
 
