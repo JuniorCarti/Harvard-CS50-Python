@@ -168,6 +168,7 @@ Unpacking: Assign multiple elements to multiple variables in one statement.
 Slice Object: Use slice() for more complex slicing."""
 
 #✅ Updating Tuples in Python
+#Tuples are immutable, meaning that once a tuple is created, its elements cannot be modified, added, or removed directly. However, there are some techniques to simulate updates.
 
 
 
