@@ -76,5 +76,8 @@ print(tuple_constructor)
 
 cars = ("Benz", "Subaru", "Audi SportBack", "Toyota Hilux", "Prado 2025")
 print(cars[0])
+print(cars[1])
+print(cars[2])
+print(cars[3])
 
 
