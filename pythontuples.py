@@ -16,6 +16,11 @@ Eldohub_courses = ("Networking and Cyber Security", "Full Stack Web", "Data Scie
 print(Eldohub_courses)
 
 
+#Tuple with mixed data types
+
+mixed_tuples = ("Apple", 1, "Banana", True, "House")
+print(mixed_tuples)
+
 
 
 
