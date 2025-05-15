@@ -33,6 +33,10 @@ print(single_element_tuple)
 empty_tuple = ()
 print(empty_tuple)
 
+#tuple with strings
+string_tuples = ('Apple', 'Cherry', 'Banana', 'Orange')
+print(string_tuples)
+
 
 
 
