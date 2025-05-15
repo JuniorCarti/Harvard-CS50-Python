@@ -59,5 +59,9 @@ print(tuple_string)
 tuple_mixed = (1, "apple", True, 2.5, "female")
 print(tuple_mixed)
 
+#knowing the type
+tuple_integer = (1,2,3,4,5,6,)
+print(type(tuple_integer))
+
 
 
