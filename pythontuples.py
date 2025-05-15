@@ -108,5 +108,15 @@ print(tuples_nested[1])
 print(tuples_nested[-1])
 print(tuples_nested[3][-1])
 
+#iterating through a tuple
+#We can use a for loop to access all elements in a tuple.
+colors = ('red', 'green', 'yellow', 'brown')
+for color in colors:
+    print(color)
+
+countries = ("Kenya", "Tanzania", "Morrocco", "Tunisia", "South Africa", "Uganda")
+for country in countries:
+    print(countries)
+
 
 
