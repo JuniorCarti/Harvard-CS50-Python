@@ -135,6 +135,13 @@ print("naivasha" in counties)
 #accessing tuple length
 print(len(counties))
 
+# Accessing Tuple Elements Using Indexing in Loops
+#Access items using a for loop and index.
+
+phones_brands = ('Samsung', 'Iphone 16', 'Tecno Spark4', 'Infinix')
+for i in range(len(phones_brands)):
+    print(f"Index {i}: {phones_brands[i]} ")
+
 
 
 
