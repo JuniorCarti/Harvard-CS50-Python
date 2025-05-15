@@ -106,6 +106,7 @@ print(numbers[-4:-1])
 tuples_nested = (1, (1,2,3,4,5), ("Benz", "Audi", "Prado"), ("orange", "mango", "banana", "apple"))
 print(tuples_nested[1])
 print(tuples_nested[-1])
+print(tuples_nested[3][-1])
 
 
 
