@@ -176,7 +176,12 @@ names = ("kim", "Abby", "Sharon", "bella", "Frank", "Joyce")
 
 #convert to list
 name_list = list(names)
-print(name_list)
+#print(name_list)
+
+#update the list
+name_list[1] = "ridge"
+
+#convert back to tuple
 
 
 
