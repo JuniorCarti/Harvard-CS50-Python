@@ -29,6 +29,10 @@ print(nested_tuples)
 single_element_tuple = (5,)
 print(single_element_tuple)
 
+#empty tuple
+empty_tuple = ()
+print(empty_tuple)
+
 
 
 
