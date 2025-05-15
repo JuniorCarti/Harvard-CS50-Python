@@ -63,5 +63,9 @@ print(tuple_mixed)
 tuple_integer = (1,2,3,4,5,6,)
 print(type(tuple_integer))
 
+#the tuple constructor
+thistuple = tuple(("apple", "banana", "cherry")) # note the double round-brackets
+print(thistuple)
+
 
 
