@@ -45,6 +45,7 @@ print(len(duplicate_strings))
 #tuple items data types; 
 #tuple items can be of any data type
 tuple_integer = (1,2,3,4,5,6,)
+print(type(tuple_integer))
 tuple_bool = (False, True, False, True)
 tuple_float = (1.1, 4.5, 5.8)
 tuple_string = ("Ridge", "Kim", "Dee", "Ray")
