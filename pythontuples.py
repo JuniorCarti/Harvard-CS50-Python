@@ -54,5 +54,9 @@ print(tuple_bool)
 print(tuple_float)
 print(tuple_string)
 
+#a tuple with strings intergers and boolean values
+tuple_mixed = (1, "apple", True, 2.5, "female")
+print(tuple_mixed)
+
 
 
