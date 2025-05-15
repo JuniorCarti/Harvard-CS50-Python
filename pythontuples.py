@@ -192,6 +192,9 @@ numbers = (1,2,3,4)
 #Adding a single element
 numbers = numbers + (5,)
 print(numbers)
+#Adding multiple elements
+numbers = numbers + (5,6,7,8,9)
+print(numbers)
 
 
 
