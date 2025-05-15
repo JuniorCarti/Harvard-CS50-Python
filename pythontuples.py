@@ -150,6 +150,11 @@ print(x)
 print(y)
 print(z)
 
+#accessing with a slice object
+schools = (("Eldohub"), ("ALX"),  "Moringa", "Cyber Shujjaa", "Linux Foundations")
+s = slice(0, 1, 2)
+print(schools[s])
+
 
 
 
