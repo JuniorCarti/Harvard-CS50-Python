@@ -70,5 +70,7 @@ print(thistuple)
 tuple_constructor = tuple(('mercedes benz', 'Rav4', 'Audi', 'Bentley', 'Subaru'))
 print(tuple_constructor)
 
+#accessing tuples by index
+
 
 
