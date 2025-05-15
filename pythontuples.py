@@ -40,6 +40,7 @@ print(string_tuples)
 #tuples allow duplicate values
 duplicate_strings = ('apple', 'orange', 'apple', 'banana', 'mango', 'banana')
 print(duplicate_strings)
+print(len(duplicate_strings))
 
 
 
