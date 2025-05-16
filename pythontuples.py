@@ -221,7 +221,9 @@ a, *b, c = numbers
 print(a)
 print(b)
 print(c)
-
+#a takes the first value (1).
+#b collects the middle values as a list ([2, 3, 4]).
+#c takes the last value (5).
 
 
 
