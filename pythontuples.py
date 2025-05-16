@@ -301,6 +301,15 @@ for index, laptop in enumerate(laptops):
 #4. Looping Through Nested Tuples
 #If a tuple contains other tuples, you can use nested loops to access each element.
 
+data = (
+    ("Alice", 25),
+    ("Nancy", 38),
+    ("Brian", 21),
+    ("Natalia", 19)
+)
+
+for name, age in data:
+    print(f"Name: {name}, Age: {age}")
 
 
 
