@@ -398,7 +398,21 @@ for name, _, grade in students_info:
 for index, student_info in enumerate(students_info):
     print(f"Index: {index}, Value: {student_info}")
 
+#Task 3: Use a while loop to print only the names of students with grade "A".
 
+
+index = 0
+while index < len(students_info):
+    #Access the student info tuple
+    student = students_info[index]
+    #check for grade "A"
+    if student[2] == "A":
+        print(student[0])
+
+    #move to the next index
+    index += 1
+
+    
 
 
 
