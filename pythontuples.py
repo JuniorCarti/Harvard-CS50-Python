@@ -263,7 +263,15 @@ def display(a,b,c):
 values = (10,20,30)
 display(*values)
 
-    
+#7. Swapping Variables Using Unpacking
+#Tuple unpacking provides a clean way to swap values without a temporary variable.
+a = 5
+b = 10
+
+a, b = b, a
+
+print(a)
+print(b)    
 
 
 
