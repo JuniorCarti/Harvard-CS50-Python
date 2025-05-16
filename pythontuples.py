@@ -247,6 +247,13 @@ name, _, _, location = data
 print(name)
 print(location)
 
+#5. Unpacking with * and Ignoring Multiple Values
+#You can combine the * operator with _ to ignore multiple values.
+
+info = ("Python", "Java", "Ruby", "R-Language", "VB.Net", "Kotlin", "C++", "Golang")
+first, *_, last = info
+print(first)
+print(last)
 
 
 
