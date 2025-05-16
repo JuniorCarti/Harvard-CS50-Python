@@ -291,7 +291,14 @@ for laptop in laptops:
 laptops = ("HP", "Dell Latitude E7250", "LenovoX1 Carbon", "Macbook 2012", "Rog Zephyrus")
 for i in range(len(laptops)):
     print(f"Index: {i}:, Value: {laptops[i]}")
-    
+
+#3. Looping Using enumerate()
+laptops = ("HP", "Dell Latitude E7250", "LenovoX1 Carbon", "Macbook 2012", "Rog Zephyrus")
+for index, laptop in enumerate(laptops):
+    print(f"Index: {index}, Value: {laptop}")
+    #enumerate() returns a tuple (index, value) in each iteration.
+
+
 
 
 
