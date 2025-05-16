@@ -208,6 +208,9 @@ fruit_list.remove("mango")
 fruits = tuple(fruit_list)
 print(fruits)
 
+#python update tuples
+
+
 
 
 
