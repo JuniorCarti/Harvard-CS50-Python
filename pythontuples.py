@@ -348,7 +348,20 @@ laptops = ("HP", "Dell Latitude E7250", "LenovoX1 Carbon", "Macbook 2012", "Rog 
 uppercase_laptops = [laptop.upper() for laptop in laptops]
 print(uppercase_laptops)
 
+#9. Looping Through a Tuple of Tuples with Unpacking
+#If the tuple contains nested tuples, you can unpack them directly in the loop.
+## Example 9: Unpacking nested tuples
 
+students = (
+    ("Alice", "A"),
+    ("Natalia", "B+"),
+    ("Jane", "C+"),
+    ("Joel", "A-"),
+    ("Bob", "B-")
+)
+
+for name, grade in students:
+    print(f"{name}, {grade}")
 
 
 
