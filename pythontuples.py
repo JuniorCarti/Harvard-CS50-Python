@@ -330,6 +330,17 @@ for laptop in laptops:
         continue
     print(laptop)
 
+#7. Looping and Breaking the Loop
+#Use the break statement to exit the loop when a condition is met.
+## Example 7: Stop loop at "Macbook 2012"
+
+laptops = ("HP", "Dell Latitude E7250", "LenovoX1 Carbon", "Macbook 2012", "Rog Zephyrus")
+for laptop in laptops:
+    if laptop == "Macbook 2012":
+        break
+    print(laptop)
+
+
 
 
 
