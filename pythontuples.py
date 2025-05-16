@@ -412,6 +412,16 @@ while index < len(students_info):
     #move to the next index
     index += 1
 
+#Task 4: Use a nested loop to print the number of students with each grade (A, B, C).
+# Task 4: Use a nested loop to print the number of students with each grade (A, B, C).
+grade_counts = {"A": 0, "B": 0, "C": 0}
+for student_info in students_info:
+    grade = student_info[2]
+    if grade in grade_counts:
+        grade_counts[grade] += 1
+
+for grade, count in grade_counts.items():
+    print(f"Grade {grade}: {count} students")
     
 
 
