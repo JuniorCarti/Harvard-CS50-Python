@@ -283,6 +283,8 @@ laptops = ("HP", "Dell Latitude E7250", "LenovoX1 Carbon", "Macbook 2012", "Rog 
 
 for laptop in laptops:
     print(laptop)
+#laptop is a loop variable that takes each value in the tuple sequentially.
+
 
 
 
