@@ -285,6 +285,9 @@ for laptop in laptops:
     print(laptop)
 #laptop is a loop variable that takes each value in the tuple sequentially.
 
+#2. Looping Using for with range() and len()
+#If you need to access both the index and value, use range() and len().
+
 
 
 
