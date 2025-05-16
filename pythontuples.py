@@ -340,6 +340,15 @@ for laptop in laptops:
         break
     print(laptop)
 
+#8. Looping Using List Comprehension (Generating a List from a Tuple)
+#List comprehension can be used to loop through a tuple and generate a new list.
+## Example 8: List comprehension with a tuple
+
+laptops = ("HP", "Dell Latitude E7250", "LenovoX1 Carbon", "Macbook 2012", "Rog Zephyrus")
+uppercase_laptops = [laptop.upper() for laptop in laptops]
+print(uppercase_laptops)
+
+
 
 
 
