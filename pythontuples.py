@@ -371,6 +371,11 @@ for name, grade in students:
 #Use while for more controlled iteration.
 #Use continue and break to manage the flow.
 
+#✅ Exercise: Looping Through Tuples
+#Problem:
+#You are given a tuple that contains student information in the form of nested tuples. 
+#Each nested tuple contains a student’s name, age, and grade.
+
 
 
 
