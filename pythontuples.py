@@ -288,6 +288,11 @@ for laptop in laptops:
 #2. Looping Using for with range() and len()
 #If you need to access both the index and value, use range() and len().
 
+laptops = ("HP", "Dell Latitude E7250", "LenovoX1 Carbon", "Macbook 2012", "Rog Zephyrus")
+for i in range(len(laptops)):
+    print(f"Index: {i}:, Value: {laptops[i]}")
+    
+
 
 
 
