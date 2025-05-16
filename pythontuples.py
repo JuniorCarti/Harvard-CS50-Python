@@ -312,6 +312,15 @@ for name, age in data:
     print(f"Name: {name}, Age: {age}")
     #Unpacking is used in the for loop to access both elements of each nested tuple.
 
+#5. Looping Using while Loop
+#You can also use a while loop to iterate over a tuple.
+laptops = ("HP", "Dell Latitude E7250", "LenovoX1 Carbon", "Macbook 2012", "Rog Zephyrus")
+index = 0
+
+while index < len(laptops):
+    print(laptops[index])
+    index += 1
+
 
 
 
