@@ -243,6 +243,9 @@ print(city)
 
 data = ("Alice", 25, "Developer", "California")
 print(len(data))
+name, _, _, location = data
+print(name)
+print(location)
 
 
 
