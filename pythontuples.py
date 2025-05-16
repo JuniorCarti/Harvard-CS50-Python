@@ -298,6 +298,9 @@ for index, laptop in enumerate(laptops):
     print(f"Index: {index}, Value: {laptop}")
     #enumerate() returns a tuple (index, value) in each iteration.
 
+#4. Looping Through Nested Tuples
+#If a tuple contains other tuples, you can use nested loops to access each element.
+
 
 
 
