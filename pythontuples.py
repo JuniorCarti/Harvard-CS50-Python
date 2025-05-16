@@ -255,7 +255,15 @@ first, *_, last = info
 print(first)
 print(last)
 
+#6. Unpacking in Functions
+#You can use unpacking in function arguments as well.
+def display(a,b,c):
+    print(f"a= {a}, b= {b}, c= {c}")
 
+values = (10,20,30)
+display(*values)
+
+    
 
 
 
