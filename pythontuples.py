@@ -225,6 +225,20 @@ print(c)
 #b collects the middle values as a list ([2, 3, 4]).
 #c takes the last value (5).
 
+#3. Unpacking Nested Tuples
+#If a tuple contains other tuples, you can unpack them in a nested structure.
+#Nested tuple
+nested = ('John', (25, "Engineer"), "NewYork")
+print(nested)
+print(len(nested))
+name, (age, profession), city = nested
+
+print(name)
+print(age)
+print(profession)
+print(city)
+
+
 
 
 
