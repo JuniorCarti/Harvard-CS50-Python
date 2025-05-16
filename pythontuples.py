@@ -422,6 +422,16 @@ for student_info in students_info:
 
 for grade, count in grade_counts.items():
     print(f"Grade {grade}: {count} students")
+
+#Another solution
+
+grades = ("A", "B", "C")
+for grade in grades:
+    count = 0
+    for student in students_info:
+        if student[2] == grade:
+            count += 1
+    print(f"Number of students with grade {grade}: {count}")
     
 
 
