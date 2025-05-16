@@ -278,7 +278,11 @@ print(b)
 #Tuples are ordered and immutable collections, making them suitable for iteration. 
 # You can use different looping techniques to iterate through tuple elements. 
 #1. Looping Using for Loop
+#The simplest way to loop through a tuple is using a for loop.
+laptops = ("HP", "Dell Latitude E7250", "LenovoX1 Carbon", "Macbook 2012", "Rog Zephyrus")
 
+for laptop in laptops:
+    print(laptop)
 
 
 
