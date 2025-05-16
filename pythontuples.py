@@ -238,6 +238,12 @@ print(age)
 print(profession)
 print(city)
 
+#4. Ignoring Values While Unpacking
+#If you only need some values and want to ignore others, use an underscore (_).
+
+data = ("Alice", 25, "Developer", "California")
+print(len(data))
+
 
 
 
