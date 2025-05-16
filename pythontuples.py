@@ -273,5 +273,13 @@ a, b = b, a
 print(a)
 print(b)    
 
+#python loop tuples
+#✅ Looping Through Tuples in Python
+#Tuples are ordered and immutable collections, making them suitable for iteration. 
+# You can use different looping techniques to iterate through tuple elements. 
+#1. Looping Using for Loop
+
+
+
 
 
