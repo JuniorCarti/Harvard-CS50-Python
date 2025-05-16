@@ -376,6 +376,22 @@ for name, grade in students:
 #You are given a tuple that contains student information in the form of nested tuples. 
 #Each nested tuple contains a student’s name, age, and grade.
 
+students_info = (
+    ("Alice", 20, "A"),
+    ("Bob", 22, "B"),
+    ("Charlie", 21, "C"),
+    ("David", 23, "B"),
+    ("Eve", 20, "A")
+)
+
+#Tasks:
+
+#Task 1: Use a for loop to print each student’s name and grade in the format:
+#"Name: Alice, Grade: A"
+
+for name, _, grade in students_info:
+    print(f"Name: {name}, Grade: {grade}")
+
 
 
 
