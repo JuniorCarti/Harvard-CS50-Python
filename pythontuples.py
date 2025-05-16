@@ -363,6 +363,14 @@ students = (
 for name, grade in students:
     print(f"{name}, {grade}")
 
+#✅ Summary:
+#Use for to iterate over each element directly.
+#Use range() and len() to access indices.
+#Use enumerate() to access both index and value.
+#Use nested loops or unpacking for nested tuples.
+#Use while for more controlled iteration.
+#Use continue and break to manage the flow.
+
 
 
 
