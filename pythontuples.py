@@ -209,6 +209,18 @@ fruits = tuple(fruit_list)
 print(fruits)
 
 #python update tuples
+#Change Tuple Values
+"""Once a tuple is created, you cannot change its values. Tuples are unchangeable, or immutable as it also is called.
+But there is a workaround. You can convert the tuple into a list, change the list, and convert the list back into a tuple."""
+#unpacking tuples
+#2. Using the Asterisk (*) for Extended Unpacking
+#You can use * to capture multiple elements into a list. This is known as extended unpacking.
+numbers = (1,2,3,4,5)
+
+a, *b, c = numbers
+print(a)
+print(b)
+print(c)
 
 
 
