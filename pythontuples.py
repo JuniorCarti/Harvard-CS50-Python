@@ -310,6 +310,7 @@ data = (
 
 for name, age in data:
     print(f"Name: {name}, Age: {age}")
+    #Unpacking is used in the for loop to access both elements of each nested tuple.
 
 
 
