@@ -392,6 +392,12 @@ students_info = (
 for name, _, grade in students_info:
     print(f"Name: {name}, Grade: {grade}")
 
+#Task 2: Use a for loop with enumerate() to print the index and the student information in the format:
+#"Index: 0, Name: Alice, Age: 20, Grade: A"
+
+for index, student_info in enumerate(students_info):
+    print(f"Index: {index}, Value: {student_info}")
+
 
 
 
