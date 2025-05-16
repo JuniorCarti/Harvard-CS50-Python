@@ -320,6 +320,15 @@ index = 0
 while index < len(laptops):
     print(laptops[index])
     index += 1
+#You must manually manage the index and increment it to avoid an infinite loop.
+
+#6. Looping and Skipping Elements
+#Use the continue statement to skip specific elements.
+laptops = ("HP", "Dell Latitude E7250", "LenovoX1 Carbon", "Macbook 2012", "Rog Zephyrus")
+for laptop in laptops:
+    if laptop == "Macbook 2012":
+        continue
+    print(laptop)
 
 
 
