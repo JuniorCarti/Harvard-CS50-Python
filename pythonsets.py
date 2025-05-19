@@ -58,3 +58,6 @@ print(fruits)
 #you cannot access items by index. However, there are several ways to access and manipulate set items efficiently.
 #1. Iterating Over a Set
 #The most common way to access items in a set is by iterating through it using a loop.
+cars = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback", "Benz"}
+for car in cars:
+    print(car)
