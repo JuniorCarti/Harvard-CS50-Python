@@ -401,5 +401,21 @@ Use symmetric_difference() or ^ to find elements in either set but not both.
 Use difference() or - to find elements in one set but not the other.
 """
 
+#✅ Tasks for Working with Sets in Python
+"""You are managing an online store with two sets:
+bought_items = {"laptop", "phone", "tablet"}
+wishlist = {"phone", "headphones", "tablet", "smartwatch"}
+Identify items that are in the wishlist but not yet bought.
+Identify items that are both in the wishlist and bought.
+Identify items that are only in the wishlist or bought but not both.
+"""
+bought_items = {"laptop", "phone", "tablet"}
+wishlist = {"phone", "headphones", "tablet", "smartwatch"}
+
+#Identify items that are in the wishlist but not yet bought.
+task1 = wishlist.difference(bought_items)
+print("Items are in the wishlist but not yet bought:", task1)
+
+
 
 
