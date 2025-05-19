@@ -244,4 +244,10 @@ laptops = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
 laptops.discard("Apple")
 print(laptops)
 
+#pop method
+#remove a random item  by using the pop method()
+laptops = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
+new_laptops = laptops.pop()
+print(new_laptops)
+print(laptops)
 
