@@ -268,3 +268,11 @@ print(laptops)
 laptops = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
 for Dell in laptops:
     print(Dell)
+
+#✅ Joining Sets in Python
+#In Python, we can join sets using various methods to combine their elements. The most common methods are:
+"""Union (| or union() method)
+Update (update() method)
+section (& or intersection() method)
+Symmetric Difference (^ or symmetric_difference() method)
+Difference (- or difference() method)"""
