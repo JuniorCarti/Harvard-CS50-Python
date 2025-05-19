@@ -25,3 +25,8 @@ print(cars)
 #Note: The values False and 0 are considered the same value in sets, and are treated as duplicates:
 cars = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback", "Benz", False, 0, 2}
 print(cars)
+
+#Get the Length of a Set
+#To determine how many items a set has, use the len() function.
+cars = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback", "Benz", False, 0, 2}
+print(len(cars))
