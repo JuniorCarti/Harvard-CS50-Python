@@ -378,5 +378,9 @@ set3 = {"alice", "jane", "sharon", "kevin", "ridge"}
 union_of_sets = colors_ridge.union(colors_faith, set1, set2, set3)
 print("Union of all sets():", union_of_sets)
 
+#using the update method
+colors_ridge.update(colors_faith, set1, set2, set3)
+print("Union of all sets using update method():", colors_ridge)
+
 
 
