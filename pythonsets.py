@@ -304,3 +304,15 @@ print("All the items using | operator:", all_items)
 #It combines all unique elements from all the sets.
 #The resulting set will contain all items from set1, set2, and set3, but without any duplicates.
 #Both the | operator and the union() method perform the same operation, but the operator is shorter and often considered more readable.
+
+#2. Update Method
+#The update() method adds all unique elements from another set (or any iterable) to the original set.
+#This modifies the original set in place.
+#Syntax:
+#set1.update(set2)
+fruits = {"apple", "oranges", "mango"}
+greens = {"kales",}
+colors = {"red", "orange", "yellow",}
+
+fruits.update(greens, colors)
+print("After update():", fruits)
