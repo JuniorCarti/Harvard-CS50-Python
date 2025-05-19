@@ -66,4 +66,9 @@ for car in cars:
 #The loop iterates over each item, regardless of their original order.
 
 #2. Checking If an Item Exists
+#Use the in keyword to check if an element is present in the set.
+cars = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback", "Benz"}
+if "Benz" in cars:
+    print("Car on Sale!!!!!");
+
 
