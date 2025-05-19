@@ -102,3 +102,9 @@ print(colour_list)
 print(colour_list[0])
 #Conversion to a list allows indexed access.
 #However the order might differ each time
+
+#6. Unpacking the Set
+#You can unpack a set into variables if you know the exact number of elements.
+cities = {"Nairobi", "Kisumu", "Nakuru", "Mombasa", "Kwale", "Nyeri"}
+city1, city2, city3, city4, city5, city6 = cities
+print(city1, city2, city3, city4, city5, city6)
