@@ -225,3 +225,10 @@ nested = frozenset({4, 5})
 my_set.add(nested)
 print(my_set)
 
+#frozenset is an immutable version of a set, making it hashable.
+"""✅ Key Takeaways:
+Use add() to insert a single item.
+Use update() to insert multiple items (from lists, tuples, sets, strings, etc.).
+Sets only accept immutable objects as items (e.g., integers, strings, tuples).
+To add nested sets, convert them to frozenset."""
+
