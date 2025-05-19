@@ -232,3 +232,9 @@ Use update() to insert multiple items (from lists, tuples, sets, strings, etc.).
 Sets only accept immutable objects as items (e.g., integers, strings, tuples).
 To add nested sets, convert them to frozenset."""
 
+#Python - Remove Set Items
+#To remove an item in a set, use the remove(), or the discard() method.
+laptops = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
+laptops.remove("Dell")
+print(laptops)
+
