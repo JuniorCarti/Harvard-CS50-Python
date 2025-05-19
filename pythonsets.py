@@ -5,3 +5,4 @@ myset = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback"}
 #A set is a collection which is unordered, unchangeable*, and unindexed.
 #Sets are written with curly brackets.
 print(myset)
+#Note: Sets are unordered, so you cannot be sure in which order the items will appear.
