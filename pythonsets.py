@@ -382,5 +382,24 @@ print("Union of all sets():", union_of_sets)
 colors_ridge.update(colors_faith, set1, set2, set3)
 print("Union of all sets using update method():", colors_ridge)
 
+"""| Method                   | Syntax                            | Returns New Set | Modifies Original Set |
+| ------------------------ | --------------------------------- | --------------- | --------------------- |
+| `union()`                | `set1.union(set2)`                | ✅               | ❌                     |
+| `update()`               | `set1.update(set2)`               | ❌               | ✅                     |
+| `intersection()`         | `set1.intersection(set2)`         | ✅               | ❌                     |
+| `intersection_update()`  | `set1.intersection_update(set2)`  | ❌               | ✅                     |
+| `symmetric_difference()` | `set1.symmetric_difference(set2)` | ✅               | ❌                     |
+| `difference()`           | `set1.difference(set2)`           | ✅               | ❌                     |
+
+
+
+✅ Key Takeaways:
+Use union() or | to combine sets without modifying the original sets.
+Use update() to merge sets and modify the original set.
+Use intersection() or & to find common elements.
+Use symmetric_difference() or ^ to find elements in either set but not both.
+Use difference() or - to find elements in one set but not the other.
+"""
+
 
 
