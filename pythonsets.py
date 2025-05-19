@@ -53,3 +53,4 @@ print(different_data_types)
 #Using the set() constructor to make a set:
 fruits = set(("Apple", "Cherry", "Mango", "Beetroot"))
 print(fruits)
+#*Set items are unchangeable, but you can remove items and add new items.
