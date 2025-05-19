@@ -200,3 +200,4 @@ for i in range(1, 6):
         numbers.add(i)
 
 print(numbers)
+#Only numbers not already in the set are added.
