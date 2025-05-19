@@ -212,3 +212,9 @@ set2 = {4, 5, 6}
 set1.update(set2)
 print(set1)
 
+#6. Adding Immutable Objects (Like Tuples)
+#Since tuples are immutable, they can be added to a set:
+my_set = {1, 2, 3}
+my_set.add((4, 5))
+print(my_set)
+#Tuples are hashable and can be added as a single item.
