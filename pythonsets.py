@@ -258,9 +258,9 @@ print(laptops)
 
 #the del keyword
 #The del keyword will delete the set completely:
-laptops = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
-del laptops
-print(laptops)
+#laptops = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
+#del laptops
+#print(laptops)
 #you will get an error since the set has been deleted completely
 
 #loop items
@@ -284,3 +284,10 @@ Difference (- or difference() method)"""
 
 #Using the | operator:
 #set1 | set2 | set3
+set1 = {"AudiR3 Sportback", "Range Rover", "Toyota Hilux", "Mercedes Benz", "Rav4"}
+set2 = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
+set3 = {"alice", "jane", "sharon", "kevin", "ridge"}
+
+all_items = set1.union(set2, set3)
+print("All the items are a union():", all_items)
+
