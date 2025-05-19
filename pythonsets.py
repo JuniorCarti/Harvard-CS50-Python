@@ -70,5 +70,8 @@ for car in cars:
 cars = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback", "Benz"}
 if "Benz" in cars:
     print("Car on Sale!!!!");
+#The in keyword returns True if the item is present.
+#This is efficient with sets due to their hash-based structure (average time complexity: O(1)).
+
 
 
