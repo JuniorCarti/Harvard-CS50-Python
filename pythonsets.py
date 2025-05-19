@@ -69,6 +69,6 @@ for car in cars:
 #Use the in keyword to check if an element is present in the set.
 cars = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback", "Benz"}
 if "Benz" in cars:
-    print("Car on Sale!!!!!");
+    print("Car on Sale!!!!");
 
 
