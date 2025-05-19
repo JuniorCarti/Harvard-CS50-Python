@@ -54,3 +54,7 @@ print(different_data_types)
 fruits = set(("Apple", "Cherry", "Mango", "Beetroot"))
 print(fruits)
 #*Set items are unchangeable, but you can remove items and add new items.
+#In Python, sets are unordered collections of unique elements. Since sets are unordered, 
+#you cannot access items by index. However, there are several ways to access and manipulate set items efficiently.
+#1. Iterating Over a Set
+#The most common way to access items in a set is by iterating through it using a loop.
