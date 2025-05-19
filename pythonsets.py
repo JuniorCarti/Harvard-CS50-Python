@@ -116,3 +116,6 @@ print(city1, city2, city3, city4, city5, city6)
 names = {"alice", "naomi", "njenga", "cynthia", "esperanza"}
 first_item = next(iter(names))
 print(first_item)
+#iter(letters) creates an iterator.
+#next() gets the first item from the iterator.
+#still unpredictable in terms of order
