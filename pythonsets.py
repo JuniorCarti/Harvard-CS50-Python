@@ -80,3 +80,9 @@ print(list(cities))
 #Converts the set into a list, allowing you to access elements using indices.
 #The order is still arbitrary because sets do not guarantee order.
 
+#4. Using the set.pop() Method
+#The pop() method removes and returns an arbitrary element from the set.
+animals = {"cat", "dog", "elephant", "rhino"}
+item = animals.pop()
+print(f"Popped: {item}")
+print("Remaining:", animals)
