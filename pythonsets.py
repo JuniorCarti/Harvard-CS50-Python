@@ -4,3 +4,4 @@ myset = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback"}
 # the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
 #A set is a collection which is unordered, unchangeable*, and unindexed.
 #Sets are written with curly brackets.
+print(myset)
