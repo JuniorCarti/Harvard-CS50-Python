@@ -73,5 +73,8 @@ if "Benz" in cars:
 #The in keyword returns True if the item is present.
 #This is efficient with sets due to their hash-based structure (average time complexity: O(1)).
 
-
+#3. Accessing All Items at Once
+#If you want to access all elements at once as a list, use the list() function.
+cities = {"Nairobi", "Kisumu", "Nakuru", "Mombasa", "Kwale", "Nyeri"}
+print(list(cities))
 
