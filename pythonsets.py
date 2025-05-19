@@ -30,3 +30,15 @@ print(cars)
 #To determine how many items a set has, use the len() function.
 cars = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback", "Benz", False, 0, 2}
 print(len(cars))
+
+#Set Items - Data Types
+#Set items can be of any data type:
+cars = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback", "Benz"} #str
+numbers = {1, 2, 3, 4}
+bools = {True, False, False, True}
+floats = {2.4, 4.6, 8.0, 10.4}
+
+print(type(cars))
+print(type(numbers))
+print(type(bools))
+print(type(floats))
