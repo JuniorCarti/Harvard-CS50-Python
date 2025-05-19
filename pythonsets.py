@@ -322,3 +322,10 @@ print("After update():", fruits)
 #Syntax:
 #Using the intersection() method:
 #set1.intersection(set2, set3, ...)
+#Using the & operator:
+#set1 & set2
+colors_ridge = {"red", "orange", "yellow",}
+colors_faith = {"red", "orange", "white", "beige"}
+common_colors = colors_ridge.intersection(colors_faith)
+print("Faith and Ridge favourite colors():", common_colors)
+
