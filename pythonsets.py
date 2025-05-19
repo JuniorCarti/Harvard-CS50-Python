@@ -47,3 +47,9 @@ print(type(floats))
 #A set with strings, integers and boolean values:
 different_data_types = {"Benz", "Rav4", "Volvo", True, False, 2.5, 5.5, 8.9, 1, 2, 3}
 print(different_data_types)
+
+#The set() Constructor
+#It is also possible to use the set() constructor to make a set.
+#Using the set() constructor to make a set:
+fruits = set(("Apple", "Cherry", "Mango", "Beetroot"))
+print(fruits)
