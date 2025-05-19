@@ -416,6 +416,10 @@ wishlist = {"phone", "headphones", "tablet", "smartwatch"}
 task1 = wishlist.difference(bought_items)
 print("Items are in the wishlist but not yet bought:", task1)
 
+#Identify items that are both in the wishlist and bought.
+task2 = wishlist.intersection(bought_items)
+print("Items are both in the wishlist and Bought:", task2)
+
 
 
 
