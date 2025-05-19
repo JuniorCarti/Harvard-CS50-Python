@@ -147,3 +147,8 @@ Use pop() to remove and access a random item.
 Convert the set to a list for index-based access.
 Use next(iter(set)) for efficient single-item access.
 For random selection, use random.choice(list(set))."""
+
+#✅ Adding Items to a Set in Python
+#Sets in Python are mutable, meaning we can add and remove items. There are multiple ways to add items to a set:
+#add() — Adds a single item.
+#update() — Adds multiple items (from any iterable: list, tuple, set, etc.).
