@@ -262,3 +262,9 @@ laptops = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
 del laptops
 print(laptops)
 #you will get an error since the set has been deleted completely
+
+#loop items
+#You can loop through the set items by using a for loop:
+laptops = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
+for Dell in laptops:
+    print(Dell)
