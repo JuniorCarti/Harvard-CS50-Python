@@ -256,3 +256,9 @@ laptops = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
 laptops.clear()
 print(laptops)
 
+#the del keyword
+#The del keyword will delete the set completely:
+laptops = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
+del laptops
+print(laptops)
+#you will get an error since the set has been deleted completely
