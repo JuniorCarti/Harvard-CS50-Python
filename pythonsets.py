@@ -86,3 +86,9 @@ animals = {"cat", "dog", "elephant", "rhino"}
 item = animals.pop()
 print(f"Popped: {item}")
 print("Remaining:", animals)
+#The method removes a random element (not the first or last).
+#If the set is empty, it raises a KeyError.
+#animals = {}
+#item = animals.pop()
+#print(f"Popped: {item}")
+#print("Remaining:", animals)
