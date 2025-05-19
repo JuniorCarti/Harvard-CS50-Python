@@ -218,3 +218,10 @@ my_set = {1, 2, 3}
 my_set.add((4, 5))
 print(my_set)
 #Tuples are hashable and can be added as a single item.
+#7. Adding Complex Data Structures
+#You can add nested data structures like tuples containing sets, but the sets must first be converted to frozensets:
+my_set = {1, 2, 3}
+nested = frozenset({4, 5})
+my_set.add(nested)
+print(my_set)
+
