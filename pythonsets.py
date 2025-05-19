@@ -276,3 +276,11 @@ Update (update() method)
 section (& or intersection() method)
 Symmetric Difference (^ or symmetric_difference() method)
 Difference (- or difference() method)"""
+#1. Union of Sets
+#The union operation combines the elements of two or more sets and removes duplicates.
+#Syntax:
+#Using the union() method:
+#set1.union(set2, set3, ...)
+
+#Using the | operator:
+#set1 | set2 | set3
