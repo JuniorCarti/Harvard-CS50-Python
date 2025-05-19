@@ -420,6 +420,27 @@ print("Items are in the wishlist but not yet bought:", task1)
 task2 = wishlist.intersection(bought_items)
 print("Items are both in the wishlist and Bought:", task2)
 
+#Identify items that are only in the wishlist or bought but not both.
+task3 = wishlist.symmetric_difference(bought_items)
+print("The items that are only in the wishlist or bought but not both:", task3)
+
+
+def analyze_items(bought_items, wishlist):
+    return {
+        "not_bought": wishlist.difference(bought_items),
+        "both": wishlist.intersection(bought_items),
+        "unique": wishlist.symmetric_difference(bought_items)
+    }
+
+bought_items = {"laptop", "phone", "tablet"}
+wishlist = {"phone", "headphones", "tablet", "smartwatch"}
+
+result = analyze_items(bought_items, wishlist)
+print("Items are in the wishlist but not yet bought:", result["not_bought"])
+print("Items are both in the wishlist and bought:", result["both"])
+print("The items that are only in the wishlist or bought but not both:", result["unique"])
+
+
 
 
 
