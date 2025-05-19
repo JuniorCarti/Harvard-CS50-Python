@@ -300,4 +300,7 @@ set3 = {"alice", "jane", "sharon", "kevin", "ridge"}
 all_items = set1 | set2 | set3
 
 print("All the items using | operator:", all_items)
-
+#The | operator performs a union operation between the sets, just like the union() method.
+#It combines all unique elements from all the sets.
+#The resulting set will contain all items from set1, set2, and set3, but without any duplicates.
+#Both the | operator and the union() method perform the same operation, but the operator is shorter and often considered more readable.
