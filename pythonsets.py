@@ -77,4 +77,6 @@ if "Benz" in cars:
 #If you want to access all elements at once as a list, use the list() function.
 cities = {"Nairobi", "Kisumu", "Nakuru", "Mombasa", "Kwale", "Nyeri"}
 print(list(cities))
+#Converts the set into a list, allowing you to access elements using indices.
+#The order is still arbitrary because sets do not guarantee order.
 
