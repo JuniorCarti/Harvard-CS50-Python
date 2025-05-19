@@ -360,6 +360,12 @@ colors_faith = {"red", "orange", "white", "beige"}
 uncommon_colors = colors_ridge.difference(colors_faith)
 print("Difference using difference():", uncommon_colors)
 
+#Using the - operator:
+#syntax
+#set1 - set2
+
+uncommon_colors = colors_ridge - colors_faith
+print("Difference using the operator - method():", uncommon_colors)
 
 
 
