@@ -152,3 +152,9 @@ For random selection, use random.choice(list(set))."""
 #Sets in Python are mutable, meaning we can add and remove items. There are multiple ways to add items to a set:
 #add() — Adds a single item.
 #update() — Adds multiple items (from any iterable: list, tuple, set, etc.).
+#1. Adding a Single Item with add()
+#The add() method adds one element to the set.
+cars = {"AudiR3 Sportback", "Range Rover", "Toyota Hilux", "Mercedes Benz", "Rav4"}
+cars.add("Volvo")
+print(cars)
+print(len(cars))
