@@ -158,3 +158,6 @@ cars = {"AudiR3 Sportback", "Range Rover", "Toyota Hilux", "Mercedes Benz", "Rav
 cars.add("Volvo")
 print(cars)
 print(len(cars))
+#The add() method inserts the item, but its position is arbitrary due to the unordered nature of sets.
+#If the item already exists in the set, it will not be added again since sets do not allow duplicates.
+
