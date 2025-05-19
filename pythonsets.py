@@ -132,3 +132,11 @@ print(random_item)
 #Direct use of random.choice() on a set will raise a TypeError.
 
 #9. Using next() and iter() Together
+#A more memory-efficient way to get an element (without converting to a list):
+nums = {10, 20, 30, 40, 50}
+first = next(iter(nums))
+print("First Item:", first)
+#No list conversion needed, so it’s faster and uses less memory.
+#Suitable when you only need a single item from the set.
+
+
