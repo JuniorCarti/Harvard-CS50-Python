@@ -21,3 +21,7 @@ print(cars)
 #True and 1 is considered the same value:
 cars = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback", "Benz", True, 1, 2}
 print(cars)
+
+#Note: The values False and 0 are considered the same value in sets, and are treated as duplicates:
+cars = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback", "Benz", False, 0, 2}
+print(cars)
