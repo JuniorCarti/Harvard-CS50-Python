@@ -344,6 +344,11 @@ colors_faith = {"red", "orange", "white", "beige"}
 uncommon_colors = colors_ridge.symmetric_difference(colors_faith)
 print("Uncommon colors for Faith and Ridge():", uncommon_colors)
 
+#Using the ^ operator:
+#set1 ^ set2
+uncommon_colors = colors_ridge ^ colors_faith
+print("Uncommon colors for Faith and Ridge():", uncommon_colors)
+
 
 
 
