@@ -251,3 +251,8 @@ new_laptops = laptops.pop()
 print(new_laptops)
 print(laptops)
 
+#clear method
+laptops = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
+laptops.clear()
+print(laptops)
+
