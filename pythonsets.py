@@ -234,7 +234,14 @@ To add nested sets, convert them to frozenset."""
 
 #Python - Remove Set Items
 #To remove an item in a set, use the remove(), or the discard() method.
+#remove method
 laptops = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
 laptops.remove("Dell")
 print(laptops)
+
+#discard method
+laptops = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
+laptops.discard("Apple")
+print(laptops)
+
 
