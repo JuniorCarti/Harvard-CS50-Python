@@ -178,3 +178,10 @@ new_fruits = ("orange", "tomato", "guava", "avocado")
 fruits.update(new_fruits)
 print(fruits)
 print(len(fruits))
+
+#example with another set
+laptops = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
+new_laptops = {"Huawei", "Microsoft", "Samsung"}
+laptops.update(new_laptops)
+print(laptops)
+print(len(laptops))
