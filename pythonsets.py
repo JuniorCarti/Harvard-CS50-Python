@@ -185,3 +185,9 @@ new_laptops = {"Huawei", "Microsoft", "Samsung"}
 laptops.update(new_laptops)
 print(laptops)
 print(len(laptops))
+
+#3. Adding Items from a String
+#Strings are iterables, so each character is treated as a separate item:
+names = {"alice", "jane", "sharon", "kevin", "ridge"}
+names.update("brian, kim")
+print(names)
