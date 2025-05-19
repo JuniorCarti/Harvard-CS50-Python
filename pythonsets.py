@@ -13,3 +13,7 @@ print(myset)
 #Set items can appear in a different order every time you use them, and cannot be referred to by index or key.
 #Set items are unchangeable, meaning that we cannot change the items after the set has been created.
 #Once a set is created, you cannot change its items, but you can remove items and add new items.
+#Duplicates Not Allowed
+#Sets cannot have two items with the same value.
+cars = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback", "Benz"}
+print(cars)
