@@ -291,3 +291,13 @@ set3 = {"alice", "jane", "sharon", "kevin", "ridge"}
 all_items = set1.union(set2, set3)
 print("All the items are a union():", all_items)
 
+#✅ Using the | Operator:
+set1 = {"AudiR3 Sportback", "Range Rover", "Toyota Hilux", "Mercedes Benz", "Rav4"}
+set2 = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
+set3 = {"alice", "jane", "sharon", "kevin", "ridge"}
+
+# Using the | operator to join sets
+all_items = set1 | set2 | set3
+
+print("All the items using | operator:", all_items)
+
