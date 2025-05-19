@@ -61,3 +61,9 @@ print(fruits)
 cars = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback", "Benz"}
 for car in cars:
     print(car)
+#The items are printed in an arbitrary order:
+#Sets do not maintain any specific order.
+#The loop iterates over each item, regardless of their original order.
+
+#2. Checking If an Item Exists
+
