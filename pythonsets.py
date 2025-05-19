@@ -367,5 +367,16 @@ print("Difference using difference():", uncommon_colors)
 uncommon_colors = colors_ridge - colors_faith
 print("Difference using the operator - method():", uncommon_colors)
 
+#6. Joining Multiple Sets
+#You can join multiple sets using any of the above methods.
+colors_ridge = {"red", "orange", "yellow",}
+colors_faith = {"red", "orange", "white", "beige"}
+set1 = {"AudiR3 Sportback", "Range Rover", "Toyota Hilux", "Mercedes Benz", "Rav4"}
+set2 = {"Dell", "Apple", "HP", "Asus", "Lenovo"}
+set3 = {"alice", "jane", "sharon", "kevin", "ridge"}
+
+union_of_sets = colors_ridge.union(colors_faith, set1, set2, set3)
+print("Union of all sets():", union_of_sets)
+
 
 
