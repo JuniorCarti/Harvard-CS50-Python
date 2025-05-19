@@ -92,3 +92,13 @@ print("Remaining:", animals)
 #item = animals.pop()
 #print(f"Popped: {item}")
 #print("Remaining:", animals)
+
+#5. Converting to List and Accessing by Index
+#If you must access by index, convert the set to a list first.
+colors = {"red", "green", "orange", "pink", "blue"}
+colour_list = list(colors)
+print(colour_list)
+#access the index
+print(colour_list[0])
+#Conversion to a list allows indexed access.
+#However the order might differ each time
