@@ -108,3 +108,5 @@ print(colour_list[0])
 cities = {"Nairobi", "Kisumu", "Nakuru", "Mombasa", "Kwale", "Nyeri"}
 city1, city2, city3, city4, city5, city6 = cities
 print(city1, city2, city3, city4, city5, city6)
+#The order of unpacked variables is unpredictable.
+#Will raise a ValueError if the number of elements does not match the variables.
