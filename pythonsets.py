@@ -161,3 +161,11 @@ print(len(cars))
 #The add() method inserts the item, but its position is arbitrary due to the unordered nature of sets.
 #If the item already exists in the set, it will not be added again since sets do not allow duplicates.
 
+#2. Adding Multiple Items with update()
+#The update() method can add multiple items from any iterable (list, tuple, set, etc.).
+#Syntax: set_name.update(iterable)
+cars = {"AudiR3 Sportback", "Range Rover", "Toyota Hilux", "Mercedes Benz", "Rav4"}
+new_cars = ["Honda CRV", "Toyota Premio", "Toyota LandCruiser", "Mercedes Benz"]
+cars.update(new_cars)
+print(cars)
+print(len(cars))
