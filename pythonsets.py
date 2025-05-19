@@ -350,5 +350,16 @@ uncommon_colors = colors_ridge ^ colors_faith
 print("Uncommon colors for Faith and Ridge():", uncommon_colors)
 
 
+#5. Difference of Sets
+#The difference operation returns a set containing elements that are present in the first set but not in the second.
+#Syntax:
+#Using the difference() method:
+#set1.difference(set2)
+colors_ridge = {"red", "orange", "yellow",}
+colors_faith = {"red", "orange", "white", "beige"}
+uncommon_colors = colors_ridge.difference(colors_faith)
+print("Difference using difference():", uncommon_colors)
+
+
 
 
