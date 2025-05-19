@@ -139,4 +139,11 @@ print("First Item:", first)
 #No list conversion needed, so it’s faster and uses less memory.
 #Suitable when you only need a single item from the set.
 
-
+#Key Takeaways
+"""Sets do not support indexing or slicing because they are unordered.
+Use a for loop to iterate over all items.
+Use the in keyword to check for the presence of an item.
+Use pop() to remove and access a random item.
+Convert the set to a list for index-based access.
+Use next(iter(set)) for efficient single-item access.
+For random selection, use random.choice(list(set))."""
