@@ -42,3 +42,7 @@ print(type(cars))
 print(type(numbers))
 print(type(bools))
 print(type(floats))
+
+#A set can contain different data types:
+different_data_types = {"Benz", "Rav4", "Volvo", True, False, 2.5, 5.5, 8.9, 1, 2, 3}
+print(different_data_types)
