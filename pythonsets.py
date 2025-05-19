@@ -110,3 +110,9 @@ city1, city2, city3, city4, city5, city6 = cities
 print(city1, city2, city3, city4, city5, city6)
 #The order of unpacked variables is unpredictable.
 #Will raise a ValueError if the number of elements does not match the variables.
+
+#7. Accessing a Specific Item (Indirectly)
+#If you need a specific element (e.g., the first one), convert the set to a list:
+names = {"alice", "naomi", "njenga", "cynthia", "esperanza"}
+first_item = next(iter(names))
+print(first_item)
