@@ -119,3 +119,11 @@ print(first_item)
 #iter(letters) creates an iterator.
 #next() gets the first item from the iterator.
 #still unpredictable in terms of order
+
+#8. Random Access Using random.choice()
+#Sets are unordered, but if you want to randomly pick an item:
+import random
+
+food = {"pizza", "chicken wings", "burger", "HotSauce"}
+random_item = random.choice(list(food))
+print(random_item)
