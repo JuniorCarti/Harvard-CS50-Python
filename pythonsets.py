@@ -316,3 +316,9 @@ colors = {"red", "orange", "yellow",}
 
 fruits.update(greens, colors)
 print("After update():", fruits)
+
+#3. Intersection of Sets
+#The intersection operation returns a set containing only the common elements in both sets.
+#Syntax:
+#Using the intersection() method:
+#set1.intersection(set2, set3, ...)
