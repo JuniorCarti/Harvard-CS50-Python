@@ -335,4 +335,15 @@ colors_faith = {"red", "orange", "white", "beige"}
 common_colors = colors_faith & colors_ridge
 print("Faith and Ridge favourite colors():", common_colors)
 
+#4. Symmetric Difference of Sets
+#The symmetric difference returns a set containing elements that are in either of the sets but not in both.
+#Syntax:
+#set1.symmetric_difference(set2)
+colors_ridge = {"red", "orange", "yellow",}
+colors_faith = {"red", "orange", "white", "beige"}
+uncommon_colors = colors_ridge.symmetric_difference(colors_faith)
+print("Uncommon colors for Faith and Ridge():", uncommon_colors)
+
+
+
 
