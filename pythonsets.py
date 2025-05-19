@@ -165,9 +165,16 @@ print(len(cars))
 #The update() method can add multiple items from any iterable (list, tuple, set, etc.).
 #Syntax: set_name.update(iterable)
 cars = {"AudiR3 Sportback", "Range Rover", "Toyota Hilux", "Mercedes Benz", "Rav4"}
-new_cars = ["Honda CRV", "Toyota Premio", "Toyota LandCruiser", "Mercedes Benz"]
+new_cars = ["Honda CRV", "Toyota Premio", "Toyota LandCruiser", "Mercedes Benz"] #example with list
 cars.update(new_cars)
 print(cars)
 print(len(cars))
 #The update() method only adds unique items.
 #"Mercedes Benz" was already present, so it is not added again.
+
+#example with tuple
+fruits = {"apple", "orange", "pineapple", "beetroot", "mango"}
+new_fruits = ("orange", "tomato", "guava", "avocado")
+fruits.update(new_fruits)
+print(fruits)
+print(len(fruits))
