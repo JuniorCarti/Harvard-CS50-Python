@@ -201,3 +201,14 @@ for i in range(1, 6):
 
 print(numbers)
 #Only numbers not already in the set are added.
+#5. Adding a Nested Set (Not Allowed)
+#Sets are unhashable, so you cannot add a set as an item in another set. This will raise a TypeError.
+set1 = {1, 2, 3}
+set2 = {4, 5, 6}
+
+# This will raise an error:
+# set1.add(set2)
+#If you want to add multiple items from another set, use update() instead:
+set1.update(set2)
+print(set1)
+
