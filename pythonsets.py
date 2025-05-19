@@ -191,3 +191,12 @@ print(len(laptops))
 names = {"alice", "jane", "sharon", "kevin", "ridge"}
 names.update("brian, kim")
 print(names)
+
+#4. Adding Items Conditionally
+# You can add items based on a condition using a loop:
+numbers = {1, 2, 3}
+for i in range(1, 6):
+    if i not in numbers:
+        numbers.add(i)
+
+print(numbers)
