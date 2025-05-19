@@ -17,3 +17,7 @@ print(myset)
 #Sets cannot have two items with the same value.
 cars = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback", "Benz"}
 print(cars)
+#Note: The values True and 1 are considered the same value in sets, and are treated as duplicates:
+#True and 1 is considered the same value:
+cars = {"Benz", "Rav4", "Volvo", "AudiR3 Sportback", "Benz", True, 1, 2}
+print(cars)
