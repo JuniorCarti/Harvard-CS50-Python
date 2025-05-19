@@ -127,3 +127,8 @@ import random
 food = {"pizza", "chicken wings", "burger", "HotSauce"}
 random_item = random.choice(list(food))
 print(random_item)
+
+#Converts the set to a list before using random.choice().
+#Direct use of random.choice() on a set will raise a TypeError.
+
+#9. Using next() and iter() Together
