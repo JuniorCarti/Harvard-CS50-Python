@@ -169,3 +169,5 @@ new_cars = ["Honda CRV", "Toyota Premio", "Toyota LandCruiser", "Mercedes Benz"]
 cars.update(new_cars)
 print(cars)
 print(len(cars))
+#The update() method only adds unique items.
+#"Mercedes Benz" was already present, so it is not added again.
