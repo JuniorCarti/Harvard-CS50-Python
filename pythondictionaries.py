@@ -473,3 +473,9 @@ print(person)
 person.setdefault('country', 'USA')
 person.setdefault('age', 30) # Does nothing since 'age' exists
 print(person)
+
+# Dictionary Merging
+# Merge dictionaries with | operator
+new_info = {"hobbies": ["reading", "hiking"], "age": 28}
+person |= new_info
+print(person)
