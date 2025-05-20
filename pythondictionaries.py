@@ -57,3 +57,8 @@ print(my_dict["years of experience"])
 #If you try to access a key that doesn't exist, Python raises a KeyError:
 # This will raise KeyError
 #print(my_dict['salary'])
+
+#Access Methods
+#1. get method()
+#The get() method is a safer way to access dictionary values as it returns None 
+#(or a default value you specify) if the key doesn't exist.
