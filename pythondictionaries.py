@@ -546,3 +546,22 @@ new_data = {
 
 updated_profile = update_user_profile(current_profile, new_data)
 print(updated_profile)
+
+
+#1. User Authentication System
+#Verifying login credentials against a database 
+# Database of registered users (in real apps, this would connect to a real DB)
+user_database = {
+    "ridgejunior@gmail.com": {"password": "secure123", "name": "Ridge", "role": "admin"},
+    "alicekim@yahoo.com": {"password": "bobpass", "name": "Alice", "role": "user"},
+    "kimgreg@gmail.com": {"password": "eve456", "name": "Greg", "role": "user"}
+}
+
+def login(email, password):
+    user = user_database.get(email)
+    if user and user["password"] == password:
+        return f"Welcome {user['name']}! Your role: {user['role']}"
+    return "Invalid credentials"
+
+print(login("alicekim@yahoo.com", "bobpass"))  # Success
+print(login("ridgejunior@gmail.com", "wrongpass"))    # Failure
