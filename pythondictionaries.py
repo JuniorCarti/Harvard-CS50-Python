@@ -37,3 +37,4 @@ thisdict = {
   "colors": ["red", "white", "blue"]
 }
 print(thisdict)
+print(type(thisdict))
