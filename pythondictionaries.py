@@ -304,3 +304,36 @@ def process_order(category, product_id, quantity):
     return "Insufficient Stock"
 
 print(process_order('clothing', 'C1001', 57))
+
+
+#Corrected Multi-Order Processing Solution
+
+
+def process_multi_orders(*orders):
+    #Process multiple orders and return results for each"""
+    results = []
+    for order in orders:
+        if len(order) != 3:
+            results.append(f"Invalid order format: {order}")
+            continue
+            
+        category, product_id, quantity = order
+        product = inventory.get(category, {}).get(product_id)
+        
+        if not product:
+            results.append(f"Product {product_id} not found in {category}")
+        elif product['stock'] >= quantity:
+            inventory[category][product_id]['stock'] -= quantity
+            total = product['price'] * quantity
+            results.append(f"Order processed: {quantity}x {product['name']} - Total: ${total:.2f}")
+        else:
+            results.append(f"Insufficient stock for {product['name']} (requested: {quantity}, available: {product['stock']})")
+    
+    return "\n".join(results)
+
+# Example usage with multiple orders
+print(process_multi_orders(
+    ('clothing', 'C1001', 57),
+    ('furniture', 'F1001', 45),
+    ('electronics', 'E1002', 10),
+))
