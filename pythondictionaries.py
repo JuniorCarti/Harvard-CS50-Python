@@ -274,5 +274,14 @@ inventory = {
         'E1001': {'name' : 'wireless Headphones', 'stock': 45, 'price': '154.65usd'},
         'E1002': {'name' : 'Samsung 54inch TVs', 'stock': 50, 'price': '2300usd'},
         'E1003': {'name' : 'Infinix Smartphones', 'stock': 15, 'price': '123usd'}
+    },
+    'clothing': {
+        'C1001': {'name': 'Khaki Trousers', 'stock': 123, 'price': '600usd'},
+        'C1002': {'name': 'Long-Sleeved Shirts', 'stock': 15, 'price': '120usd'},
+        'C1003': {'name': 'Denim Jeans', 'stock': 12, 'price': '130usd'}
+    },
+    'furniture': {
+        'F1001': {'name': 'Coffee Table', 'stock': 100, 'price': '1000usd'},
+        'F1002': {'name': 'Office Chairs', 'stock': 10, 'price': '1250usd'}
     }
 }
