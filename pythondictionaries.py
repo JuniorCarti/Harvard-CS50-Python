@@ -461,3 +461,9 @@ print(person)
 # Add new key-value pair
 person['occupation'] = 'Engineer'
 print(person)
+
+#Advanced Modification Methods
+#update method()
+#update multiple items at once
+person.update({'age': 27, 'city': 'Boston', 'married': False})
+print(person)
