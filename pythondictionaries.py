@@ -152,3 +152,23 @@ print(word_lengths)  # Output: {'apple': 5, 'banana': 6, 'cherry': 6}
 ages = {'John': 25, 'Alice': 30, 'Bob': 22}
 adults = {name: age for name, age in ages.items() if age >= 25}
 print(adults)        # Output: {'John': 25, 'Alice': 30}
+
+#Nested Dictionary Access
+#Dictionaries can contain other dictionaries, requiring nested access.
+company = {
+    'name': 'TechCorp',
+    'departments': {
+        'engineering': {
+            'manager': 'Alice',
+            'employees': 50
+        },
+        'marketing': {
+            'manager': 'Bob',
+            'employees': 20
+        }
+    }
+}
+
+# Access nested values
+print(company['departments']['engineering']['manager'])  # Output: Alice
+print(company.get('departments', {}).get('sales', {}).get('manager', 'No department'))  # Output: No department
