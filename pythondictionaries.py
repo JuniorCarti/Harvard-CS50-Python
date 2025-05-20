@@ -499,3 +499,13 @@ for key in inventory:
     if isinstance(inventory[key], int):
         inventory[key] *= 2
     print(inventory)
+
+#Nested Dictionary Modifications
+company = {
+    'name': 'Eldohub Academy',
+    'departments': {
+        'Networking & CyberSecurity': {"instructors": 3},
+        'Full Stack Web': {'instructors': 5}
+    }
+}
+# Modify nested value
