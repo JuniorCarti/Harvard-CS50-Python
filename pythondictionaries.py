@@ -337,3 +337,6 @@ print(process_multi_orders(
     ('furniture', 'F1001', 45),
     ('electronics', 'E1002', 10),
 ))
+
+#API Response Processing
+#Scenario: Working with JSON data from web APIs.
