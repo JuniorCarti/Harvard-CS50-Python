@@ -467,3 +467,9 @@ print(person)
 #update multiple items at once
 person.update({'age': 27, 'city': 'Boston', 'married': False})
 print(person)
+
+#2. setdefault()
+# Set default value if key doesn't exist
+person.setdefault('country', 'USA')
+person.setdefault('age', 30) # Does nothing since 'age' exists
+print(person)
