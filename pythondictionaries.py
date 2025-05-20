@@ -565,3 +565,28 @@ def login(email, password):
 
 print(login("alicekim@yahoo.com", "bobpass"))  # Success
 print(login("ridgejunior@gmail.com", "wrongpass"))    # Failure
+
+
+class ShoppingCart:
+    def __init__(self):
+        self.items = {}  # {product_id: {"name": str, "price": float, "quantity": int}}
+    
+    def add_item(self, product_id, name, price, quantity=1):
+        if product_id in self.items:
+            self.items[product_id]["quantity"] += quantity
+        else:
+            self.items[product_id] = {"name": name, "price": price, "quantity": quantity}
+    
+    def calculate_total(self):
+        return sum(item["price"] * item["quantity"] for item in self.items.values())
+    
+    def display_cart(self):
+        for product_id, details in self.items.items():
+            print(f"{details['name']} x{details['quantity']} = ${details['price'] * details['quantity']:.2f}")
+
+# Usage
+cart = ShoppingCart()
+cart.add_item("P100", "Wireless Mouse", 25.99)
+cart.add_item("P205", "Mechanical Keyboard", 89.99, 2)
+cart.display_cart()
+print(f"Total: ${cart.calculate_total():.2f}")
