@@ -514,3 +514,35 @@ company['departments']['Full Stack Web']['instructors'] = 10
 company['departments'].setdefault('Graphic Design', {'instructors': 5})
 
 print(company)
+
+
+#user profile update
+def update_user_profile(profile, updates):
+  #  """Safely update user profile with new information"""
+    for key, value in updates.items():
+        if key in profile:
+            # Preserve existing lists/dicts when updating
+            if isinstance(profile[key], list) and isinstance(value, list):
+                profile[key].extend(value)
+            elif isinstance(profile[key], dict) and isinstance(value, dict):
+                profile[key].update(value)
+            else:
+                profile[key] = value
+        else:
+            profile[key] = value
+    return profile
+
+current_profile = {
+    "name": "Alice",
+    "preferences": {"theme": "dark", "notifications": True},
+    "skills": ["Python"]
+}
+
+new_data = {
+    "age": 30,
+    "preferences": {"language": "English"},
+    "skills": ["JavaScript"]
+}
+
+updated_profile = update_user_profile(current_profile, new_data)
+print(updated_profile)
