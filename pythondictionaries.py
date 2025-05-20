@@ -479,3 +479,9 @@ print(person)
 new_info = {"hobbies": ["reading", "hiking"], "age": 28}
 person |= new_info
 print(person)
+
+#Conditional Modifications
+#1. Modify Only If Key Exists
+if "city" in person:
+    person['city'] = 'chicago'
+print(person)
