@@ -184,3 +184,17 @@ def deep_get(dictionary, *keys, default=None):
 
 print(deep_get(company, 'departments', 'engineering', 'manager'))  # Output: Alice
 print(deep_get(company, 'departments', 'sales', 'manager', default='Not found'))  # Output: Not found
+
+
+#Practical examples
+#Example 1: Counting word frequencies
+def word_count(text):
+    words = text.split()
+    count = {}
+    for word in words:
+        count[word] = count.get(word, 0) + 1
+    return count
+
+text = "apple banana apple cherry banana apple"
+print(word_count(text))
+# Output: {'apple': 3, 'banana': 2, 'cherry': 1}
