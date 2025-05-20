@@ -485,3 +485,8 @@ print(person)
 if "city" in person:
     person['city'] = 'chicago'
 print(person)
+
+#2. Modify With Default
+# Using get() to provide default if key doesn't exist
+person["last_name"] = person.get("last_name", "Unknown")
+print(person)
