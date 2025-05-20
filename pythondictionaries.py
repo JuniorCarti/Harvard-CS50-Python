@@ -53,3 +53,7 @@ print(my_dict["name"])
 print(my_dict["age"])
 print(my_dict["occupation"])
 print(my_dict["years of experience"])
+
+#If you try to access a key that doesn't exist, Python raises a KeyError:
+# This will raise KeyError
+#print(my_dict['salary'])
