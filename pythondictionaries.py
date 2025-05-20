@@ -79,3 +79,9 @@ print(list(keys))
 values = my_dict.values()
 print(values)
 print(list(values))
+
+#4. items() method
+#Returns a view object containing key-value pairs as tuples.
+items = my_dict.items()
+print(items)
+print(list(items)) #Convert to list of tuples
