@@ -246,7 +246,12 @@ user = {
         'location': 'Eldoret',
     },
     'account status': 'active',
-    
+    'prefernces': {
+        'theme': 'dark',
+        'notifications': 'enabled',
+        'language': 'English',
+    },
+
 
 
 }
