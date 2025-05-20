@@ -26,3 +26,14 @@ thisdict = {
 #Dictionary Length
 #To determine how many items a dictionary has, use the len() function:
 print(len(thisdict))
+
+#Dictionary Items - Data Types
+#The values in dictionary items can be of any data type:
+#String, int, boolean, and list data types:
+thisdict = {
+  "brand": "Ford",
+  "electric": False,
+  "year": 1964,
+  "colors": ["red", "white", "blue"]
+}
+print(thisdict)
