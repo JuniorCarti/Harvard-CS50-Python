@@ -231,3 +231,7 @@ def dispatch(operator, x, y):
 
 print(dispatch('add', 5, 3))  # Output: 8
 print(dispatch('pow', 2, 3))  # Output: None
+
+
+#1. User Profile Management
+#Scenario: Storing and accessing user information in a web application.
