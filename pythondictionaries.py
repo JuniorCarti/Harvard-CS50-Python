@@ -91,3 +91,4 @@ print(list(items)) #Convert to list of tuples
 print('name' in my_dict)
 print('age' in my_dict)
 print('salary ' in my_dict)
+print('Alice' in my_dict) # Output: False (checks keys, not values)
