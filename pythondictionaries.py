@@ -285,3 +285,12 @@ inventory = {
         'F1002': {'name': 'Office Chairs', 'stock': 10, 'price': '1250usd'}
     }
 }
+
+## Checking stock levels
+def check_stock(category, product_id):
+    product = inventory.get(category, {}) .get(product_id)
+    if product:
+        return f"{product['name']}: {product['stock']} in stock!"
+    return "Product not found"
+
+print(check_stock('furniture', 'F1001'))
