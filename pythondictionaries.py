@@ -139,3 +139,16 @@ for value in person.values():
 # Loop through key-value pairs
 for key, value in person.items():
     print(f"{key}: {value}")
+
+#dictionary comprehension
+#You can create new dictionaries by processing existing ones.
+
+# Create a dictionary with string lengths
+words = ['apple', 'banana', 'cherry']
+word_lengths = {word: len(word) for word in words}
+print(word_lengths)  # Output: {'apple': 5, 'banana': 6, 'cherry': 6}
+
+# Filter dictionary
+ages = {'John': 25, 'Alice': 30, 'Bob': 22}
+adults = {name: age for name, age in ages.items() if age >= 25}
+print(adults)        # Output: {'John': 25, 'Alice': 30}
