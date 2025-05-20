@@ -264,3 +264,7 @@ if user['prefernces']['notifications']:
 #updating user status
 user['account status'] = 'Premium'
 print(f"You are now a, {user['account status']} user!")
+
+
+#2. Inventory Management System
+#Scenario: Tracking products in an e-commerce warehouse.
