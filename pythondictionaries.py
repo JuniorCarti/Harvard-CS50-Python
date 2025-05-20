@@ -67,3 +67,9 @@ print(my_dict.get('salary'))
 print(my_dict.get('age'))
 print(my_dict.get('occupation'))
 print(my_dict.get('years of experience'))
+
+#2. keys() method
+#Returns a view object containing the dictionary's keys.
+keys = my_dict.keys()
+print(keys)
+print(list(keys))
