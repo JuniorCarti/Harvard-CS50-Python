@@ -85,3 +85,9 @@ print(list(values))
 items = my_dict.items()
 print(items)
 print(list(items)) #Convert to list of tuples
+
+#Checking Key Existence
+#You can check if a key exists in a dictionary using the in keyword.
+print('name' in my_dict)
+print('age' in my_dict)
+print('salary ' in my_dict)
