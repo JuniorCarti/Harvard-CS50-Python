@@ -219,3 +219,15 @@ for key, value in original.items():
     inverted.setdefault(value, []).append(key)
 
 print(inverted)  # Output: {1: ['a', 'c'], 2: ['b']}
+
+#Example 4: Dictionary as switch-case alternative
+def dispatch(operator, x, y):
+    return {
+        'add': lambda: x + y,
+        'sub': lambda: x - y,
+        'mul': lambda: x * y,
+        'div': lambda: x / y
+    }.get(operator, lambda: None)()
+
+print(dispatch('add', 5, 3))  # Output: 8
+print(dispatch('pow', 2, 3))  # Output: None
