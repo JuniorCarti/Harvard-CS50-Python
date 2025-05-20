@@ -362,6 +362,26 @@ weather_data = {
     'feelslike_c': 9.5,
     'feelslike_f': 49.2,
 
+    },
+    'forecast': {
+        'forecast_day': [
+            {
+                'date': '2025-05-20',
+                'day': {
+                    'maxtemp_c': 24.3,
+                    'mintemp_c': 18.7,
+                    'daily_chance_of_rain': 40
+                }
+            },
+            {
+                'date': '2025-05-21',
+                'day': {
+                    'maxtemp_c': 21.8,
+                    'mintemp_c': 16.2,
+                    'daily_chance_of_rain': 70
+            }
+            }
+        ]
     }
 
 }
