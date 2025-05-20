@@ -235,3 +235,18 @@ print(dispatch('pow', 2, 3))  # Output: None
 
 #1. User Profile Management
 #Scenario: Storing and accessing user information in a web application.
+
+#creating a user profile manangement
+user = {
+    'id': 'ui12345',
+    'username' : 'Software Developer',
+    'personal_info': {
+        'name': 'Ridge Junior',
+        'age':  '32',
+        'location': 'Eldoret',
+    },
+    'account status': 'active',
+    
+
+
+}
