@@ -73,3 +73,9 @@ print(my_dict.get('years of experience'))
 keys = my_dict.keys()
 print(keys)
 print(list(keys))
+
+#3. values() method
+#Returns a view object containing the dictionary's values.
+values = my_dict.values()
+print(values)
+print(list(values))
