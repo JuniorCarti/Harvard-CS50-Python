@@ -404,3 +404,47 @@ def format_weather_report(data):
         })
         return report
     print(format_weather_report(weather_data))
+
+
+    
+gradebook = {
+    'math': {
+        'Alice': [92, 85, 94],
+        'Bob': [78, 82, 80],
+        'Charlie': [88, 91, 95]
+    },
+    'science': {
+        'Alice': [95, 89],
+        'Bob': [76, 84, 82, 80],
+        'Charlie': [92, 94]
+    },
+    'history': {
+        'Alice': [87, 91],
+        'Bob': [90, 85],
+        'Charlie': [78, 82, 85]
+    }
+}
+
+# Calculating average grades
+def calculate_averages():
+    averages = {}
+    for subject, students in gradebook.items():
+        subject_averages = {}
+        for student, grades in students.items():
+            avg = sum(grades) / len(grades)
+            subject_averages[student] = round(avg, 1)
+        averages[subject] = subject_averages
+    return averages
+
+# Adding a new assignment
+def add_assignment(subject, scores):
+    for student, grade in scores.items():
+        if student in gradebook[subject]:
+            gradebook[subject][student].append(grade)
+
+# Usage
+print("Math averages:", calculate_averages()['math'])
+# Output might be: {'Alice': 90.3, 'Bob': 80.0, 'Charlie': 91.3}
+
+add_assignment('science', {'Alice': 93, 'Bob': 79, 'Charlie': 96})
+print("Updated science grades:", gradebook['science'])
