@@ -260,3 +260,7 @@ print(f"Welcome Back, {user['personal_info']['name']} !!")
 #checking notification preference
 if user['prefernces']['notifications']:
     print("You have notifications enabled")
+
+#updating user status
+user['account status'] = 'Premium'
+print(f"You are now a, {user['account status']} user!")
