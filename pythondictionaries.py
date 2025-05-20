@@ -92,3 +92,19 @@ print('name' in my_dict)
 print('age' in my_dict)
 print('salary ' in my_dict)
 print('Alice' in my_dict) # Output: False (checks keys, not values)
+
+#Access Patterns
+#Direct Access
+#As shown earlier, you can access values directly using keys.
+person = {
+    'first_name': 'John',
+    'last_name': 'Ridge',
+    'age': 30,
+    'skills': ['Python', 'JavaScript', 'SQL'],
+    'school': ('PLP Academy')
+    
+}
+
+print(person['first_name'])             # Output: John
+print(person['skills'][1])               # Output: JavaScript (access list within dict)
+print(person.get("school"))
