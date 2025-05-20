@@ -253,3 +253,6 @@ user = {
     },
     'last_login': '2025-05-20T12:48PM'
 }
+
+#accessing user nested information
+print(f"Welcome Back, {user['personal_info']['name']} !!")
