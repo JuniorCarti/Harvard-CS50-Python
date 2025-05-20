@@ -210,3 +210,12 @@ print(merged)  # Output: {'a': 1, 'b': 3, 'c': 4}
 # Alternative
 merged = dict1.copy()
 merged.update(dict2)
+
+#Example 3: Inverting a dictionary
+original = {'a': 1, 'b': 2, 'c': 1}
+inverted = {}
+
+for key, value in original.items():
+    inverted.setdefault(value, []).append(key)
+
+print(inverted)  # Output: {1: ['a', 'c'], 2: ['b']}
