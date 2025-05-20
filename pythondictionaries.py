@@ -172,3 +172,15 @@ company = {
 # Access nested values
 print(company['departments']['engineering']['manager'])  # Output: Alice
 print(company.get('departments', {}).get('sales', {}).get('manager', 'No department'))  # Output: No department
+
+#For deeply nested dictionaries, you might want to use a helper function:
+def deep_get(dictionary, *keys, default=None):
+    for key in keys:
+        try:
+            dictionary = dictionary[key]
+        except (KeyError, TypeError):
+            return default
+    return dictionary
+
+print(deep_get(company, 'departments', 'engineering', 'manager'))  # Output: Alice
+print(deep_get(company, 'departments', 'sales', 'manager', default='Not found'))  # Output: Not found
