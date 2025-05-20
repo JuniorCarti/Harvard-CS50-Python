@@ -490,3 +490,12 @@ print(person)
 # Using get() to provide default if key doesn't exist
 person["last_name"] = person.get("last_name", "Unknown")
 print(person)
+
+#Bulk Modifications
+#1. Modifying All Values
+# Double all numeric values
+inventory = {"apples": 50, "oranges": 30, "bananas": 45}
+for key in inventory:
+    if isinstance(inventory[key], int):
+        inventory[key] *= 2
+    print(inventory)
