@@ -62,3 +62,8 @@ print(my_dict["years of experience"])
 #1. get method()
 #The get() method is a safer way to access dictionary values as it returns None 
 #(or a default value you specify) if the key doesn't exist.
+print(my_dict.get('name'))
+print(my_dict.get('salary'))
+print(my_dict.get('age'))
+print(my_dict.get('occupation'))
+print(my_dict.get('years of experience'))
