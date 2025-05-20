@@ -46,3 +46,10 @@ thisdict = dict(name = "John", age = 36, country = "Norway")
 print(thisdict)
 
 #Basic Dictionary Access
+#The simplest way to access a dictionary value is by using square bracket notation with the key.
+my_dict = {'name': 'Alice', 'age': 35, 'occupation': 'nurse', 'town': 'eldoret', 'years of experience': 15}
+#accessing values
+print(my_dict["name"])
+print(my_dict["age"])
+print(my_dict["occupation"])
+print(my_dict["years of experience"])
