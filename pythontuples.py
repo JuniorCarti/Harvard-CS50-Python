@@ -401,6 +401,16 @@ for index, student_info in enumerate(students_info):
 #Task 3: Use a while loop to print only the names of students with grade "A".
 
 
+
+
+
+
+
+
+
+
+
+
 index = 0
 while index < len(students_info):
     #Access the student info tuple
@@ -438,7 +448,8 @@ for grade in grades:
 #Python has two built-in methods that you can use on tuples.
 #Method	Description
 #count()	Returns the number of times a specified value occurs in a tuple
-#index()	Searches the tuple for a specified value and returns the position of where it was found
+#index()	Searches the tuple for a specified value and returns the position of where it was found=
+
 
     
 
