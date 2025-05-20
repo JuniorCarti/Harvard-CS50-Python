@@ -340,3 +340,11 @@ print(process_multi_orders(
 
 #API Response Processing
 #Scenario: Working with JSON data from web APIs.
+weather_data = {
+    'location': {
+        'city': 'Nairobi',
+        'country': 'Kenya',
+        'coordinates': {'lat': 40.71, 'long': -74.01}
+    },
+    
+}
