@@ -23,3 +23,6 @@ thisdict = {
   "year": 1964,
   "year": 2023
 }
+#Dictionary Length
+#To determine how many items a dictionary has, use the len() function:
+print(len(thisdict))
