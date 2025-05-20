@@ -346,5 +346,22 @@ weather_data = {
         'country': 'Kenya',
         'coordinates': {'lat': 40.71, 'long': -74.01}
     },
-    
+    'current': {
+        'temp_c': 22.5,
+        'temp_f': 72.4,
+        'condition': {
+            'text': 'Partly Cloudy',
+            'icon': '//cdn.weatherapi.com/weather/64x64/day/116.png',
+            'code': 1003
+        },
+    'wind_kph': 15.2,
+    'wind_mph': 3.8,
+    'humidity': 65,
+    'wind_dir': 'SW',
+    'cloud': 75,
+    'feelslike_c': 9.5,
+    'feelslike_f': 49.2,
+
+    }
+
 }
