@@ -448,3 +448,11 @@ print("Math averages:", calculate_averages()['math'])
 
 add_assignment('science', {'Alice': 93, 'Bob': 79, 'Charlie': 96})
 print("Updated science grades:", gradebook['science'])
+
+
+#Basic Dictionary Modification
+#1. Changing Values
+person = {"name": "Alice", "age": 25, "city": "New York"}
+# Change value using key
+person['age'] = 26
+print(person)
