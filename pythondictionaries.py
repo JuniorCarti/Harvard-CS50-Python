@@ -268,3 +268,11 @@ print(f"You are now a, {user['account status']} user!")
 
 #2. Inventory Management System
 #Scenario: Tracking products in an e-commerce warehouse.
+
+inventory = {
+    'electronics': {
+        'E1001': {'name' : 'wireless Headphones', 'stock': 45, 'price': '154.65usd'},
+        'E1002': {'name' : 'Samsung 54inch TVs', 'stock': 50, 'price': '2300usd'},
+        'E1003': {'name' : 'Infinix Smartphones', 'stock': 15, 'price': '123usd'}
+    }
+}
