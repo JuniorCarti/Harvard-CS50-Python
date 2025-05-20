@@ -354,14 +354,15 @@ weather_data = {
             'icon': '//cdn.weatherapi.com/weather/64x64/day/116.png',
             'code': 1003
         },
-    'wind_kph': 15.2,
-    'wind_mph': 3.8,
-    'humidity': 65,
-    'wind_dir': 'SW',
-    'cloud': 75,
-    'feelslike_c': 9.5,
-    'feelslike_f': 49.2,
-
+    'Other details':{
+         'wind_kph': 15.2,
+         'wind_mph': 3.8,
+         'humidity': 65,
+         'wind_dir': 'SW',
+         'cloud': 75,
+         'feelslike_c': 9.5,
+         'feelslike_f': 49.2,
+    }
     },
     'forecast': {
         'forecast_day': [
@@ -383,5 +384,23 @@ weather_data = {
             }
         ]
     }
-
 }
+#extracting relevant information
+def format_weather_report(data):
+    report = {
+        'location': f"{data['location']['city'], {data['location']['country']}}",
+        'current_temp': f"{data['current']['temp_c']} °C ({data['current']['temp_f']} °F)",
+        'condition': f"{data ['current']['condition']['text']}",
+        'other details': f"{data['wind_kph']['himidity']['cloud']}",
+        'forecast': []
+    }
+
+    for day in data['forecast']['forecast_day']:
+        report['forecast'].append({
+            'date': day['date'],
+            'high': day['day']['maxtemp_c'],
+            'low': day['day']['mintemp_c'],
+            'rain_chance': day['day']['daily_chance_of_rain']
+        })
+        return report
+    print(format_weather_report(weather_data))
