@@ -125,6 +125,9 @@ print(library.get("returned_books"))
 for key in person:
     print(key, person[key])
 
+for key in person:
+    print(key, person[key])
+
 # Equivalent to:
 for key in person.keys():
     print(key, person[key])
