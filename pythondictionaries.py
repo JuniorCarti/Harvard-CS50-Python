@@ -456,3 +456,8 @@ person = {"name": "Alice", "age": 25, "city": "New York"}
 # Change value using key
 person['age'] = 26
 print(person)
+
+#2. Adding New Items
+# Add new key-value pair
+person['occupation'] = 'Engineer'
+print(person)
