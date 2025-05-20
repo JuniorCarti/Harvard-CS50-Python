@@ -271,18 +271,18 @@ print(f"You are now a, {user['account status']} user!")
 
 inventory = {
     'electronics': {
-        'E1001': {'name' : 'wireless Headphones', 'stock': 45, 'price': '154.65usd'},
-        'E1002': {'name' : 'Samsung 54inch TVs', 'stock': 50, 'price': '2300usd'},
-        'E1003': {'name' : 'Infinix Smartphones', 'stock': 15, 'price': '123usd'}
+        'E1001': {'name' : 'wireless Headphones', 'stock': 45, 'price': 154},
+        'E1002': {'name' : 'Samsung 54inch TVs', 'stock': 50, 'price': 2300},
+        'E1003': {'name' : 'Infinix Smartphones', 'stock': 15, 'price': 123}
     },
     'clothing': {
-        'C1001': {'name': 'Khaki Trousers', 'stock': 123, 'price': '600usd'},
-        'C1002': {'name': 'Long-Sleeved Shirts', 'stock': 15, 'price': '120usd'},
-        'C1003': {'name': 'Denim Jeans', 'stock': 12, 'price': '130usd'}
+        'C1001': {'name': 'Khaki Trousers', 'stock': 123, 'price': 600},
+        'C1002': {'name': 'Long-Sleeved Shirts', 'stock': 15, 'price': 120},
+        'C1003': {'name': 'Denim Jeans', 'stock': 12, 'price': 130}
     },
     'furniture': {
-        'F1001': {'name': 'Coffee Table', 'stock': 100, 'price': '1000usd'},
-        'F1002': {'name': 'Office Chairs', 'stock': 10, 'price': '1250usd'}
+        'F1001': {'name': 'Coffee Table', 'stock': 100, 'price': 1000},
+        'F1002': {'name': 'Office Chairs', 'stock': 10, 'price': 1500}
     }
 }
 
@@ -294,3 +294,13 @@ def check_stock(category, product_id):
     return "Product not found"
 
 print(check_stock('furniture', 'F1001'))
+
+## Processing an order
+def process_order(category, product_id, quantity):
+    if inventory[category][product_id]['stock'] >= quantity:
+        inventory[category][product_id]['stock'] -= quantity
+        total = inventory[category][product_id]['price'] * quantity
+        return f"Order Processed. Total: ${total:.2f}"
+    return "Insufficient Stock"
+
+print(process_order('clothing', 'C1001', 57))
