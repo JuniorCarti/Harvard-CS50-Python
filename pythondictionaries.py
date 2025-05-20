@@ -509,3 +509,8 @@ company = {
     }
 }
 # Modify nested value
+company['departments']['Full Stack Web']['instructors'] = 10
+## Safely modify nested structure
+company['departments'].setdefault('Graphic Design', {'instructors': 5})
+
+print(company)
