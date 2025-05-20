@@ -108,3 +108,13 @@ person = {
 print(person['first_name'])             # Output: John
 print(person['skills'][1])               # Output: JavaScript (access list within dict)
 print(person.get("school"))
+
+
+library = {
+    'books': ('Python', 'Javascript', 'Java'),
+    'borrowed_books': ['Python', 'Java'],
+    'returned_books': ['Java']
+}
+
+print(library.get("books"))
+print(library.get("returned_books"))
