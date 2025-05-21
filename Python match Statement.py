@@ -142,3 +142,7 @@ def handle_response(response):
     match response:
         case {"status": 200, "data": data}:
             process_data(data)
+        case {"status": 404}:
+            print("Resource not found")
+        case {"status": 500, "error": error}:
+            print(f"Server error{error}")
