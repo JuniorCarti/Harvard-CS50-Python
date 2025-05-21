@@ -12,3 +12,13 @@ b=45
 
 if a < b:
     print("a is less than b")
+
+#Elif
+#The elif keyword is Python's way of saying "if the previous conditions were not true, then try this condition".
+a=33
+b=45
+
+if a < b:
+    print("a is less than b")
+elif a >= b:
+    print("b is greater than a")
