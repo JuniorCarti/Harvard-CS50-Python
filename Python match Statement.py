@@ -40,3 +40,22 @@ check_type(42)      # "42 is an integer"
 check_type(3.14)    # "3.14 is a float"
 check_type("hello") # "hello is a string"
 check_type([])      # "Unknown type: <class 'list'>"
+
+#Sequence Patterns
+#Match against lists, tuples, etc.:
+def handle_command(command):
+    match command.split():
+        case ["quit"]:
+            print("Quitting program")
+        case ["load", filename]:
+            print(f"Loading file: {filename}")
+        case ["save", filename]:
+            print(f"Saving to file: {filename}")
+        case ["add", *items]:
+            print(f"Adding items: {', '.join(items)}")
+        case _:
+            print("Unrecognized command")
+
+handle_command("load data.txt")  # "Loading file: data.txt"
+handle_command("add apples bananas")  # "Adding items: apples, bananas"
+handle_command("random command")  # "Unrecognized command"
