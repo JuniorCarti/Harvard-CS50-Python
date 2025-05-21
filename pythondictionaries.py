@@ -566,7 +566,7 @@ def login(email, password):
 print(login("alicekim@yahoo.com", "bobpass"))  # Success
 print(login("ridgejunior@gmail.com", "wrongpass"))    # Failure
 
-
+# E-Commerce Shopping Cart
 class ShoppingCart:
     def __init__(self):
         self.items = {}  # {product_id: {"name": str, "price": float, "quantity": int}}
