@@ -347,3 +347,14 @@ final_price = purchase_amount * (1 - discount)
 print(f"Original price: ${purchase_amount:.2f}")
 print(f"Discount: {discount*100:.0f}%")
 print(f"Final price: ${final_price:.2f}")
+
+
+#Network Port Simulated
+port = 80
+
+if port == 80:
+    print("HTTP port detected.")
+elif port == 443:
+    print("HTTPS port detected.")
+else:
+    print("Unknown or custom port.")
