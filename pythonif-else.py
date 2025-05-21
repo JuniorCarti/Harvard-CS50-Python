@@ -318,3 +318,32 @@ elif 20 <= temperature <= 25 and 40 <= humidity <= 60:
     print("Perfect weather conditions!")
 else:
     print("Normal weather conditions.")
+
+#3. E-commerce Discount System
+is_member = True
+purchase_amount = 150
+day_of_week = "Tuesday"
+
+# Base discount
+if purchase_amount > 200:
+    discount = 0.2
+elif purchase_amount > 100:
+    discount = 0.1
+else:
+    discount = 0
+
+# Additional member discount
+if is_member:
+    discount += 0.05
+
+# Special Tuesday deal
+if day_of_week == "Tuesday":
+    discount += 0.1
+
+# Cap discount at 30%
+discount = min(discount, 0.3)
+
+final_price = purchase_amount * (1 - discount)
+print(f"Original price: ${purchase_amount:.2f}")
+print(f"Discount: {discount*100:.0f}%")
+print(f"Final price: ${final_price:.2f}")
