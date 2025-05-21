@@ -234,3 +234,25 @@ elif temperature > 25 or is_weekend:
     print("Good day to go outside")
 else:
     print("Maybe stay indoors")
+
+#Logical Operators
+#Combine conditions with and, or, not.
+# Example
+has_ticket = True
+has_id = True
+age = 19
+
+if has_ticket and (has_id and age >= 18):
+    print("You can enter the club")
+else:
+    print("Entry denied")
+
+# Loan approval
+credit_score = 720
+income = 50000
+employment_years = 2
+
+if (credit_score >= 700) and (income >= 40000 or employment_years > 1):
+    print("Loan approved!")
+else:
+    print("Loan denied")
