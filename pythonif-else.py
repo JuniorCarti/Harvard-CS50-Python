@@ -135,3 +135,14 @@ if input_password == password:
     print("Access granted")
 else:
     print("Access denied")
+
+#If-Elif-Else Statement
+#Handles multiple conditions in sequence.
+"""# Syntax
+if condition1:
+    # code if condition1 is True
+elif condition2:
+    # code if condition2 is True
+else:
+    # code if all above are False"""
+
