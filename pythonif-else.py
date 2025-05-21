@@ -224,3 +224,13 @@ print(f"Final amount: ${final_amount:.2f}")
 < less than
 >= greater than or equal to
 <= less than or equal """
+# Example with multiple conditions
+temperature = 22
+is_weekend = True
+
+if temperature > 25 and is_weekend:
+    print("Great day for the beach!")
+elif temperature > 25 or is_weekend:
+    print("Good day to go outside")
+else:
+    print("Maybe stay indoors")
