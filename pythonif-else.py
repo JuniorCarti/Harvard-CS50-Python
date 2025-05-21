@@ -266,3 +266,16 @@ Zero of any numeric type (0, 0.0, 0j)
 Empty sequences ('', [], ())
 Empty mappings ({})
 All other values are considered True"""
+# Example
+name = ""
+if name:
+    print(f"Hello, {name}!")
+else:
+    print("Hello, stranger!")
+
+# Checking for empty input
+user_input = input("Enter your feedback: ")
+if user_input.strip():  # checks if input is not empty after removing whitespace
+    print("Thank you for your feedback!")
+else:
+    print("Please provide some feedback")
