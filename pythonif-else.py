@@ -377,3 +377,101 @@ else:
     print("Access Granted.")
 
 
+# real_world_if_else_examples.py
+
+def login_system():
+    print("\n🔐 Login System")
+    username = input("Enter username: ")
+    password = input("Enter password: ")
+    users = {"admin": "1234", "john": "abcd"}
+
+    if username in users and users[username] == password:
+        print("Login successful.")
+    else:
+        print("Invalid credentials.")
+
+def stock_check():
+    print("\n🛒 Stock Check")
+    stock = 3
+    quantity_ordered = int(input("Enter quantity to purchase: "))
+
+    if quantity_ordered <= stock:
+        print("Order can proceed.")
+    else:
+        print("Not enough stock available.")
+
+def notification_check():
+    print("\n🔔 Notification Alert")
+    new_commits = int(input("Enter number of new commits: "))
+
+    if new_commits > 0:
+        print(f"You have {new_commits} new commits.")
+    else:
+        print("No new activity.")
+
+def two_factor_auth():
+    print("\n🔐 2FA Verification")
+    actual_code = "457891"
+    entered_code = input("Enter 2FA code: ")
+
+    if entered_code == actual_code:
+        print("2FA successful.")
+    else:
+        print("Incorrect code.")
+
+def chatbot_command():
+    print("\n🤖 Chatbot Command Recognition")
+    user_input = input("Type your message: ").lower()
+
+    if "reset" in user_input and "password" in user_input:
+        print("Okay, let’s reset your password.")
+    else:
+        print("Command not recognized.")
+
+def age_restriction():
+    print("\n🎥 Age Restriction")
+    age = int(input("Enter your age: "))
+
+    if age >= 18:
+        print("Access granted.")
+    else:
+        print("Access denied. Age-restricted content.")
+
+def deployment_check():
+    print("\n🚀 Deployment Checker")
+    env = input("Enter environment (dev/staging/production): ").lower()
+
+    if env == "production":
+        print("Deploying to live servers...")
+    else:
+        print(f"Deploying to {env} environment.")
+
+
+# Menu to run examples
+def run_examples():
+    functions = [
+        login_system,
+        stock_check,
+        notification_check,
+        two_factor_auth,
+        chatbot_command,
+        age_restriction,
+        deployment_check
+    ]
+
+    print("\n📦 Real-World Python if-else Examples")
+    print("-----------------------------------")
+    for i, func in enumerate(functions, 1):
+        print(f"{i}. {func.__name__.replace('_', ' ').title()}")
+
+    choice = int(input("\nChoose an example to run (1-7): "))
+    if 1 <= choice <= len(functions):
+        functions[choice - 1]()
+    else:
+        print("Invalid choice.")
+
+if __name__ == "__main__":
+    run_examples()
+
+
+
