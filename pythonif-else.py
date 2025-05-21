@@ -156,3 +156,15 @@ elif score >= 70:
 else:
    grade = "F"
 print(f"Your grade is {grade}")
+
+#shipping cost calculator
+weight = 4.5  # in kg
+if weight <= 2:
+    cost = 5
+elif weight <= 5:
+    cost = 10
+elif weight <= 10:
+    cost = 15
+else:
+    cost = 20
+print(f"Shipping cost: ${cost}")
