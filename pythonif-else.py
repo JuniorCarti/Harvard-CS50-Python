@@ -290,3 +290,9 @@ max_attempts = 3
 while attempts < max_attempts:
     input_user = input("Username: ")
     input_pass = input("Password: ")
+    if input_user == username and input_pass == password:
+        print("Login successful!")
+        break
+    else:
+        attempts += 1
+        remaining = max_attempts - attempts
