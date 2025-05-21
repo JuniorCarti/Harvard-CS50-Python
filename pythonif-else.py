@@ -111,3 +111,27 @@ if b > a:
 temperature = 30
 if temperature > 25:
     print("It's a hot day!")
+
+#If-Else Statement
+#Adds an alternative path when the condition is false.
+# Syntax
+# if condition:
+#     # code if True
+# else:
+#     # code if False
+
+# Example
+age = 17
+if age >= 18:
+    print("You can vote!")
+else:
+    print("You cannot vote yet.")
+
+# Login system
+password = "secret123"
+input_password = input("Enter password: ")
+
+if input_password == password:
+    print("Access granted")
+else:
+    print("Access denied")
