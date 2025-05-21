@@ -146,3 +146,17 @@ def handle_response(response):
             print("Resource not found")
         case {"status": 500, "error": error}:
             print(f"Server error{error}")
+        case {"status": code} if 400 <= code < 500:
+            print(f"Client error: {code}")
+        case {"status": code} if 500 <= code < 600:
+            print(f"Server error: {code}")
+        case _:
+            print("Invalid response format")
+
+# Valid test calls
+handle_response({"status": 200, "data": {"type": "person", "name": "Ridge", "age": 25}})
+handle_response({"status": 404})
+handle_response({"status": 500, "error": "Internal Server Error"})
+handle_response({"status": 403})
+handle_response({"status": 502})
+handle_response({"msg": "missing status"})
