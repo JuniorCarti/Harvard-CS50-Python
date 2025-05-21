@@ -59,3 +59,11 @@ def handle_command(command):
 handle_command("load data.txt")  # "Loading file: data.txt"
 handle_command("add apples bananas")  # "Adding items: apples, bananas"
 handle_command("random command")  # "Unrecognized command"
+
+#Mapping Patterns
+#Match against dictionaries:
+
+def process_data(data):
+    match data:
+        case {"type": "person", "name": name, "age": int(age)}:
+            print(f"Person: {name}, {age} years old")
