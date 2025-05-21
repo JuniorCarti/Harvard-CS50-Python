@@ -160,3 +160,16 @@ handle_response({"status": 500, "error": "Internal Server Error"})
 handle_response({"status": 403})
 handle_response({"status": 502})
 handle_response({"msg": "missing status"})
+
+
+#If Statements as Guards
+#You can add if statements in the case evaluation as an extra condition-check:
+month = 5
+day = 4
+match day:
+  case 1 | 2 | 3 | 4 | 5 if month == 4:
+    print("A weekday in April")
+  case 1 | 2 | 3 | 4 | 5 if month == 5:
+    print("A weekday in May")
+  case _:
+    print("No match")
