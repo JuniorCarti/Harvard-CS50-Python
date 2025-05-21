@@ -128,13 +128,13 @@ else:
     print("You cannot vote yet.")
 
 # Login system
-password = "secret123"
-input_password = input("Enter password: ")
+#password = "secret123"
+#input_password = input("Enter password: ")
 
-if input_password == password:
-    print("Access granted")
-else:
-    print("Access denied")
+#if input_password == password:
+ #   print("Access granted")
+#else:
+ #   print("Access denied")
 
 #If-Elif-Else Statement
 #Handles multiple conditions in sequence.
@@ -146,3 +146,13 @@ elif condition2:
 else:
     # code if all above are False"""
 
+score = 85
+if score >= 90:
+   grade = "A"
+elif score >= 80:
+   grade = "B"
+elif score >= 70:
+   grade = "C"
+else:
+   grade = "F"
+print(f"Your grade is {grade}")
