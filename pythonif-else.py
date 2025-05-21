@@ -101,3 +101,13 @@ b = 200
 
 if b > a:
   pass
+
+#Basic If Statement
+# Syntax
+# if condition:
+#     # code to execute if condition is True
+
+# Example
+temperature = 30
+if temperature > 25:
+    print("It's a hot day!")
