@@ -129,3 +129,5 @@ def check_color(color):
     match color:
         case "Red" | "Green" | "Blue":
             print("Primary RGB color")
+        case "Yellow" | "Cyan" | "Magenta":
+            print("Secondary color")
