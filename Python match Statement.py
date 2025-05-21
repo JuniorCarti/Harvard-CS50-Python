@@ -101,3 +101,24 @@ check_point(Point(0, 0))  # "Point is at the origin"
 check_point(Point(0, 5))  # "Point is on Y axis at 5"
 check_point(Point(3, 0))  # "Point is on X axis at 3"
 check_point(Point(2, 3))  # "Point is at (2, 3)"
+
+#Guards (Additional Conditions)
+#Add conditions with if:
+def check_number(value):
+    match value:
+        case int(x) if x > 0:
+            print(f"Positive integer: {x}")
+        case int(x) if x < 0:
+            print(f"Negative integer: {x}")
+        case float(x) if x > 0:
+            print(f"Positive float: {x}")
+        case float(x) if x < 0:
+            print(f"Negative float: {x}")
+        case 0:
+            print("Zero")
+        case _:
+            print("Not a number")
+
+check_number(42)     # "Positive integer: 42"
+check_number(-3.14)  # "Negative float: -3.14"
+check_number(0)      # "Zero"
