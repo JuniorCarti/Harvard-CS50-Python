@@ -122,3 +122,6 @@ def check_number(value):
 check_number(42)     # "Positive integer: 42"
 check_number(-3.14)  # "Negative float: -3.14"
 check_number(0)      # "Zero"
+
+#OR Patterns
+#Match multiple patterns with |:
