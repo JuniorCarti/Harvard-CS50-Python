@@ -76,3 +76,28 @@ def process_data(data):
 process_data({"type": "person", "name": "Ridge", "age": 25})
 process_data({"type": "company", "name": "ACME", "employees": 100})
 process_data({"type": "unknown", "info": "Something else"})
+
+#Class Patterns
+#Match against class attributes
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+def check_point(point):
+    match point:
+        case Point(x=0, y=0):
+            print("Point is at the origin")
+        case Point(x=0, y=y):
+            print(f"Point is on Y axis at {y}")
+        case Point(x=x, y=0):
+            print(f"Point is on X axis at {x}")
+        case Point(x=x, y=y):
+            print(f"Point is at ({x}, {y})")
+        case _:
+            print("Not a point")
+
+check_point(Point(0, 0))  # "Point is at the origin"
+check_point(Point(0, 5))  # "Point is on Y axis at 5"
+check_point(Point(3, 0))  # "Point is on X axis at 3"
+check_point(Point(2, 3))  # "Point is at (2, 3)"
