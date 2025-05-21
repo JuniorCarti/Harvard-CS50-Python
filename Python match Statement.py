@@ -136,3 +136,9 @@ def check_color(color):
 check_color("Red")
 check_color("Yellow")
 check_color("brown")
+
+#1. Processing API Responses
+def handle_response(response):
+    match response:
+        case {"status": 200, "data": data}:
+            process_data(data)
