@@ -67,3 +67,6 @@ def process_data(data):
     match data:
         case {"type": "person", "name": name, "age": int(age)}:
             print(f"Person: {name}, {age} years old")
+        case {"type": "company", "name": name, "employees": employees}:
+            print(f"Company: {name}, with {employees} employees")
+        case _: {}
