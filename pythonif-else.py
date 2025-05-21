@@ -215,3 +215,12 @@ purchase_amount = 120
 discount = 0.1 if purchase_amount > 100 else 0
 final_amount = purchase_amount * (1 - discount)
 print(f"Final amount: ${final_amount:.2f}")
+
+#Boolean Conditions and Comparisons
+"""Conditions can use various comparison operators:
+== equal to
+!= not equal to
+> greater than
+< less than
+>= greater than or equal to
+<= less than or equal """
