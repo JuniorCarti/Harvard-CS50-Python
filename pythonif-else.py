@@ -168,3 +168,34 @@ elif weight <= 10:
 else:
     cost = 20
 print(f"Shipping cost: ${cost}")
+
+#Nested If Statements
+#If statements inside other if statements.
+# Example
+num = 15
+if num > 0:
+    print("Positive number")
+    if num % 2 == 0:
+        print("Even number")
+    else:
+        print("Odd number")
+else:
+    print("Non-positive number")
+
+# Movie ticket pricing
+age = 25
+is_student = True
+
+if age < 5:
+    price = 0  # free for young children
+else:
+    if age < 18:
+        price = 8  # child price
+    elif age >= 65:
+        price = 7  # senior price
+    else:
+        if is_student:
+            price = 9  # student price
+        else:
+            price = 12  # adult price
+print(f"Ticket price: ${price}")
