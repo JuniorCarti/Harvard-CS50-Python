@@ -293,6 +293,12 @@ while attempts < max_attempts:
     if input_user == username and input_pass == password:
         print("Login successful!")
         break
+    elif input_user != username and input_pass != password:
+       print("Enter correct username!")
     else:
         attempts += 1
         remaining = max_attempts - attempts
+        if remaining > 0:
+            print(f"Invalid credentials. {remaining} attempts remaining.")
+        else:
+            print("Account locked. Contact administrator.")
