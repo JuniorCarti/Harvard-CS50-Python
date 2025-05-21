@@ -125,3 +125,7 @@ check_number(0)      # "Zero"
 
 #OR Patterns
 #Match multiple patterns with |:
+def check_color(color):
+    match color:
+        case "Red" | "Green" | "Blue":
+            print("Primary RGB color")
