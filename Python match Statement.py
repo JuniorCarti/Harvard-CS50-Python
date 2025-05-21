@@ -70,5 +70,9 @@ def process_data(data):
         case {"type": "company", "name": name, "employees": employees}:
             print(f"Company: {name}, with {employees} employees")
         case _:
-            print("Unkown Data Format")
-    process_data({"type": "person", "name": "Ridge", "age": 25})
+            print("Unknown Data Format")
+
+# Calling the function with sample data
+process_data({"type": "person", "name": "Ridge", "age": 25})
+process_data({"type": "company", "name": "ACME", "employees": 100})
+process_data({"type": "unknown", "info": "Something else"})
