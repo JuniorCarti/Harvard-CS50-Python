@@ -6,3 +6,9 @@
 #Less than or equal to: a <= b
 #Greater than: a > b
 #Greater than or equal to: a >= b
+
+a=33
+b=45
+
+if a < b:
+    print("a is less than b")
