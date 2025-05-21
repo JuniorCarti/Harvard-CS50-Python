@@ -279,3 +279,14 @@ if user_input.strip():  # checks if input is not empty after removing whitespace
     print("Thank you for your feedback!")
 else:
     print("Please provide some feedback")
+
+
+#1. User Authentication System
+username = 'admin'
+password = 'user1234'
+attempts = 0
+max_attempts = 3
+
+while attempts < max_attempts:
+    input_user = input("Username: ")
+    input_pass = input("Password: ")
