@@ -256,3 +256,13 @@ if (credit_score >= 700) and (income >= 40000 or employment_years > 1):
     print("Loan approved!")
 else:
     print("Loan denied")
+
+#Special Cases and Edge Conditions
+"""Truthy and Falsy Values
+In Python, these values are considered False in boolean context:
+False
+None
+Zero of any numeric type (0, 0.0, 0j)
+Empty sequences ('', [], ())
+Empty mappings ({})
+All other values are considered True"""
