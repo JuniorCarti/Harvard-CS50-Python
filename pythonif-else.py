@@ -204,3 +204,14 @@ print(f"Ticket price: ${price}")
 #A concise way to write simple if-else statements.
 # Syntax
 #value_if_true if condition else value_if_false
+
+# Example
+age = 20
+status = "Adult" if age >= 18 else "Minor"
+print(status)
+
+# Discount eligibility
+purchase_amount = 120
+discount = 0.1 if purchase_amount > 100 else 0
+final_amount = purchase_amount * (1 - discount)
+print(f"Final amount: ${final_amount:.2f}")
