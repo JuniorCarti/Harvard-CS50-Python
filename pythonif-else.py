@@ -302,3 +302,19 @@ while attempts < max_attempts:
             print(f"Invalid credentials. {remaining} attempts remaining.")
         else:
             print("Account locked. Contact administrator.")
+
+#2. Temperature Alert System
+temperature = float(input("Enter current temperature in Celsius: "))
+humidity = float(input("Enter current humidity percentage: "))
+
+if temperature > 30:
+    if humidity > 70:
+        print("DANGER: Extreme heat and humidity! Stay indoors.")
+    else:
+        print("WARNING: Hot day! Stay hydrated.")
+elif temperature < 0:
+    print("WARNING: Freezing temperatures! Dress warmly.")
+elif 20 <= temperature <= 25 and 40 <= humidity <= 60:
+    print("Perfect weather conditions!")
+else:
+    print("Normal weather conditions.")
