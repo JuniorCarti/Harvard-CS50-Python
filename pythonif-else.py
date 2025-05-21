@@ -367,3 +367,13 @@ if file_type.endswith(".sh") or file_type.endswith(".py"):
 else:
     print("Non-script file. Safe to process.")
 
+#Simple Firewall Rule Simulation
+ip_address = "192.168.1.10"
+blacklisted = ["192.168.1.10", "10.0.0.5"]
+
+if ip_address in blacklisted:
+    print("Access Denied: IP is blacklisted.")
+else:
+    print("Access Granted.")
+
+
