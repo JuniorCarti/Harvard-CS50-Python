@@ -69,4 +69,6 @@ def process_data(data):
             print(f"Person: {name}, {age} years old")
         case {"type": "company", "name": name, "employees": employees}:
             print(f"Company: {name}, with {employees} employees")
-        case _: {}
+        case _:
+            print("Unkown Data Format")
+    process_data({"type": "person", "name": "Ridge", "age": 25})
