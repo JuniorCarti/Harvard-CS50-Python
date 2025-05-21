@@ -358,3 +358,12 @@ elif port == 443:
     print("HTTPS port detected.")
 else:
     print("Unknown or custom port.")
+
+#File Type Upload Checker
+file_type = "backup.sh"
+
+if file_type.endswith(".sh") or file_type.endswith(".py"):
+    print("Script file detected. Review for security.")
+else:
+    print("Non-script file. Safe to process.")
+
