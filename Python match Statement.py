@@ -131,3 +131,8 @@ def check_color(color):
             print("Primary RGB color")
         case "Yellow" | "Cyan" | "Magenta":
             print("Secondary color")
+        case _:
+            print("Not a basic color")
+check_color("Red")
+check_color("Yellow")
+check_color("brown")
