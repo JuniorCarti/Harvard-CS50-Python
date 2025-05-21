@@ -199,3 +199,8 @@ else:
         else:
             price = 12  # adult price
 print(f"Ticket price: ${price}")
+
+#Ternary Operator (Conditional Expression)
+#A concise way to write simple if-else statements.
+# Syntax
+#value_if_true if condition else value_if_false
