@@ -93,3 +93,6 @@ for source in raw_data_sources:
 # Load to data warehouse
 for dataset in processed_data:
     load_to_warehouse(dataset) # type: ignore
+
+#2. Automated Report Generation
+
