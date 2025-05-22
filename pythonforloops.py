@@ -53,3 +53,9 @@ for num in range(10):
     print(num)
 else:
     print("Loop completed")
+
+#3. Zip for parallel iteration
+names = ['Alice: ', 'Bob: ']
+ages = [22, 30]
+for name, age in zip(names, ages):
+    print(name, age)
