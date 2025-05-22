@@ -113,3 +113,31 @@ def count_words(filename):
 
 print(count_words("sample.txt"))
 
+
+# Password Generator
+import random
+import string
+
+def generate_password(length):
+    chars = (
+        string.ascii_letters +
+        string.digits +
+        string.punctuation +
+        'OX_zAo(29]=0cJ9l'  
+    )
+    password = ''.join(random.choice(chars) for _ in range(length))
+    return password
+
+# Prompt user until they enter a valid length
+while True:
+    try:
+        user_length = int(input("Enter desired password length (8–32): "))
+        if 8 <= user_length <= 32:
+            break
+        else:
+            print("Error: Password length must be between 8 and 32 characters. Try again.")
+    except ValueError:
+        print("Please enter a valid number.")
+
+# Generate and display password
+print("Generated password:", generate_password(user_length))
