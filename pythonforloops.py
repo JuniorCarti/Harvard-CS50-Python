@@ -74,3 +74,10 @@ raw_data_sources = [
 processed_data = []
 
 #transform and clean data
+for source in raw_data_sources:
+    if source.endswith('.csv'):
+        #csv processing logic
+        with open (source) as f:
+            data = process_csv(f)
+    elif source.endswith('.db'):
+        
