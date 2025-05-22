@@ -16,4 +16,8 @@ Sets: {1, 2, 3}
 Range objects: range(5)
 File objects
 Generators"""
-
+"""2. The Iterator Protocol
+Python's for loops work through the iterator protocol:
+Calls iter() on the iterable to get an iterator
+Repeatedly calls next() on the iterator
+Stops when StopIteration is raised"""
