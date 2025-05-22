@@ -75,3 +75,15 @@ def min_max(numbers):
     return min(numbers), max(numbers)
 minimum, maximum = min_max([3, 1, 4, 2])
 print(minimum, maximum)
+
+
+#4. Variable Scope
+#Local variables: Defined inside a function (accessible only inside).
+#Global variables: Defined outside (accessible everywhere, but need global to modify
+
+x =110 #global variable
+def modify():
+    global x
+    x = 300
+modify()
+print(x)
