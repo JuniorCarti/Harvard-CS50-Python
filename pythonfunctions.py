@@ -60,3 +60,12 @@ def user_info(**details):
         print(f"{key}:, {value}")
 
 user_info(name = 'Ridge', age = 23, city = 'Eldoret')
+
+#3. Return Values
+#A function can return a value using return.
+#If no return is specified, it returns None.
+def multiply(a, b):
+    return a * b
+
+result = multiply(4, 5)
+print(result)  # Output: 20
