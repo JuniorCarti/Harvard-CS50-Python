@@ -33,3 +33,7 @@ for i in range(3):  # 0, 1, 2
 #3. Looping with index and value
 for index, value in enumerate(['a', 'b', 'c']):
     print(index, value)
+#4. Looping through dictionary items
+person = {'name': 'John', 'age': 30}
+for key, value in person.items():
+    print(key, value)
