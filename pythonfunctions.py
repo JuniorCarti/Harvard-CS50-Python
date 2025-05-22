@@ -52,3 +52,11 @@ def modulus(*numbers):
         result %= num
     return result
 print(modulus(10, 20, 30))
+
+#e. Arbitrary Keyword Arguments (**kwargs)
+#Accepts any number of keyword arguments as a dictionary.
+def user_info(**details):
+    for key, value in details.items():
+        print(f"{key}:, {value}")
+
+user_info(name = 'Ridge', age = 23, city = 'Eldoret')
