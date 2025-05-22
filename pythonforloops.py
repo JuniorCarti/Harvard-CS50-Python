@@ -160,3 +160,9 @@ for url in urls:
 # Save to database
 for product in product_data:
     save_to_database(product)
+
+
+#Print each fruit in a fruit list:
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
