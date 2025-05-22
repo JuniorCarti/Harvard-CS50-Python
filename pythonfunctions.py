@@ -30,3 +30,9 @@ def greet(name = 'Guest'):
 
 greet()
 greet("Ridge")
+
+#c. Keyword Arguments (Named Parameters)
+#Pass arguments in any order by specifying parameter names.
+def describe_pet(animal, name):
+    print(f"I have a {animal} named {name}.")
+describe_pet(name = 'Max', animal = 'cat')
