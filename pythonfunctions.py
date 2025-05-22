@@ -2,3 +2,7 @@
 #They help in organizing code, avoiding repetition, and improving readability.
 #1. Function Definition & Syntax
 #A function is defined using the def keyword.
+#def function_name(parameters):
+   # """Docstring (optional)"""
+    # Function body
+   # return result  # Optional
