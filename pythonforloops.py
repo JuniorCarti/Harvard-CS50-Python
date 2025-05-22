@@ -59,3 +59,6 @@ names = ['Alice: ', 'Bob: ']
 ages = [22, 30]
 for name, age in zip(names, ages):
     print(name, age)
+
+#4. List Comprehensions (compact loops)
+squares = [x**2 for x in range(10)]
