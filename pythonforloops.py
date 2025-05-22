@@ -37,3 +37,9 @@ for index, value in enumerate(['a', 'b', 'c']):
 person = {'name': 'John', 'age': 30}
 for key, value in person.items():
     print(key, value)
+
+#Advanced For Loop Techniques
+#1. Nested Loops
+for i in range(3):
+    for j in range(2):
+        print(i, j)
