@@ -22,3 +22,11 @@ print(add(5, 3))
 def multiply(c, d):
     return c * d
 print(multiply(5, 10))
+
+#b. Default Arguments 
+#If not provided, default values are used.
+def greet(name = 'Guest'):
+    print(f"Hello, {name}!")
+
+greet()
+greet("Ridge")
