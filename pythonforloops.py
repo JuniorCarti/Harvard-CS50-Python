@@ -80,4 +80,8 @@ for source in raw_data_sources:
         with open (source) as f:
             data = process_csv(f)
     elif source.endswith('.db'):
-        
+        #database processing
+         data = query_database(source)
+    else:
+        #api processing
+
