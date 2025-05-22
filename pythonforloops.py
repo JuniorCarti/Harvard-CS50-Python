@@ -246,3 +246,13 @@ emails = ["alice@gmail.com.com", "bob@yahoo.com", "carol@outlook.com"]
 
 for email in emails:
     print(f"Sending welcome email to {email}")
+
+#2. Renaming a Batch of Files
+import os
+
+files = ["img1.jpg", "img2.jpg", "img3.jpg"]
+
+for i, file in enumerate(files, start=1):
+    new_name = f"vacation_{i}.jpg"
+    os.rename(file, new_name)
+
