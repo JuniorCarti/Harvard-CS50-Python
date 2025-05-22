@@ -30,3 +30,6 @@ for fruit in fruits:
 #2. Looping a specific number of times
 for i in range(3):  # 0, 1, 2
     print("Hello")
+#3. Looping with index and value
+for index, value in enumerate(['a', 'b', 'c']):
+    print(index, value)
