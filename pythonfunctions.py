@@ -36,3 +36,9 @@ greet("Ridge")
 def describe_pet(animal, name):
     print(f"I have a {animal} named {name}.")
 describe_pet(name = 'Max', animal = 'cat')
+
+#d. Arbitrary Arguments (*args)
+#Accepts any number of positional arguments as a tuple.
+def sum_all(*numbers):
+    return sum(numbers)
+print(sum_all(10, 20, 30))
