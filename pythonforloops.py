@@ -70,3 +70,7 @@ raw_data_sources = [
     'inventory.db',
     'customer_api.json'
 ]
+
+processed_data = []
+
+#transform and clean data
