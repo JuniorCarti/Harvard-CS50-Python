@@ -26,3 +26,7 @@ Stops when StopIteration is raised"""
 fruits = ['apple', 'banana', 'cherry']
 for fruit in fruits:
     print(fruit)
+
+#2. Looping a specific number of times
+for i in range(3):  # 0, 1, 2
+    print("Hello")
