@@ -73,15 +73,23 @@ raw_data_sources = [
 
 processed_data = []
 
-#transform and clean data
+# Transform and clean data
 for source in raw_data_sources:
     if source.endswith('.csv'):
-        #csv processing logic
-        with open (source) as f:
-            data = process_csv(f)
+        # CSV processing logic
+        with open(source) as f:
+            data = process_csv(f) # type: ignore
     elif source.endswith('.db'):
-        #database processing
-         data = query_database(source)
+        # Database processing
+        data = query_database(source) # type: ignore
     else:
-        #api processing
+        # API processing
+        data = fetch_api_data(source) # type: ignore
+    
+    # Clean data
+    cleaned = clean_data(data) # type: ignore
+    processed_data.append(cleaned)
 
+# Load to data warehouse
+for dataset in processed_data:
+    load_to_warehouse(dataset) # type: ignore
