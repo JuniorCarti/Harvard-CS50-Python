@@ -202,3 +202,9 @@ starting from 0 by default, and increments by 1 (by default), and ends at a spec
 #Using the start parameter:
 for x in range(2, 6):
   print(x)
+
+#The range() function defaults to increment the sequence by 1, 
+# however it is possible to specify the increment value by adding a third parameter: range(2, 30, 3):
+#Increment the sequence with 3 (default is 1):
+for x in range(2, 30, 3):
+  print(x)
