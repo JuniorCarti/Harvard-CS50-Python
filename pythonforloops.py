@@ -47,3 +47,9 @@ for i in range(3):
 #break: Exit the loop
 #continue: Skip to next iteration
 #else: Execute if loop completes normally
+for num in range(10):
+    if num == 5:
+        break
+    print(num)
+else:
+    print("Loop completed")
