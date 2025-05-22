@@ -101,4 +101,15 @@ if validate_email(user_email):
 else:
     print("Enter a valid email")
 
+#Example 2: File Processing
+def count_words(filename):
+    try:
+        with open(filename, 'r') as file:
+            content = file.read()
+            words = content.split()
+            return len(words)
+    except FileNotFoundError:
+        return "File not found."
+
+print(count_words("sample.txt"))
 
