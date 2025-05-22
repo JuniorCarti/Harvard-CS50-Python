@@ -69,3 +69,9 @@ def multiply(a, b):
 
 result = multiply(4, 5)
 print(result)  # Output: 20
+
+#Multiple Return Values (as a Tuple)
+def min_max(numbers):
+    return min(numbers), max(numbers)
+minimum, maximum = min_max([3, 1, 4, 2])
+print(minimum, maximum)
