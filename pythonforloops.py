@@ -240,3 +240,9 @@ for x in adj:
 #but if you for some reason have a for loop with no content, put in the pass statement to avoid getting an error.
 for x in [0, 1, 2]:
   pass
+
+#1. Reading and Processing a List of Emails
+emails = ["alice@gmail.com.com", "bob@yahoo.com", "carol@outlook.com"]
+
+for email in emails:
+    print(f"Sending welcome email to {email}")
