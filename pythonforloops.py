@@ -96,3 +96,23 @@ for dataset in processed_data:
 
 #2. Automated Report Generation
 
+# Generate departmental reports
+departments = {
+    'Sales': ['Q1', 'Q2', 'Q3', 'Q4'],
+    'Marketing': ['Campaign1', 'Campaign2'],
+    'Engineering': ['Frontend', 'Backend']
+}
+
+for dept, projects in departments.items():
+    print(f"\nGenerating {dept} Report:")
+    print("=" * 30)
+    
+    total_hours = 0
+    for project in projects:
+        hours = get_project_hours(dept, project)
+        total_hours += hours
+        print(f"{project}: {hours} hours")
+    
+    print(f"\nTotal {dept} hours: {total_hours}")
+    generate_pie_chart(dept, projects)
+    send_email_report(dept)
