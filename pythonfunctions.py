@@ -87,3 +87,18 @@ def modify():
     x = 300
 modify()
 print(x)
+
+#Example 1: Data Validation
+def validate_email(email):
+    if '@' not in email or '.' not in email:
+        return False
+    return True
+# Get user input
+user_email = input("Enter your email: ")
+# Validate and respond
+if validate_email(user_email):
+    print('Valid Email Login')
+else:
+    print("Enter a valid email")
+
+
