@@ -21,3 +21,8 @@ Python's for loops work through the iterator protocol:
 Calls iter() on the iterable to get an iterator
 Repeatedly calls next() on the iterator
 Stops when StopIteration is raised"""
+
+#1. Looping through a sequence
+fruits = ['apple', 'banana', 'cherry']
+for fruit in fruits:
+    print(fruit)
