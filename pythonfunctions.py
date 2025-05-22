@@ -6,3 +6,8 @@
    # """Docstring (optional)"""
     # Function body
    # return result  # Optional
+def greet(name):
+    #this function greets the user
+    print(f"Hello, {name}!")
+greet("Alice")
+        
