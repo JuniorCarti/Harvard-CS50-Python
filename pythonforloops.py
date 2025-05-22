@@ -62,3 +62,11 @@ for name, age in zip(names, ages):
 
 #4. List Comprehensions (compact loops)
 squares = [x**2 for x in range(10)]
+
+#1. Data Processing Pipeline (ETL)
+## Extract raw data from multiple sources
+raw_data_sources = [
+    'sales_2025.csv',
+    'inventory.db',
+    'customer_api.json'
+]
