@@ -42,3 +42,13 @@ describe_pet(name = 'Max', animal = 'cat')
 def sum_all(*numbers):
     return sum(numbers)
 print(sum_all(10, 20, 30))
+
+def modulus(*numbers):
+    # Returns the modulus of all numbers in sequence from left to right
+    if not numbers:
+        return None
+    result = numbers[0]
+    for num in numbers[1:]:
+        result %= num
+    return result
+print(modulus(10, 20, 30))
