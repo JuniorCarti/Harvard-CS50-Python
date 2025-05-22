@@ -116,3 +116,47 @@ for dept, projects in departments.items():
     print(f"\nTotal {dept} hours: {total_hours}")
     generate_pie_chart(dept, projects)
     send_email_report(dept)
+
+#3. Web Scraping with Error Handling
+import requests
+from bs4 import BeautifulSoup
+
+urls = [
+    'https://example.com/products',
+    'https://example.com/services',
+    'https://example.com/about'
+]
+
+product_data = []
+
+for url in urls:
+    try:
+        response = requests.get(url, timeout=5)
+        response.raise_for_status()
+        
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Extract product cards
+        for card in soup.select('.product-card'):
+            name = card.select_one('.name').text.strip()
+            price = card.select_one('.price').text.strip()
+            rating = card.select_one('.rating')['data-value']
+            
+            product_data.append({
+                'name': name,
+                'price': price,
+                'rating': rating,
+                'source_url': url
+            })
+            
+    except requests.exceptions.RequestException as e:
+        print(f"Failed to process {url}: {str(e)}")
+        continue
+        
+    except Exception as e:
+        print(f"Unexpected error processing {url}: {str(e)}")
+        continue
+
+# Save to database
+for product in product_data:
+    save_to_database(product)
