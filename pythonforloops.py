@@ -43,3 +43,7 @@ for key, value in person.items():
 for i in range(3):
     for j in range(2):
         print(i, j)
+#2. Loop Control Statements
+#break: Exit the loop
+#continue: Skip to next iteration
+#else: Execute if loop completes normally
