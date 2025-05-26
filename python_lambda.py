@@ -19,3 +19,9 @@ print(squared_numbers)  # Output: [1, 4, 9, 16, 25]
 # Example of using lambda with filter
 even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
 print(even_numbers)  # Output: [2, 4]
+# Example of using lambda with reduce
+from functools import reduce
+def add_numbers(x, y):
+    return x + y    
+sum_of_numbers = reduce(lambda x, y: x + y, numbers)
+print(sum_of_numbers)  # Output: 15
