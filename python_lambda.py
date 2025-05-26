@@ -44,3 +44,9 @@ def apply_function_with_kwargs(func, **kwargs):
     return func(**kwargs)
 result_with_kwargs = apply_function_with_kwargs(lambda name, age: f"{name} is {age} years old", name='Alice', age=30)
 print(result_with_kwargs)  # Output: Alice is 30 years old
+# Example of using lambda with a custom function that returns a function
+def make_multiplier(factor):
+    return lambda x: x * factor
+multiplier = make_multiplier(3)
+result_multiplier = multiplier(10)
+print(result_multiplier)  # Output: 30
