@@ -29,3 +29,8 @@ print(sum_of_numbers)  # Output: 15
 people = [{'name': 'Alice', 'age': 30}, {'name': 'Bob', 'age': 25}, {'name': 'Charlie', 'age': 35}]
 sorted_people = sorted(people, key=lambda person: person['age'])
 print(sorted_people)  # Output: [{'name': 'Bob', 'age': 25}, {'name': 'Alice', 'age': 30}, {'name': 'Charlie', 'age': 35}]
+# Example of using lambda with a custom function
+def apply_function(func, value):
+    return func(value)
+result = apply_function(lambda x: x * 2, 10)
+print(result)  # Output: 20
