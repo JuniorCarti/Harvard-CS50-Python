@@ -50,3 +50,9 @@ def make_multiplier(factor):
 multiplier = make_multiplier(3)
 result_multiplier = multiplier(10)
 print(result_multiplier)  # Output: 30
+# Example of using lambda with a custom function that returns a function with multiple arguments
+def make_adder(x):
+    return lambda y: x + y
+adder = make_adder(5)
+result_adder = adder(10)
+print(result_adder)  # Output: 15
