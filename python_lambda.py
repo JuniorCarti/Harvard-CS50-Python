@@ -68,3 +68,9 @@ def make_person_info(name, age):
 person_info = make_person_info("Alice", 30)
 result_person_info = person_info("New York")
 print(result_person_info)  # Output: Alice is 30 years old and lives in New York.
+# Example of using lambda with a custom function that returns a function with default arguments
+def make_default_greeter(greeting="Hello"):
+    return lambda name: f"{greeting}, {name}!"
+default_greeter = make_default_greeter()
+result_default_greeter = default_greeter("Bob")
+print(result_default_greeter)  # Output: Hello, Bob!
