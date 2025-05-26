@@ -80,3 +80,9 @@ def make_custom_greeter(greeting="Hi", punctuation="!"):
 custom_greeter = make_custom_greeter("Hey", "?")
 result_custom_greeter = custom_greeter("Charlie")
 print(result_custom_greeter)  # Output: Hey, Charlie?
+# Example of using lambda with a custom function that returns a function with variable-length arguments
+def make_sum_function(*args):
+    return lambda: sum(args)
+sum_function = make_sum_function(1, 2, 3, 4, 5)
+result_sum_function = sum_function()
+print(result_sum_function)  # Output: 15
