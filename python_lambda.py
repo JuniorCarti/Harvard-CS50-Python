@@ -39,3 +39,8 @@ def apply_function_with_args(func, *args):
     return func(*args)
 result_with_args = apply_function_with_args(lambda x, y: x + y, 5, 10)
 print(result_with_args)  # Output: 15
+# Example of using lambda with a custom function that takes keyword arguments
+def apply_function_with_kwargs(func, **kwargs):
+    return func(**kwargs)
+result_with_kwargs = apply_function_with_kwargs(lambda name, age: f"{name} is {age} years old", name='Alice', age=30)
+print(result_with_kwargs)  # Output: Alice is 30 years old
