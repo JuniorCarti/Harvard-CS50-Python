@@ -56,3 +56,9 @@ def make_adder(x):
 adder = make_adder(5)
 result_adder = adder(10)
 print(result_adder)  # Output: 15
+# Example of using lambda with a custom function that returns a function with keyword arguments
+def make_greeter(greeting):
+    return lambda name: f"{greeting}, {name}!"
+greeter = make_greeter("Hello")
+result_greeter = greeter("Alice")
+print(result_greeter)  # Output: Hello, Alice!
