@@ -86,3 +86,9 @@ def make_sum_function(*args):
 sum_function = make_sum_function(1, 2, 3, 4, 5)
 result_sum_function = sum_function()
 print(result_sum_function)  # Output: 15
+# Example of using lambda with a custom function that returns a function with variable-length keyword arguments
+def make_info_function(**kwargs):
+    return lambda: ", ".join(f"{key}: {value}" for key, value in kwargs.items())
+info_function = make_info_function(name="Alice", age=30, city="New York")
+result_info_function = info_function()
+print(result_info_function)  # Output: name: Alice, age: 30, city: New York
