@@ -34,3 +34,8 @@ def apply_function(func, value):
     return func(value)
 result = apply_function(lambda x: x * 2, 10)
 print(result)  # Output: 20
+# Example of using lambda with a custom function that takes multiple arguments
+def apply_function_with_args(func, *args):
+    return func(*args)
+result_with_args = apply_function_with_args(lambda x, y: x + y, 5, 10)
+print(result_with_args)  # Output: 15
