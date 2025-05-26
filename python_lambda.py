@@ -62,3 +62,9 @@ def make_greeter(greeting):
 greeter = make_greeter("Hello")
 result_greeter = greeter("Alice")
 print(result_greeter)  # Output: Hello, Alice!
+# Example of using lambda with a custom function that returns a function with multiple keyword arguments
+def make_person_info(name, age):
+    return lambda city: f"{name} is {age} years old and lives in {city}."   
+person_info = make_person_info("Alice", 30)
+result_person_info = person_info("New York")
+print(result_person_info)  # Output: Alice is 30 years old and lives in New York.
