@@ -6,3 +6,10 @@ def add(x, y):
     return x + y
 add_lambda = lambda x, y: x + y
 print(add(5, 3))  # Output: 8
+print(add_lambda(5, 3))  # Output: 8
+# Lambda functions can be used wherever function objects are required.
+# They are syntactically restricted to a single expression.
+# This makes them less general than a def statement, but they can be more concise.
+# Lambda functions are often used for short, throwaway functions.
+# They are commonly used in functional programming constructs like map, filter, and reduce.
+# Example of using lambda with map
