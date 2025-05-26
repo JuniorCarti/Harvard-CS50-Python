@@ -74,3 +74,9 @@ def make_default_greeter(greeting="Hello"):
 default_greeter = make_default_greeter()
 result_default_greeter = default_greeter("Bob")
 print(result_default_greeter)  # Output: Hello, Bob!
+# Example of using lambda with a custom function that returns a function with default arguments and multiple parameters
+def make_custom_greeter(greeting="Hi", punctuation="!"):
+    return lambda name: f"{greeting}, {name}{punctuation}"  
+custom_greeter = make_custom_greeter("Hey", "?")
+result_custom_greeter = custom_greeter("Charlie")
+print(result_custom_greeter)  # Output: Hey, Charlie?
