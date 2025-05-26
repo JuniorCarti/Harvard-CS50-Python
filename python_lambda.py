@@ -25,3 +25,7 @@ def add_numbers(x, y):
     return x + y    
 sum_of_numbers = reduce(lambda x, y: x + y, numbers)
 print(sum_of_numbers)  # Output: 15
+# Example of using lambda with sorted
+people = [{'name': 'Alice', 'age': 30}, {'name': 'Bob', 'age': 25}, {'name': 'Charlie', 'age': 35}]
+sorted_people = sorted(people, key=lambda person: person['age'])
+print(sorted_people)  # Output: [{'name': 'Bob', 'age': 25}, {'name': 'Alice', 'age': 30}, {'name': 'Charlie', 'age': 35}]
