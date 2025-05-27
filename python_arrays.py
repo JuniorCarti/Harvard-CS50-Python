@@ -82,6 +82,11 @@ print(numbers[1:3])  # Output: [2 3]
 # Performing mathematical operations on numpy arrays
 squared_numbers = numbers ** 2
 print(squared_numbers)  # Output: [ 1  4  9 16 25]
+# Example of using numpy arrays for statistical operations  
+mean_value = np.mean(numbers)
+print(mean_value)  # Output: 3.0
 # Example of using numpy arrays for statistical operations
+median_value = np.median(numbers)
+print(median_value)  # Output: 3.0
 
 
