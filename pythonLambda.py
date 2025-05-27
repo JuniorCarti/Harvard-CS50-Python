@@ -53,6 +53,11 @@ strings = ['apple', 'banana', 'cherry', 'date']
 strings_sorted = sorted(strings, key=lambda x: len(x))
 print(strings_sorted)
 # Output: ['date', 'apple', 'banana', 'cherry']
+students = ['Alice', 'Bob', 'Charlie', 'David']
+# Sorting a list of students by their names in reverse order
+students_sorted = sorted(students, key=lambda x: x, reverse=True)
+print(students_sorted)
+
 
 #sorting with custom keys
 # Sorting a list of tuples by the second element
