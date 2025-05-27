@@ -111,3 +111,9 @@ for item in data:
     processed_data.append(processed_item)
 print(processed_data)  # Output: [{'source1': 'DATA1', 'source2': 'DATA2'}, {'source3': 'DATA3', 'source4': 'DATA4'}, {'source5': 'DATA5', 'source6': 'DATA6'}]
 
+# Processing temperature readings
+temperatures = [22.5, 23.7, 24.8, 21.9, 20.5]
+avg_temp = sum(temperatures) / len(temperatures)
+high_temp = max(temperatures)
+print(f"Average Temperature: {avg_temp:.2f}°C")  # Output: Average Temperature: 22.68°C
+print(f"Highest Temperature: {high_temp:.2f}°C")  # Output: Highest Temperature: 24.80°C
