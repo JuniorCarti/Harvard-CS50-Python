@@ -94,5 +94,20 @@ print(std_deviation)  # Output: 1.4142135623730951
 # Example of using numpy arrays for statistical operations
 variance_value = np.var(numbers)
 print(variance_value)  # Output: 2.0
+# Example of using numpy arrays for statistical operations
+# Performing element-wise operations on numpy arrays
 
+# Data Processing with Lists
+# Example of using lists for data processing
+data = [
+    {'source1': 'data1', 'source2': 'data2'},
+    {'source3': 'data3', 'source4': 'data4'},
+    {'source5': 'data5', 'source6': 'data6'}
+]
+# Processing the data
+processed_data = []
+for item in data:
+    processed_item = {key: value.upper() for key, value in item.items()}  # Example transformation
+    processed_data.append(processed_item)
+print(processed_data)  # Output: [{'source1': 'DATA1', 'source2': 'DATA2'}, {'source3': 'DATA3', 'source4': 'DATA4'}, {'source5': 'DATA5', 'source6': 'DATA6'}]
 
