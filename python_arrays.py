@@ -117,3 +117,13 @@ avg_temp = sum(temperatures) / len(temperatures)
 high_temp = max(temperatures)
 print(f"Average Temperature: {avg_temp:.2f}°C")  # Output: Average Temperature: 22.68°C
 print(f"Highest Temperature: {high_temp:.2f}°C")  # Output: Highest Temperature: 24.80°C
+
+# Example of using numpy arrays for data processing
+import numpy as np
+# Creating a numpy array for temperature readings
+temperature_data = np.array([22.5, 23.7, 24.8, 21.9, 20.5])
+# Calculating average and highest temperature using numpy
+avg_temp_np = np.mean(temperature_data)
+high_temp_np = np.max(temperature_data)
+print(f"Average Temperature (numpy): {avg_temp_np:.2f}°C")  # Output: Average Temperature (numpy): 22.68°C
+print(f"Highest Temperature (numpy): {high_temp_np:.2f}°C")  # Output: Highest Temperature (numpy): 24.80°C
