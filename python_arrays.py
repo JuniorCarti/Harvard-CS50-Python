@@ -59,3 +59,14 @@ print(numbers[1:3])  # Output: [2 3]
 #The Length of an Array
 # You can find the length of an array using the len() function.
 print(len(cars))  # Output: 3 (after adding more cars)
+
+#Removing Array Elements
+# You can remove elements from an array using the del statement or the pop() method.
+# Example of removing an element using del
+del cars[1]  # Removes the second car (Honda Civic)
+print(cars)  # Output: [{'make': 'Toyota', 'model': 'Camry', 'year': 2020}, {'make': 'Ford', 'model': 'Focus', 'year': 2019}]
+# Example of removing an element using pop
+removed_car = cars.pop(0)  # Removes the first car (Toyota Camry)
+print(removed_car)  # Output: {'make': 'Toyota', 'model': 'Camry', 'year': 2020}
+print(cars)  # Output: [{'make': 'Ford', 'model': 'Focus', 'year': 2019}]
+
