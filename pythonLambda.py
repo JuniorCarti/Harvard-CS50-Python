@@ -92,6 +92,12 @@ print(squared_numbers)
 strings = ['apple', 'banana', 'cherry']
 lengths = list(map(lambda x: len(x), strings))
 print(lengths)
+# Output: [5, 6, 6]
+# Mapping a list of tuples to their sums
+tuples = [(1, 2), (3, 4), (5, 6)]
+sums = list(map(lambda x: sum(x), tuples))
+print(sums)
+# Output: [3, 7, 11]
 
 
 
