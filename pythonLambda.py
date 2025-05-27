@@ -104,6 +104,10 @@ print(sums)
 def apply_function(func, data):
     return [func(x) for x in data]
 
+# Using a lambda function with a higher-order function
+result = apply_function(lambda x: x ** 2, [1, 2, 3, 4])
+print(result)
+# Output: [1, 4, 9, 16]
 
 
 
