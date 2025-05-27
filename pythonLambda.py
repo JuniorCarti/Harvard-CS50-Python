@@ -30,3 +30,10 @@ print(mydoubler(11))
 #Or, use the same function definition to make a function that always triples the number you send in:
 mytripler = myfunc(3)
 print(mytripler(11))
+
+#Or, use the same function definition to make both functions, in the same program:
+mydoubler = myfunc(4)
+mytripler = myfunc(5)
+
+print(mydoubler(50))
+print(mytripler(60))
