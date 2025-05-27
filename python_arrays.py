@@ -38,3 +38,6 @@ for car in cars:
     print(f"Make: {car['make']}, Model: {car['model']}, Year: {car['year']}")   
 # Output: Make: Toyota, Model: Camry, Year: 2020
 # Adding more cars to the array
+cars.append({'make': 'Honda', 'model': 'Civic', 'year': 2021})
+cars.append({'make': 'Ford', 'model': 'Focus', 'year': 2019})
+print(cars)
