@@ -37,3 +37,10 @@ mytripler = myfunc(5)
 
 print(mydoubler(50))
 print(mytripler(60))
+
+#sorting with custom keys
+# Sorting a list of tuples by the second element
+students = [('Alice', 88), ('Bob', 95), ('Charlie', 78)]
+students_sorted = sorted(students, key=lambda x: x[1])
+print(students_sorted)
+# Output: [('Charlie', 78), ('Alice', 88), ('Bob', 95)]
