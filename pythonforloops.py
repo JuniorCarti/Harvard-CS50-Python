@@ -256,3 +256,5 @@ for i, file in enumerate(files, start=1):
     new_name = f"vacation_{i}.jpg"
     os.rename(file, new_name)
 
+  
+

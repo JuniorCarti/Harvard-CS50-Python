@@ -37,6 +37,17 @@ mytripler = myfunc(5)
 
 print(mydoubler(50))
 print(mytripler(60))
+# Lambda Functions in Python
+# Lambda functions are small anonymous functions defined with the `lambda` keyword.
+# They can take any number of arguments but can only have one expression.
+# Lambda functions are often used for short, throwaway functions that are not reused elsewhere.
+# Example of a simple lambda function
+# Sorting with Lambda Functions
+# Sorting a list of numbers in ascending order
+numbers = [5, 2, 9, 1, 5, 6]
+numbers_sorted = sorted(numbers, key=lambda x: x)
+print(numbers_sorted)
+# Output: [1, 2, 5, 5, 6, 9]
 
 #sorting with custom keys
 # Sorting a list of tuples by the second element
@@ -60,3 +71,6 @@ inventory = defaultdict(lambda: 'Product not available')
 inventory['apple'] = 50
 print(inventory['apple'])  # 50
 print(inventory['orange'])  # 'Product not available'
+
+
+
