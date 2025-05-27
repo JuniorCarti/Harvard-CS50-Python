@@ -108,6 +108,14 @@ def apply_function(func, data):
 result = apply_function(lambda x: x ** 2, [1, 2, 3, 4])
 print(result)
 # Output: [1, 4, 9, 16]
-
+# Example of using lambda functions with map and filter
+def process_data(data):
+    # Filtering even numbers
+    even_numbers = list(filter(lambda x: x % 2 == 0, data))
+    
+    # Mapping to squares
+    squared_numbers = list(map(lambda x: x ** 2, even_numbers))
+    
+    return squared_numbers  
 
 
