@@ -44,3 +44,10 @@ students = [('Alice', 88), ('Bob', 95), ('Charlie', 78)]
 students_sorted = sorted(students, key=lambda x: x[1])
 print(students_sorted)
 # Output: [('Charlie', 78), ('Alice', 88), ('Bob', 95)]
+
+#2. Filtering Data
+# Filtering even numbers from a list
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+print(even_numbers)
+# Output: [2, 4, 6, 8]
