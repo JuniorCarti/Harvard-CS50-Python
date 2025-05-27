@@ -88,6 +88,10 @@ numbers = [1, 2, 3, 4, 5]
 squared_numbers = list(map(lambda x: x ** 2, numbers))
 print(squared_numbers)
 # Output: [1, 4, 9, 16, 25]
+# Mapping a list of strings to their lengths
+strings = ['apple', 'banana', 'cherry']
+lengths = list(map(lambda x: len(x), strings))
+print(lengths)
 
 
 
