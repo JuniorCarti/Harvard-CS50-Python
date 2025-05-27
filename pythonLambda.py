@@ -48,6 +48,11 @@ numbers = [5, 2, 9, 1, 5, 6]
 numbers_sorted = sorted(numbers, key=lambda x: x)
 print(numbers_sorted)
 # Output: [1, 2, 5, 5, 6, 9]
+# Sorting a list of strings by their length
+strings = ['apple', 'banana', 'cherry', 'date']
+strings_sorted = sorted(strings, key=lambda x: len(x))
+print(strings_sorted)
+# Output: ['date', 'apple', 'banana', 'cherry']
 
 #sorting with custom keys
 # Sorting a list of tuples by the second element
