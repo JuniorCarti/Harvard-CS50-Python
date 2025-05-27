@@ -127,3 +127,4 @@ avg_temp_np = np.mean(temperature_data)
 high_temp_np = np.max(temperature_data)
 print(f"Average Temperature (numpy): {avg_temp_np:.2f}°C")  # Output: Average Temperature (numpy): 22.68°C
 print(f"Highest Temperature (numpy): {high_temp_np:.2f}°C")  # Output: Highest Temperature (numpy): 24.80°C
+
