@@ -26,3 +26,7 @@ def myfunc(n):
 #Use that function definition to make a function that always doubles the number you send in:
 mydoubler = myfunc(2)
 print(mydoubler(11))
+
+#Or, use the same function definition to make a function that always triples the number you send in:
+mytripler = myfunc(3)
+print(mytripler(11))
