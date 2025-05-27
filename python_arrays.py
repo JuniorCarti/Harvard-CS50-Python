@@ -56,3 +56,6 @@ numbers = np.array([1, 2, 3, 4, 5])
 # Accessing elements in the numpy array
 print(numbers[0])  # Output: 1
 print(numbers[1:3])  # Output: [2 3]
+#The Length of an Array
+# You can find the length of an array using the len() function.
+print(len(cars))  # Output: 3 (after adding more cars)
