@@ -88,5 +88,11 @@ print(mean_value)  # Output: 3.0
 # Example of using numpy arrays for statistical operations
 median_value = np.median(numbers)
 print(median_value)  # Output: 3.0
+# Example of using numpy arrays for statistical operations
+std_deviation = np.std(numbers)
+print(std_deviation)  # Output: 1.4142135623730951
+# Example of using numpy arrays for statistical operations
+variance_value = np.var(numbers)
+print(variance_value)  # Output: 2.0
 
 
