@@ -33,3 +33,8 @@ cars = [   {'make': 'Toyota', 'model': 'Camry', 'year': 2020},]
 print(cars[0])  # Output: {'make': 'Toyota', 'model': 'Camry', 'year': 2020}
 # You can also access specific attributes of the car
 print(cars[0]['make'])  # Output: Toyota
+# You can loop through the array to access all elements
+for car in cars:
+    print(f"Make: {car['make']}, Model: {car['model']}, Year: {car['year']}")   
+# Output: Make: Toyota, Model: Camry, Year: 2020
+# Adding more cars to the array
