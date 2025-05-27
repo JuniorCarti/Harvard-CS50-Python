@@ -69,4 +69,8 @@ print(cars)  # Output: [{'make': 'Toyota', 'model': 'Camry', 'year': 2020}, {'ma
 removed_car = cars.pop(0)  # Removes the first car (Toyota Camry)
 print(removed_car)  # Output: {'make': 'Toyota', 'model': 'Camry', 'year': 2020}
 print(cars)  # Output: [{'make': 'Ford', 'model': 'Focus', 'year': 2019}]
+# Example of using numpy arrays for data processing
+raw_data = [np.array([1, 2, 3]), np.array([4, 5, 6]), np.array([7, 8, 9])]
+processed_data = [data * 2 for data in raw_data]  # Example transformation
+print(processed_data)  # Output: [array([2, 4, 6]), array([ 8, 10, 12]), array([14, 16, 18])]
 
