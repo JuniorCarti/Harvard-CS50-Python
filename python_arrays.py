@@ -20,5 +20,9 @@ cars = ['Toyota', 'Honda', 'Ford', 'Chevrolet']
 # However, this is not efficient for larger datasets.
 # Instead, you can use an array to store multiple values in a single variable.
 # Example of using a list to store car information
+#However, what if you want to loop through the cars and find a specific one? And what if you had not 3 cars, but 300?
+#The solution is an array!
+#An array can hold many values under a single name, and you can access the values by referring to an index number.
+# Example of using a list to store car information
 
 cars = [   {'make': 'Toyota', 'model': 'Camry', 'year': 2020},]
