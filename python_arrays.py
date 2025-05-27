@@ -79,4 +79,9 @@ numbers = np.array([1, 2, 3, 4, 5])
 print(numbers[0])  # Output: 1
 print(numbers[1:3])  # Output: [2 3]
 # Example of using numpy arrays for mathematical operations
+# Performing mathematical operations on numpy arrays
+squared_numbers = numbers ** 2
+print(squared_numbers)  # Output: [ 1  4  9 16 25]
+# Example of using numpy arrays for statistical operations
+
 
