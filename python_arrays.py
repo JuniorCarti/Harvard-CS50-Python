@@ -26,3 +26,10 @@ cars = ['Toyota', 'Honda', 'Ford', 'Chevrolet']
 # Example of using a list to store car information
 
 cars = [   {'make': 'Toyota', 'model': 'Camry', 'year': 2020},]
+
+#Access the Elements of an Array
+# You can access elements in an array using their index.
+# The index starts at 0, so the first element is at index 0.
+print(cars[0])  # Output: {'make': 'Toyota', 'model': 'Camry', 'year': 2020}
+# You can also access specific attributes of the car
+print(cars[0]['make'])  # Output: Toyota
