@@ -25,3 +25,5 @@ class Person:
 p1 = Person("Ridge", 23)
 print(p1.name)
 print(p1.age)
+
+#The __init__() function is called automatically every time the class is being used to create a new object.
