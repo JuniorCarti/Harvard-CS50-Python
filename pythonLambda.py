@@ -82,5 +82,12 @@ inventory['apple'] = 50
 print(inventory['apple'])  # 50
 print(inventory['orange'])  # 'Product not available'
 
+#3. Mapping Data
+# Mapping a list of numbers to their squares
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = list(map(lambda x: x ** 2, numbers))
+print(squared_numbers)
+# Output: [1, 4, 9, 16, 25]
+
 
 
