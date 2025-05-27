@@ -51,3 +51,12 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
 print(even_numbers)
 # Output: [2, 4, 6, 8]
+
+#Dynamic Default Values in Dictionaries
+# Using defaultdict with lambda to provide default values
+from collections import defaultdict
+
+inventory = defaultdict(lambda: 'Product not available')
+inventory['apple'] = 50
+print(inventory['apple'])  # 50
+print(inventory['orange'])  # 'Product not available'
