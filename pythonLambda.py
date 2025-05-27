@@ -98,6 +98,12 @@ tuples = [(1, 2), (3, 4), (5, 6)]
 sums = list(map(lambda x: sum(x), tuples))
 print(sums)
 # Output: [3, 7, 11]
+# Using Lambda Functions with Higher-Order Functions
+# Higher-order functions are functions that take other functions as arguments or return them as results.
+# Example of a higher-order function
+def apply_function(func, data):
+    return [func(x) for x in data]
+
 
 
 
