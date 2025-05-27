@@ -41,3 +41,12 @@ for car in cars:
 cars.append({'make': 'Honda', 'model': 'Civic', 'year': 2021})
 cars.append({'make': 'Ford', 'model': 'Focus', 'year': 2019})
 print(cars)
+
+# Looping through the updated array
+for car in cars:
+    print(f"Make: {car['make']}, Model: {car['model']}, Year: {car['year']}")
+# Output:
+# Make: Toyota, Model: Camry, Year: 2020
+# Make: Honda, Model: Civic, Year: 2021
+# Make: Ford, Model: Focus, Year: 2019
+
