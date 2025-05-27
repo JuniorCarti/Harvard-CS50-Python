@@ -49,4 +49,10 @@ for car in cars:
 # Make: Toyota, Model: Camry, Year: 2020
 # Make: Honda, Model: Civic, Year: 2021
 # Make: Ford, Model: Focus, Year: 2019
-
+# Example of using numpy arrays for numerical data
+import numpy as np
+# Creating a numpy array
+numbers = np.array([1, 2, 3, 4, 5])
+# Accessing elements in the numpy array
+print(numbers[0])  # Output: 1
+print(numbers[1:3])  # Output: [2 3]
