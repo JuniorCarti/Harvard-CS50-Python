@@ -269,3 +269,7 @@ product1 = Product("Wireless Earbuds", 59.99, 100)
 print(product1)  # Uses __str__
 
 product1.restock(50)  # Method call
+
+# Change price
+product1.price = 49.99  # Price drop
+print(f"New price: ${product1.price}")
