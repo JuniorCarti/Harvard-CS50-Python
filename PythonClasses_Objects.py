@@ -225,3 +225,6 @@ phone1.apply_discount(10)  # 10% discount
 phone1.os = "iOS 18 Beta"
 print(f"Updated OS: {phone1.os}")
 
+
+#student enrollment system
+
