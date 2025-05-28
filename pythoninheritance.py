@@ -31,3 +31,10 @@ x.printname()
 #Add the __init__() Function
 #We want to add the __init__() function to the child class (instead of the pass keyword).
 #Note: The __init__() function is called automatically every time the class is being used to create a new object.
+#Add the __init__() function to the Student class:
+class Student(Person):
+  def __init__(self, fname, lname):
+        Person.__init__(self, fname, lname)
+
+#use the super function
+
