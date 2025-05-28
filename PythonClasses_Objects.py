@@ -250,3 +250,5 @@ student1.promote()  # Method call
 # Update GPA
 student1.gpa = 2.9
 student1.promote()  # Re-evaluate
+
+# E-Commerce Product Management
