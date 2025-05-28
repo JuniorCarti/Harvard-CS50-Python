@@ -213,4 +213,6 @@ class Smartphone:
      def apply_discount(self, discount):
         self.price *= (1 - discount/100)
         print(f"Discounted price: ${self.price:.2f}")
+     def __str__(self):
+        return f"{self.brand} {self.model} (OS: {self.os}) - ${self.price}"
 
