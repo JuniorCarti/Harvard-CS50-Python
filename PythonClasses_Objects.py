@@ -194,6 +194,9 @@ class BankAccount:
     #create an account
     account1 = BankAccount("Ridge", 1000)
     print(account1) #uses __str__
+
+    account1.deposit(500) #method call
+    account1.withdraw(200)
     
 
 
