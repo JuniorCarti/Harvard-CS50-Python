@@ -6,3 +6,7 @@
 #Any class can be a parent class, so the syntax is the same as creating any other class:
 
 #create a class named Person with firstname and lastname properties and a print method
+class Person:
+  def __init__(self, fname, lname):
+    self.firstname = fname
+    self.lastname = lname
