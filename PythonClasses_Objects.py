@@ -252,3 +252,8 @@ student1.gpa = 2.9
 student1.promote()  # Re-evaluate
 
 # E-Commerce Product Management
+class Product:
+    def __init__(self, name, price, stock):
+        self.name = name
+        self.price = price
+        self.stock = stock
