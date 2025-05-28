@@ -262,3 +262,10 @@ class Product:
         print(f"Restocked {quantity} units. Total stock: {self.stock}")
     def __str__(self):
         return f"Product: {self.name}\nPrice: ${self.price}\nStock: {self.stock}"
+    
+
+# Add a product
+product1 = Product("Wireless Earbuds", 59.99, 100)
+print(product1)  # Uses __str__
+
+product1.restock(50)  # Method call
