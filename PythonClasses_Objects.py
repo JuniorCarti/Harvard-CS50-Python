@@ -257,3 +257,6 @@ class Product:
         self.name = name
         self.price = price
         self.stock = stock
+    def restock(self, quantity):
+        self.stock += quantity
+        print(f"Restocked {quantity} units. Total stock: {self.stock}")
