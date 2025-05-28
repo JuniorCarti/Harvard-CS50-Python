@@ -203,4 +203,11 @@ account1.balance = 2000
 print(f"Updated Balance: ${account1.balance}")
     
 
+#smartphone inventory
+class Smartphone:
+     def __init__(self, model, brand, price, os):
+        self.model = model
+        self.brand = brand
+        self.price = price
+        self.os = os
 
