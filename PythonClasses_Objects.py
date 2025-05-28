@@ -221,4 +221,7 @@ phone1 = Smartphone("iPhone 15", "Apple", 999, "iOS 17")
 print(phone1)  # Uses __str__
 
 phone1.apply_discount(10)  # 10% discount
+# Modify OS
+phone1.os = "iOS 18 Beta"
+print(f"Updated OS: {phone1.os}")
 
