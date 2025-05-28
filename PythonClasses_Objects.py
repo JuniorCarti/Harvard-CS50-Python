@@ -240,3 +240,9 @@ class Student:
             print(f"{self.name} needs to repeat.")
     def __str__(self):
         return f"Student: {self.name}\nCourse: {self.course}\nGPA: {self.gpa}"
+
+# Enroll a student
+student1 = Student("Alice", "Computer Science", 3.5)
+print(student1)  # Uses __str__
+
+student1.promote()  # Method call
