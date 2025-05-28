@@ -152,3 +152,7 @@ Cr1.myfunc()
 #You can modify properties on objects like this:
 Cr1.fee = 60000
 print(f"Next Term Fee is: {Cr1.fee}")
+
+#Delete Object Properties
+#You can delete properties on objects by using the del keyword:
+#example del the fee property
