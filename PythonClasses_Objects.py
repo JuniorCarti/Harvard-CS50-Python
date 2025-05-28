@@ -134,3 +134,16 @@ Cr1.myfunc()
 
 #now lets use the word eldoret and ridge instead of self 
 
+class Courses:
+    def __init__(eldoret, name, fee, duration_of_course, school_offered, cut_outPoints):
+        eldoret.name = name
+        eldoret.fee = fee
+        eldoret.duration_of_course = duration_of_course
+        eldoret.school_offered = school_offered
+        eldoret.cut_outPoints = cut_outPoints
+        
+    def myfunc(ridge):
+        print("Congratulations Ridge on your enrollment to " + ridge.name)
+
+Cr1 = Courses("Diploma in Electrical Engineering", 56000, 3, "Eldoret Polytechnic", 56)
+Cr1.myfunc() 
