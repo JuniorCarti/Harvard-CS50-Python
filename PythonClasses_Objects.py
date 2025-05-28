@@ -101,4 +101,8 @@ class Courses:
         self.duration_of_course = duration_of_course
         self.school_offered = school_offered
         self.cut_outPoints = cut_outPoints
-
+        
+    def __str__(self):
+        return f"{self.name} : {self.fee}$ \nThe Duration of the course is: {self.duration_of_course} years\n)({self.school_offered})({self.cut_outPoints})"
+Cr1 = Courses("Diploma in Electrical Engineering", 56000, 3, "Eldoret Polytechnic", 56)
+print(Cr1)
