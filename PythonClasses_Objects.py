@@ -103,6 +103,6 @@ class Courses:
         self.cut_outPoints = cut_outPoints
         
     def __str__(self):
-        return f"{self.name} : {self.fee}$ \nThe Duration of the course is: {self.duration_of_course} years\n)({self.school_offered})({self.cut_outPoints})"
+        return f"Your course is: {self.name}\nYou will pay a total fee of: {self.fee}$ \nThe Duration of the course is: {self.duration_of_course} years\nYou will be enrolled at: {self.school_offered}\nYour cut out points of  {self.cut_outPoints} qualify you to enroll"
 Cr1 = Courses("Diploma in Electrical Engineering", 56000, 3, "Eldoret Polytechnic", 56)
 print(Cr1)
