@@ -22,3 +22,8 @@ x.printname()
 #Create a class named Student, which will inherit the properties and methods from the Person class:
 class Student(Person):
   pass
+
+#Note: Use the pass keyword when you do not want to add any other properties or methods to the class.
+#Use the Student class to create an object, and then execute the printname method:
+x = Student("Thiak", "Ayuen")
+x.printname()
