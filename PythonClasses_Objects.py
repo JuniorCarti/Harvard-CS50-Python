@@ -186,5 +186,6 @@ class BankAccount:
             print("Insufficient Funds!")
         else:
             self.balance -= amount
-            
+        print(f"Withdrew ${amount}. Remaining balance: ${self.balance}")
+
 
