@@ -27,3 +27,53 @@ print(p1.name)
 print(p1.age)
 
 #The __init__() function is called automatically every time the class is being used to create a new object.
+
+class City:
+    def __init__(self, name, country, population, governor):
+        self.name = name
+        self.country = country
+        self.population = population
+        self.governor = governor
+
+c1 = City("Chepkemoi Magdaline", "Kenya", 560000, "Hassan Joho")
+print(c1.name)
+print(c1.country)
+print(c1.population)
+print(c1.governor)
+
+
+class Student:
+    def __init__(self, name, school, course, specialization):
+        self.name = name
+        self.school = school
+        self.course = course
+        self.specialization = specialization
+s1 = Student("Ridge", "Eldohub Academy", "CyberSecurity&Networking", "CyberSecurity")
+print(s1.name)
+print(s1.school)
+print(s1.course)
+print(s1.specialization)
+
+class Phones:
+    def __init__(self, name, brand, date_of_manufacture, operating_system, Manufacturers_name):
+        self.name = name
+        self.brand = brand
+        self.date_of_manufacture = date_of_manufacture
+        self.operating_system = operating_system
+        self.Manufacturers_name = Manufacturers_name
+Ph1 = Phones("Samsung S24", "Samsung", 2024, 14.0, "Samsung Knox")
+print(Ph1.name)
+print(Ph1.brand)
+print(Ph1.date_of_manufacture)
+print(Ph1.operating_system)
+print(Ph1.Manufacturers_name)
+
+class Courses:
+    def __init__(self, name, fee, duration_of_course, school_offered, cut_outPoints):
+        self.name = name
+        self.fee = fee
+        self.duration_of_course = duration_of_course
+        self.school_offered = school_offered
+        self.cut_outPoints = cut_outPoints
+Cr1 = Courses("Diploma in Electrical Engineering", 56000, 3, "Eldoret Polytechnic", 56)
+print(f"The name of the course is: {Cr1.name}")
