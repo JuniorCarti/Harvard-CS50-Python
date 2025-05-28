@@ -27,3 +27,7 @@ class Student(Person):
 #Use the Student class to create an object, and then execute the printname method:
 x = Student("Thiak", "Ayuen")
 x.printname()
+
+#Add the __init__() Function
+#We want to add the __init__() function to the child class (instead of the pass keyword).
+#Note: The __init__() function is called automatically every time the class is being used to create a new object.
