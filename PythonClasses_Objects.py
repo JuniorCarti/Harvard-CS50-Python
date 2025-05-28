@@ -180,3 +180,6 @@ class BankAccount:
     def deposit(self, amount):
         self.balance += amount
         print(f"Deposited ${amount}. New Balance: ${self.balance}")
+    
+    def withdraw(self, amount):
+        
