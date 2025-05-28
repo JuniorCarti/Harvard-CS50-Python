@@ -156,3 +156,5 @@ print(f"Next Term Fee is: {Cr1.fee}")
 #Delete Object Properties
 #You can delete properties on objects by using the del keyword:
 #example del the fee property
+del Cr1.fee
+print(Cr1.fee)
