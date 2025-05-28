@@ -233,3 +233,8 @@ class Student:
         self.name = name
         self.course = course
         self.gpa = gpa
+    def promote(self):
+        if self.gpa >= 3.0:
+            print(f"{self.name} is promoted to the next semester!")
+        else:
+            print(f"{self.name} needs to repeat.")
