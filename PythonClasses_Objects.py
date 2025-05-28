@@ -238,3 +238,5 @@ class Student:
             print(f"{self.name} is promoted to the next semester!")
         else:
             print(f"{self.name} needs to repeat.")
+    def __str__(self):
+        return f"Student: {self.name}\nCourse: {self.course}\nGPA: {self.gpa}"
