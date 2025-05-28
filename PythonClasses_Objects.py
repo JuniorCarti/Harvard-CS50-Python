@@ -150,3 +150,5 @@ Cr1.myfunc()
 
 #Modify Object Properties
 #You can modify properties on objects like this:
+Cr1.fee = 60000
+print(f"Next Term Fee is: {Cr1.fee}")
