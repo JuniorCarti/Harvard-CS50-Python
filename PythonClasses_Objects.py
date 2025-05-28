@@ -93,4 +93,12 @@ Cr1 = Courses("Diploma in Electrical Engineering", 56000, 3, "Eldoret Polytechni
 print(Cr1)
 #You will get an error
 
+#The string representation of an object WITH the __str__() function:
+class Courses:
+    def __init__(self, name, fee, duration_of_course, school_offered, cut_outPoints):
+        self.name = name
+        self.fee = fee
+        self.duration_of_course = duration_of_course
+        self.school_offered = school_offered
+        self.cut_outPoints = cut_outPoints
 
