@@ -82,3 +82,15 @@ print(f"The name of the course is: {Cr1.name}")
 #The __str__() function controls what should be returned when the class object is represented as a string.
 #If the __str__() function is not set, the string representation of the object is returned:
 #The string representation of an object WITHOUT the __str__() function:
+class Courses:
+    def __init__(self, name, fee, duration_of_course, school_offered, cut_outPoints):
+        self.name = name
+        self.fee = fee
+        self.duration_of_course = duration_of_course
+        self.school_offered = school_offered
+        self.cut_outPoints = cut_outPoints
+Cr1 = Courses("Diploma in Electrical Engineering", 56000, 3, "Eldoret Polytechnic", 56)
+print(Cr1)
+#You will get an error
+
+
