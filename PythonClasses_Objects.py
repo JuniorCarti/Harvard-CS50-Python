@@ -132,4 +132,5 @@ Cr1.myfunc()
 #It does not have to be named self, you can call it whatever you like, 
 # but it has to be the first parameter of any function in the class:
 
+#now lets use the word eldoret and ridge instead of self 
 
