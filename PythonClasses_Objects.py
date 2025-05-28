@@ -228,3 +228,8 @@ print(f"Updated OS: {phone1.os}")
 
 #student enrollment system
 
+class Student:
+    def __init__(self, name, course, gpa):
+        self.name = name
+        self.course = course
+        self.gpa = gpa
