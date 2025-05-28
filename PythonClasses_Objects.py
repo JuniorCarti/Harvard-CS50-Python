@@ -162,3 +162,7 @@ print(f"Next Term Fee is: {Cr1.fee}")
 #Delete Objects
 #You can delete objects by using the del keyword:
 #Delete the Cr1 object
+
+#The pass Statement
+#class definitions cannot be empty, but if you for some reason have a class definition with no content,
+#  put in the pass statement to avoid getting an error.
