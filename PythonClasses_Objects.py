@@ -215,4 +215,10 @@ class Smartphone:
         print(f"Discounted price: ${self.price:.2f}")
      def __str__(self):
         return f"{self.brand} {self.model} (OS: {self.os}) - ${self.price}"
+     
+# Create a phone
+phone1 = Smartphone("iPhone 15", "Apple", 999, "iOS 17")
+print(phone1)  # Uses __str__
+
+phone1.apply_discount(10)  # 10% discount
 
