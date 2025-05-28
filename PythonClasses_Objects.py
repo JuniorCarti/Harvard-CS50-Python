@@ -105,4 +105,23 @@ class Courses:
     def __str__(self):
         return f"Your course is: {self.name}\nYou will pay a total fee of: {self.fee}$ \nThe Duration of the course is: {self.duration_of_course} years\nYou will be enrolled at: {self.school_offered}\nYour cut out points of  {self.cut_outPoints} qualify you to enroll"
 Cr1 = Courses("Diploma in Electrical Engineering", 56000, 3, "Eldoret Polytechnic", 56)
+
 print(Cr1)
+
+
+#Object Methods
+#Objects can also contain methods. Methods in objects are functions that belong to the object.
+#Let us create a method in the Courses class:
+class Courses:
+    def __init__(self, name, fee, duration_of_course, school_offered, cut_outPoints):
+        self.name = name
+        self.fee = fee
+        self.duration_of_course = duration_of_course
+        self.school_offered = school_offered
+        self.cut_outPoints = cut_outPoints
+        
+    def myfunc(self):
+        print("Congratulations Ridge on your enrollment to " + self.name)
+
+Cr1 = Courses("Diploma in Electrical Engineering", 56000, 3, "Eldoret Polytechnic", 56)
+Cr1.myfunc()  
