@@ -191,12 +191,16 @@ class BankAccount:
     def __str__(self):
         return f"Account Holder: {self.account_holder} \nBalance: ${self.balance}"
     
-    #create an account
-    account1 = BankAccount("Ridge", 1000)
-    print(account1) #uses __str__
-
-    account1.deposit(500) #method call
-    account1.withdraw(200)
+    # create an account
+account1 = BankAccount("Ridge", 1000)
+print(account1) # uses __str__
+    
+account1.deposit(500) # method call
+account1.withdraw(200)
+    
+    # Modify balance
+account1.balance = 2000
+print(f"Updated Balance: ${account1.balance}")
     
 
 
