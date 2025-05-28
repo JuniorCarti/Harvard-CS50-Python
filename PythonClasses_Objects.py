@@ -125,3 +125,5 @@ class Courses:
 
 Cr1 = Courses("Diploma in Electrical Engineering", 56000, 3, "Eldoret Polytechnic", 56)
 Cr1.myfunc()  
+
+#The self Parameter
