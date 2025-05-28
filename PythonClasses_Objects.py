@@ -77,3 +77,8 @@ class Courses:
         self.cut_outPoints = cut_outPoints
 Cr1 = Courses("Diploma in Electrical Engineering", 56000, 3, "Eldoret Polytechnic", 56)
 print(f"The name of the course is: {Cr1.name}")
+
+#The __str__() Function
+#The __str__() function controls what should be returned when the class object is represented as a string.
+#If the __str__() function is not set, the string representation of the object is returned:
+#The string representation of an object WITHOUT the __str__() function:
