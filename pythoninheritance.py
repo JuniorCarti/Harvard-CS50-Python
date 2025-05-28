@@ -38,3 +38,6 @@ class Student(Person):
 
 #use the super function
 
+class Student(Person):
+  def __init__(self, fname, lname):
+    super().__init__(fname, lname)
