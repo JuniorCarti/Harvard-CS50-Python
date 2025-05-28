@@ -169,3 +169,6 @@ print(f"Next Term Fee is: {Cr1.fee}")
 
 class Laptops:
     pass
+
+#Examples of real scenarios
+#1. Bank Account System
