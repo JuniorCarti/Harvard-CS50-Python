@@ -158,3 +158,7 @@ print(f"Next Term Fee is: {Cr1.fee}")
 #example del the fee property
 #del Cr1.fee
 #print(Cr1.fee) you will get an error since the property has been deleted
+
+#Delete Objects
+#You can delete objects by using the del keyword:
+#Delete the Cr1 object
