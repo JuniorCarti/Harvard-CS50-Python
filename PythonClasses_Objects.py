@@ -191,5 +191,9 @@ class BankAccount:
     def __str__(self):
         return f"Account Holder: {self.account_holder} \nBalance: ${self.balance}"
     
+    #create an account
+    account1 = BankAccount("Ridge", 1000)
+    print(account1) #uses __str__
+    
 
 
