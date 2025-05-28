@@ -165,4 +165,7 @@ print(f"Next Term Fee is: {Cr1.fee}")
 
 #The pass Statement
 #class definitions cannot be empty, but if you for some reason have a class definition with no content,
-#  put in the pass statement to avoid getting an error.
+# put in the pass statement to avoid getting an error.
+
+class Laptops:
+    pass
