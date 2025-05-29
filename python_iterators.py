@@ -75,3 +75,25 @@ def process(line):
 with open('huge_file.txt') as f:
     for line in f:  # file objects are iterators
         process(line)
+
+#Paginated API Responses
+def get_data_from_api(endpoint, page):
+    # Mock implementation for demonstration purposes
+    # Simulates 3 pages of data
+    if page > 3:
+        return {'has_more': False, 'items': []}
+    return {'has_more': page < 3, 'items': [f"item_{page}_1", f"item_{page}_2"]}
+
+class PaginatedAPI:
+    def __init__(self, endpoint):
+        self.endpoint = endpoint
+        self.page = 1
+        self.has_more = True
+    
+    def __next__(self):
+        if not self.has_more:
+            raise StopIteration
+        data = get_data_from_api(self.endpoint, page=self.page)
+        self.page += 1
+        self.has_more = data['has_more']
+        return data['items']
