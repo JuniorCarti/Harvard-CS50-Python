@@ -22,3 +22,11 @@ print(next(my_iter))
 #How Iterators Work
 #When you use a for loop in Python, it automatically creates 
 #an iterator object and calls the next() method on each iteration until it catches the StopIteration exception.
+
+my_list = [1, 2, 3, 4]
+my_iter = iter(my_list)
+
+print(next(my_iter))
+print(next(my_iter))
+print(next(my_iter))
+print(next(my_iter))
