@@ -66,3 +66,12 @@ class DatabaseIterator:
         record = self.query.results[self.position]
         self.position += 1
         return record
+    
+#reading large files
+def process(line):
+    # Example processing: print the line
+    print(line.strip())
+
+with open('huge_file.txt') as f:
+    for line in f:  # file objects are iterators
+        process(line)
