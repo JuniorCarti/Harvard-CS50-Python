@@ -30,3 +30,39 @@ print(next(my_iter))
 print(next(my_iter))
 print(next(my_iter))
 print(next(my_iter))
+
+
+#Creating Custom Iterators
+#You can create your own iterator by implementing the __iter__() and __next__() methods in a class.
+class CountDown:
+    def __init__(self, start):
+        self.current = start
+        self.start = start
+    
+    def __iter__(self):
+        return self
+    def __next__(self):
+        if self.current < 0:
+            raise StopIteration
+        else:
+            num = self.current
+            self.current -= 1
+            return num
+
+counter = CountDown(5)
+for num in counter:
+    print(num)
+
+#Database query
+# Pseudocode example
+class DatabaseIterator:
+    def __init__(self, query):
+        self.query = query
+        self.position = 0
+    
+    def __next__(self):
+        if self.position >= len(self.query.results):
+            raise StopIteration
+        record = self.query.results[self.position]
+        self.position += 1
+        return record
