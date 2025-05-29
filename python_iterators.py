@@ -7,3 +7,12 @@
 #Lists, tuples, dictionaries, and sets are all iterable objects. 
 # They are iterable containers which you can get an iterator from.
 #All these objects have a iter() method which is used to get an iterator:
+
+trucks = ("Volvo", "Scania", "ManTGX", "DAF", "Mercede-Benz")
+my_iter = iter(trucks)
+
+print(next(my_iter))
+print(next(my_iter))
+print(next(my_iter))
+print(next(my_iter))
+print(next(my_iter))
