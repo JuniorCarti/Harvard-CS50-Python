@@ -16,3 +16,9 @@ print(next(my_iter))
 print(next(my_iter))
 print(next(my_iter))
 print(next(my_iter))
+
+#__iter__() - Returns the iterator object itself
+#__next__() - Returns the next item from the collection
+#How Iterators Work
+#When you use a for loop in Python, it automatically creates 
+#an iterator object and calls the next() method on each iteration until it catches the StopIteration exception.
