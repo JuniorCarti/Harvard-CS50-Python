@@ -8,6 +8,8 @@
 # They are iterable containers which you can get an iterator from.
 #All these objects have a iter() method which is used to get an iterator:
 
+from time import sleep
+
 trucks = ("Volvo", "Scania", "ManTGX", "DAF", "Mercede-Benz")
 my_iter = iter(trucks)
 
@@ -68,13 +70,13 @@ class DatabaseIterator:
         return record
     
 #reading large files
-def process(line):
+"""def process(line):
     # Example processing: print the line
     print(line.strip())
 
 with open('huge_file.txt') as f:
     for line in f:  # file objects are iterators
-        process(line)
+        process(line)"""
 
 #Paginated API Responses
 def get_data_from_api(endpoint, page):
@@ -97,3 +99,14 @@ class PaginatedAPI:
         self.page += 1
         self.has_more = data['has_more']
         return data['items']
+    
+#Sensor Data Stream
+class SensorReader:
+    def __init__(self, sensor):
+        self.sensor = sensor
+    
+    def __next__(self):
+        while True:
+            if self.sensor.has_data():
+                return self.sensor.read()
+            sleep(0.1)
