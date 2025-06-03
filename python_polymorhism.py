@@ -35,6 +35,17 @@ point1 = Point(1, 2)
 point2 = Point(3, 4)
 point3 = point1 + point2
 print(f"Point3 coordinates: ({point3.x}, {point3.y})")  # Output: Point3 coordinates: (4, 6)
+# Example of function polymorphism with different data types
+def print_info(data):
+    if isinstance(data, str):
+        print(f"String: {data}")
+    elif isinstance(data, list):
+        print(f"List: {data}")
+    elif isinstance(data, dict):
+        print(f"Dictionary: {data}")
+    else:
+        print("Unsupported data type")
+        
     
 
 
