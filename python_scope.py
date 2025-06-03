@@ -34,4 +34,9 @@ def myfunc():
     print("Python is " + x)
 myfunc()
 print("Python is " + x)  # Output: Python is fantastic
+
+def myfunc():
+    x = 300
+    print(x)
+myfunc()
     
