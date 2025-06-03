@@ -45,7 +45,11 @@ def print_info(data):
         print(f"Dictionary: {data}")
     else:
         print("Unsupported data type")
-        
+# Example of using the print_info function with different data types
+print_info("Hello, World!")  # String: Hello, World!
+print_info([1, 2, 3])        # List: [1, 2, 3]
+print_info({"key": "value"})  # Dictionary: {'key': 'value'}
+
     
 
 
