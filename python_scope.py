@@ -62,4 +62,6 @@ def modify_global():
     global x
     x = "fantastic"
     print("Modified global variable:", x)
+modify_global()
+print("Global variable after modification:", x)  # Output: Global variable after modification: fantastic
     
