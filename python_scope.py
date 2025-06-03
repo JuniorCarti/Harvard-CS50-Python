@@ -48,4 +48,18 @@ def myfunc():
   myinnerfunc()
 
 myfunc()
+
+#Global Scope
+# A variable created in the main body of the Python code is a global variable.
+x = "awesome"
+def myfunc():
+    print("Python is " + x)
+myfunc()
+# Global variables can be accessed from any function in the same module
+# and can be modified using the global keyword.
+# Example of modifying a global variable
+def modify_global():
+    global x
+    x = "fantastic"
+    print("Modified global variable:", x)
     
