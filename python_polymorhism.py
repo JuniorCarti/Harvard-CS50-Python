@@ -6,3 +6,5 @@
 # Function Polymorphism Example
 def add(x, y):
     return x + y
+# Example of function polymorphism
+print(add(5, 10))        # Adding two integers
