@@ -8,3 +8,4 @@ def add(x, y):
     return x + y
 # Example of function polymorphism
 print(add(5, 10))        # Adding two integers
+print(add(5.5, 10.2))    # Adding two floats
