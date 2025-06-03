@@ -69,6 +69,17 @@ circle = Circle(5)
 rectangle = Rectangle(4, 6)
 print(f"Circle area: {calculate_area(circle)}")        # Output: Circle area: 78.5
 print(f"Rectangle area: {calculate_area(rectangle)}")  # Output: Rectangle area: 24
+# Example of function polymorphism with different data types
+def process_data(data):
+    if isinstance(data, int):
+        return data * 2
+    elif isinstance(data, float):
+        return data + 1.5
+    elif isinstance(data, str):
+        return data.upper()
+    else:
+        raise TypeError("Unsupported data type")
+    
 
 
 
