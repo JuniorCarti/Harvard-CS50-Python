@@ -204,7 +204,12 @@ plane1 = Plane("Boeing", "747")
 for vehicle in (car1, boat1, plane1):
     print(f"{vehicle.brand} {vehicle.model}: ", end="")
     vehicle.move()
-    
+
+# This code demonstrates polymorphism in Python using classes and inheritance.
+# Each class (Car, Boat, Plane) inherits from the Vehicle class and overrides the move method.
+# This allows us to call the move method on any instance of Vehicle or its subclasses, and the appropriate method will be executed based on the actual object type.
+# This is an example of polymorphism in action, where the same method name can behave differently based on the object type.
+
 
 
     
