@@ -131,6 +131,8 @@ print(len({"name": "Alice", "age": 30}))  # Output: 2
 # set
 # For sets len() returns the number of unique items in the set:
 print(len({1, 2, 3, 4, 5}))  # Output: 5
+
+#class polymorphism
     
 
     
