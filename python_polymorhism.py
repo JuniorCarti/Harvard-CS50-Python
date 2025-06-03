@@ -133,6 +133,17 @@ print(len({"name": "Alice", "age": 30}))  # Output: 2
 print(len({1, 2, 3, 4, 5}))  # Output: 5
 
 #class polymorphism
+#Polymorphism is often used in Class methods, where we can have multiple classes with the same method name.
+#For example, say we have three classes: Car, Boat, and Plane, and they all have a method called move():
+class Car:
+    def move(self):
+        return "The car is driving on the road."
+class Boat:
+    def move(self):
+        return "The boat is sailing on the water."
+class Plane:
+    def move(self):
+        return "The plane is flying in the sky."
     
 
     
