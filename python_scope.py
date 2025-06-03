@@ -82,4 +82,9 @@ def outer_nonlocal():
     
     inner_nonlocal()
     print("Outer nonlocal function:", z)  # Output: Outer nonlocal function: inner
-    
+
+#local scope
+#A variable created inside a function belongs to the local scope of that function, 
+# and can only be used inside that function.
+#Example
+#A variable created inside a function is available inside that function:
