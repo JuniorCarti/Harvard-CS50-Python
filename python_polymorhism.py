@@ -146,6 +146,16 @@ class Plane:
         return "The plane is flying in the sky."
 # We can create a function that takes an object and calls its move method, regardless of the object's class:
 
+def make_it_move(vehicle):
+    print(vehicle.move())
+# Example of using the make_it_move function with different vehicle types
+car = Car()
+boat = Boat()
+plane = Plane()
+make_it_move(car)   # Output: The car is driving on the road.
+make_it_move(boat)  # Output: The boat is sailing on the water.
+make_it_move(plane) # Output: The plane is flying in the sky.
+
     
 
     
