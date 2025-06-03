@@ -16,4 +16,8 @@ def add_lists(list1, list2):
 # Example of function polymorphism with tuples
 def add_tuples(tuple1, tuple2):
     return tuple1 + tuple2
+# Example of function polymorphism with dictionaries
+def add_dicts(dict1, dict2):
+    return {**dict1, **dict2}   
+
 
