@@ -144,6 +144,8 @@ class Boat:
 class Plane:
     def move(self):
         return "The plane is flying in the sky."
+# We can create a function that takes an object and calls its move method, regardless of the object's class:
+
     
 
     
