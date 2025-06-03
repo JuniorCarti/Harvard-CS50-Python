@@ -20,3 +20,10 @@ def global_function():
     y = "global"
     print("Global function:", y)  # Output: Global function: global
 global_function()
+print("Global variable:", y)  # Output: Global variable: global
+# Example of variable scope in Python with local variable
+def local_function():
+    z = "local"
+    print("Local function:", z)  # Output: Local function: local
+local_function()
+# print("Local variable:", z)  # This will raise an error because z is not defined outside the function
