@@ -102,3 +102,11 @@ def myfunc():
         print(x)
     myinnerfunc()
 myfunc()
+#Global Scope
+#A variable created in the main body of the Python code is a global variable.
+# A global variable is available from within any function in the same module.
+x = "awesome"
+def myfunc():
+    print("Python is " + x)
+myfunc()
+print("Python is " + x)  # Output: Python is awesome
