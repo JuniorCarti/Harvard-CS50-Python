@@ -27,3 +27,11 @@ def local_function():
     print("Local function:", z)  # Output: Local function: local
 local_function()
 # print("Local variable:", z)  # This will raise an error because z is not defined outside the function
+
+def myfunc():
+    global x
+    x = "fantastic"
+    print("Python is " + x)
+myfunc()
+print("Python is " + x)  # Output: Python is fantastic
+    
