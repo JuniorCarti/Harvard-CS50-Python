@@ -111,6 +111,10 @@ def calculate_discount(price, discount):
         return f"Discounted price: {price} with {discount*100}% off"
     else:
         raise TypeError("Unsupported data type for price")
+# Example of using the calculate_discount function with different data types
+print(calculate_discount(100, 0.2))          # Output: 80.0
+print(calculate_discount(50.5, 0.1))        # Output: 45.45
+print(calculate_discount("100 USD", 0.15))  # Output: Discounted price: 100 USD with 15.0% off
     
 
     
