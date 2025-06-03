@@ -13,3 +13,7 @@ print(add("Hello, ", "World!"))  # Concatenating two strings
 # Example of function polymorphism with lists
 def add_lists(list1, list2):
     return list1 + list2
+# Example of function polymorphism with tuples
+def add_tuples(tuple1, tuple2):
+    return tuple1 + tuple2
+
