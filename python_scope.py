@@ -64,4 +64,22 @@ def modify_global():
     print("Modified global variable:", x)
 modify_global()
 print("Global variable after modification:", x)  # Output: Global variable after modification: fantastic
+# Example of local scope
+def local_scope_example():
+    y = "local"
+    print("Local variable:", y)  # Output: Local variable: local
+local_scope_example()
+# Attempting to access a local variable outside its scope will raise an error
+# print("Local variable outside function:", y)  # This will raise an error because y is not defined outside the function
+# Example of nonlocal scope
+def outer_nonlocal():
+    z = "outer"
+    
+    def inner_nonlocal():
+        nonlocal z  # Access the variable from the outer function
+        z = "inner"
+        print("Inner nonlocal function:", z)  # Output: Inner nonlocal function: inner
+    
+    inner_nonlocal()
+    print("Outer nonlocal function:", z)  # Output: Outer nonlocal function: inner
     
