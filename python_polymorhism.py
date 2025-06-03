@@ -211,7 +211,6 @@ for vehicle in (car1, boat1, plane1):
 # This is an example of polymorphism in action, where the same method name can behave differently based on the object type.
 
 
-
     
 
     
