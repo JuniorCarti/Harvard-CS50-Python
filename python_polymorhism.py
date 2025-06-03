@@ -79,6 +79,10 @@ def process_data(data):
         return data.upper()
     else:
         raise TypeError("Unsupported data type")
+# Example of using the process_data function with different data types
+print(process_data(10))          # Output: 20
+print(process_data(3.14))       # Output: 4.64
+print(process_data("hello"))    # Output: HELLO
     
 
 
