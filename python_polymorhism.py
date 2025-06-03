@@ -99,7 +99,11 @@ def display_info(data):
             print(item)
     else:
         print("Unsupported data type")
-        
+# Example of using the display_info function with different data types
+display_info([1, 2, 3])          # List contents: 1, 2, 3
+display_info({"name": "Alice", "age": 30})  # Dictionary contents: name: Alice, age: 30
+display_info({1, 2, 3})          # Set contents: 1, 2, 3
+
     
 
 
