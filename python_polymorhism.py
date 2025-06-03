@@ -193,6 +193,8 @@ class Vehicle:
 class Car (Vehicle):
     pass
 class Boat (Vehicle):
+    def move(self):
+        print(f"{self.brand} {self.model} is sailing on the water.")
 
 
     
