@@ -110,3 +110,10 @@ def myfunc():
     print("Python is " + x)
 myfunc()
 print("Python is " + x)  # Output: Python is awesome
+#Naming Variables
+# When you create a variable inside a function, it is local to that function.
+# If you create a variable with the same name outside the function, it will not affect the variable inside the function.
+def myfunc():
+    x = "local"
+    print("Inside function:", x)  # Output: Inside function: local
+myfunc()
