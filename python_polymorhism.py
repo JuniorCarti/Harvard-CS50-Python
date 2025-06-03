@@ -161,12 +161,13 @@ class Car:
     self.brand = brand
     self.model = model
     def move(self):
-        return f"The {self.brand} {self.model} is driving on the road."
-
+        print("The car is driving on the road.")
 class Boat:
  def __init__(self, brand, model):
     self.brand = brand
     self.model = model
+    def move(self):
+            print("The boat is sailing on the water.")
 
 
 
