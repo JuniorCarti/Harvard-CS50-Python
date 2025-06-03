@@ -49,7 +49,22 @@ def print_info(data):
 print_info("Hello, World!")  # String: Hello, World!
 print_info([1, 2, 3])        # List: [1, 2, 3]
 print_info({"key": "value"})  # Dictionary: {'key': 'value'}
-
+# Example of function polymorphism with different data types
+def calculate_area(shape):
+    if isinstance(shape, Circle):
+        return 3.14 * shape.radius ** 2
+    elif isinstance(shape, Rectangle):
+        return shape.length * shape.width
+    else:
+        raise ValueError("Unsupported shape type")
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+        
     
 
 
