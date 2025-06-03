@@ -92,3 +92,4 @@ def make_info_function(**kwargs):
 info_function = make_info_function(name="Alice", age=30, city="New York")
 result_info_function = info_function()
 print(result_info_function)  # Output: name: Alice, age: 30, city: New York
+
