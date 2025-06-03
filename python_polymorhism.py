@@ -189,7 +189,10 @@ class Vehicle:
         self.model = model
 
     def move(self):
-        raise NotImplementedError("Subclasses must implement this method")
+        print(f"{self.brand} {self.model} is moving.")
+class Car (Vehicle):
+    pass
+class Boat (Vehicle):
 
 
     
