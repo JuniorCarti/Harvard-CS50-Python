@@ -19,5 +19,8 @@ def add_tuples(tuple1, tuple2):
 # Example of function polymorphism with dictionaries
 def add_dicts(dict1, dict2):
     return {**dict1, **dict2}   
+# Example of function polymorphism with sets
+def add_sets(set1, set2):
+    return set1.union(set2)
 
 
