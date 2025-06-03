@@ -155,6 +155,7 @@ plane = Plane()
 make_it_move(car)   # Output: The car is driving on the road.
 make_it_move(boat)  # Output: The boat is sailing on the water.
 make_it_move(plane) # Output: The plane is flying in the sky.
+# This is an example of polymorphism in action, where the same function can work with different types of objects.
 
     
 
