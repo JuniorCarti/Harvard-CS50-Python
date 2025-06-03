@@ -198,6 +198,13 @@ class Boat (Vehicle):
 class Plane (Vehicle):
     def move(self):
         print(f"{self.brand} {self.model} is flying in the sky.")
+car1 = Car("Toyota", "Camry")
+boat1 = Boat("Yamaha", "242X")
+plane1 = Plane("Boeing", "747")
+for vehicle in (car1, boat1, plane1):
+    print(f"{vehicle.brand} {vehicle.model}: ", end="")
+    vehicle.move()
+    
 
 
     
