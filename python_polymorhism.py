@@ -125,6 +125,9 @@ print(len([1, 2, 3, 4, 5]))  # Output: 5
 # tuple
 # For tuples len() returns the number of items in the tuple:
 print(len((1, 2, 3)))  # Output: 3
+# dictionary
+# For dictionaries len() returns the number of key-value pairs:
+print(len({"name": "Alice", "age": 30}))  # Output: 2
     
 
     
