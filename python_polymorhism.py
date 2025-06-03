@@ -160,27 +160,36 @@ class Car:
  def __init__(self, brand, model):
     self.brand = brand
     self.model = model
-def move(self):
+ def move(self):
         print("The car is driving on the road.")
 class Boat:
  def __init__(self, brand, model):
     self.brand = brand
     self.model = model
-def move(self):
+ def move(self):
             print("The boat is sailing on the water.")
 class Plane:
  def __init__(self, brand, model):
     self.brand = brand
     self.model = model
-def move(self):
+ def move(self):
         print("The plane is flying in the sky.")
 car1 = Car("Toyota", "Camry")
 boat1 = Boat("Yamaha", "242X")
 plane1 = Plane("Boeing", "747")
 
-#for vehicle in (car1, boat1, plane1):
-  #  print(f"{vehicle.brand} {vehicle.model}: ", end="")
-    #vehicle.move()
+for vehicle in (car1, boat1, plane1):
+   print(f"{vehicle.brand} {vehicle.model}: ", end="")
+vehicle.move()
+
+#inheritance class polymorphism
+class Vehicle:
+    def __init__(self, brand, model):
+        self.brand = brand
+        self.model = model
+
+    def move(self):
+        raise NotImplementedError("Subclasses must implement this method")
 
 
     
