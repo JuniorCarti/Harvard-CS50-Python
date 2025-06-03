@@ -83,6 +83,23 @@ def process_data(data):
 print(process_data(10))          # Output: 20
 print(process_data(3.14))       # Output: 4.64
 print(process_data("hello"))    # Output: HELLO
+# Example of function polymorphism with different data types
+def display_info(data):
+    if isinstance(data, list):
+        print("List contents:")
+        for item in data:
+            print(item)
+    elif isinstance(data, dict):
+        print("Dictionary contents:")
+        for key, value in data.items():
+            print(f"{key}: {value}")
+    elif isinstance(data, set):
+        print("Set contents:")
+        for item in data:
+            print(item)
+    else:
+        print("Unsupported data type")
+        
     
 
 
