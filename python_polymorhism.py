@@ -103,6 +103,15 @@ def display_info(data):
 display_info([1, 2, 3])          # List contents: 1, 2, 3
 display_info({"name": "Alice", "age": 30})  # Dictionary contents: name: Alice, age: 30
 display_info({1, 2, 3})          # Set contents: 1, 2, 3
+# Example of function polymorphism with different data types
+def calculate_discount(price, discount):
+    if isinstance(price, int) or isinstance(price, float):
+        return price * (1 - discount)
+    elif isinstance(price, str):
+        return f"Discounted price: {price} with {discount*100}% off"
+    else:
+        raise TypeError("Unsupported data type for price")
+    
 
     
 
