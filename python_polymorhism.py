@@ -122,6 +122,9 @@ print(len("Hello, World!"))  # Output: 13
 # list
 # For lists len() returns the number of items in the list:
 print(len([1, 2, 3, 4, 5]))  # Output: 5
+# tuple
+# For tuples len() returns the number of items in the tuple:
+print(len((1, 2, 3)))  # Output: 3
     
 
     
