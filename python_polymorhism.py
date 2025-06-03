@@ -174,6 +174,9 @@ class Plane:
     self.model = model
     def move(self):
         print("The plane is flying in the sky.")
+car1 = Car("Toyota", "Camry")
+boat1 = Boat("Yamaha", "242X")
+plane1 = Plane("Boeing", "747")
 
 
 
