@@ -10,3 +10,6 @@ def add(x, y):
 print(add(5, 10))        # Adding two integers
 print(add(5.5, 10.2))    # Adding two floats
 print(add("Hello, ", "World!"))  # Concatenating two strings
+# Example of function polymorphism with lists
+def add_lists(list1, list2):
+    return list1 + list2
