@@ -195,6 +195,9 @@ class Car (Vehicle):
 class Boat (Vehicle):
     def move(self):
         print(f"{self.brand} {self.model} is sailing on the water.")
+class Plane (Vehicle):
+    def move(self):
+        print(f"{self.brand} {self.model} is flying in the sky.")
 
 
     
