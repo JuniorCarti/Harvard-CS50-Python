@@ -4,3 +4,5 @@
 # This is an example of polymorphism, where the same function can be used on different objects. 
 # Polymorphism allows for flexibility and code reuse, as the same function can be applied to different data types without needing to rewrite the function for each type.
 # Function Polymorphism Example
+def add(x, y):
+    return x + y
