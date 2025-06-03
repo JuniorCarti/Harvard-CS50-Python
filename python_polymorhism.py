@@ -168,6 +168,12 @@ class Boat:
     self.model = model
     def move(self):
             print("The boat is sailing on the water.")
+class Plane:
+ def __init__(self, brand, model):
+    self.brand = brand
+    self.model = model
+    def move(self):
+        print("The plane is flying in the sky.")
 
 
 
