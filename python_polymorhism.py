@@ -30,6 +30,11 @@ class Point:
 
     def __add__(self, other):
         return Point(self.x + other.x, self.y + other.y)
+# Example of using the Point class with function polymorphism
+point1 = Point(1, 2)
+point2 = Point(3, 4)
+point3 = point1 + point2
+print(f"Point3 coordinates: ({point3.x}, {point3.y})")  # Output: Point3 coordinates: (4, 6)
     
 
 
