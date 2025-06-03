@@ -13,3 +13,10 @@ def outer_function():
     
     inner_function()
     print("Outer function:", x)  # Output: Outer function: nonlocal
+outer_function()
+# Example of variable scope in Python with global variable
+def global_function():
+    global y  # Declare y as a global variable
+    y = "global"
+    print("Global function:", y)  # Output: Global function: global
+global_function()
