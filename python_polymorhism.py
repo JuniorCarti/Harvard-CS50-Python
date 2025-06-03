@@ -115,6 +115,13 @@ def calculate_discount(price, discount):
 print(calculate_discount(100, 0.2))          # Output: 80.0
 print(calculate_discount(50.5, 0.1))        # Output: 45.45
 print(calculate_discount("100 USD", 0.15))  # Output: Discounted price: 100 USD with 15.0% off
+
+#string
+#For strings len() returns the number of characters:
+print(len("Hello, World!"))  # Output: 13
+# list
+# For lists len() returns the number of items in the list:
+print(len([1, 2, 3, 4, 5]))  # Output: 5
     
 
     
