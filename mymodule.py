@@ -7,3 +7,6 @@ def main():
     greeting(name)
 if __name__ == "__main__":
     main()
+#Import the module named mymodule, and call the greeting function:
+import mymodule
+mymodule.greeting("Alice")
