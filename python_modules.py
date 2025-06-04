@@ -39,4 +39,10 @@ def main_factorial():
     print(f"The factorial of {value} is {result}")
 if __name__ == "__main__":
     main_factorial()
+# Example of creating a custom module
+# Create a custom module named my_module.py
+# my_module.py
+def greet(name):
+    return f"Hello, {name}!"
+
 
