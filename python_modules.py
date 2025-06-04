@@ -7,3 +7,8 @@ import math
 # Using the math module to perform mathematical operations
 def calculate_square_root(value):
     return math.sqrt(value)
+# Example of using the calculate_square_root function
+def main():
+    value = 16
+    result = calculate_square_root(value)
+    print(f"The square root of {value} is {result}")
