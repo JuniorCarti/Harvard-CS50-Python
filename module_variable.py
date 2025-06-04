@@ -126,5 +126,13 @@ def main_square_root():
     print(f"The square root of {value} is {square_root}")
 if __name__ == "__main__":
     main_square_root()
-    
+# Example of using the math module to calculate the factorial
+def calculate_factorial(value):
+    return math.factorial(value)
+# Example of using the calculate_factorial function
+def main_factorial():
+    value = 5
+    factorial_result = calculate_factorial(value)
+    print(f"The factorial of {value} is {factorial_result}")
+
 
