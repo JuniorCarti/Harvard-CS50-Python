@@ -64,4 +64,10 @@ import os
 # Example of using the os module to get the current working directory
 def get_current_directory():
     return os.getcwd()
+# Example of using the get_current_directory function
+def main_os():
+    current_directory = get_current_directory()
+    print(f"Current Working Directory: {current_directory}")
+if __name__ == "__main__":
+    main_os()
 
