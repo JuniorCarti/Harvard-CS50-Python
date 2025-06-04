@@ -28,3 +28,7 @@ module_variable = "This is a module variable"
 def get_module_variable():
     return module_variable
 # Example of using the module variable
+def main_variable():
+    print("Module variable:", get_module_variable())
+if __name__ == "__main__":
+    main_variable()
