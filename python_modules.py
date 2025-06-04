@@ -44,5 +44,12 @@ if __name__ == "__main__":
 # my_module.py
 def greet(name):
     return f"Hello, {name}!"
-
+# Example of using the custom module
+import my_module
+def main_custom_module():
+    name = "Alice"
+    greeting = my_module.greet(name)
+    print(greeting)
+if __name__ == "__main__":
+    main_custom_module()
 
