@@ -25,4 +25,6 @@ def main_power():
     exponent = 3
     result = calculate_power(base, exponent)
     print(f"{base} raised to the power of {exponent} is {result}")
+if __name__ == "__main__":
+    main_power()
 
