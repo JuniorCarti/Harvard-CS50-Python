@@ -103,5 +103,11 @@ def main_parse_json():
     print(f"Parsed Data: {data}")
 if __name__ == "__main__":
     main_parse_json()
+#another built-in module example
+# math module
+import math 
+# Example of using the math module to perform mathematical operations
+def calculate_circle_area(radius):
+    return math.pi * (radius ** 2)
 
 
