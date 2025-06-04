@@ -124,4 +124,7 @@ def main_square_root():
     value = 25
     square_root = calculate_square_root(value)
     print(f"The square root of {value} is {square_root}")
+if __name__ == "__main__":
+    main_square_root()
+    
 
