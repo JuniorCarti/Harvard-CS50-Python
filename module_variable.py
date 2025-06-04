@@ -31,4 +31,8 @@ import platform
 # Example of using the platform module to get system information
 def get_system_info():
     return platform.system(), platform.release()
+# Example of using the get_system_info function
+def main_platform():
+    system, release = get_system_info()
+    print(f"System: {system}, Release: {release}")
 
