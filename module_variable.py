@@ -199,7 +199,9 @@ def main_gcd():
     print(f"The GCD of {a} and {b} is {gcd_result}")
 if __name__ == "__main__":
     main_gcd()
-
+# Example of using the math module to calculate the least common multiple (LCM)
+def calculate_lcm(a, b):
+    return abs(a * b) // math.gcd(a, b)
 
 
 
