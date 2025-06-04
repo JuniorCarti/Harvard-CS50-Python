@@ -109,5 +109,12 @@ import math
 # Example of using the math module to perform mathematical operations
 def calculate_circle_area(radius):
     return math.pi * (radius ** 2)
+# Example of using the calculate_circle_area function
+def main_math():
+    radius = 5
+    area = calculate_circle_area(radius)
+    print(f"The area of a circle with radius {radius} is {area}")
+if __name__ == "__main__":
+    main_math()
 
 
