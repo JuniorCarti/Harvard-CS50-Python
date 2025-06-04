@@ -59,3 +59,9 @@ def main_random():
     print(f"Random Number: {random_number}")
 if __name__ == "__main__":
     main_random()
+# os module
+import os
+# Example of using the os module to get the current working directory
+def get_current_directory():
+    return os.getcwd()
+
