@@ -32,4 +32,11 @@ from math import *
 # Using the factorial function from the math module
 def calculate_factorial(value):
     return factorial(value)
+# Example of using the calculate_factorial function
+def main_factorial():
+    value = 5
+    result = calculate_factorial(value)
+    print(f"The factorial of {value} is {result}")
+if __name__ == "__main__":
+    main_factorial()
 
