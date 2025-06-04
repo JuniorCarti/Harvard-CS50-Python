@@ -8,3 +8,9 @@ person1 = {
 # Example of a variable in a module
 def get_person_info():
     return person1
+# Example of using the module variable
+def main_person():
+    person_info = get_person_info()
+    print("Person Info:", person_info)
+if __name__ == "__main__":
+    main_person()
