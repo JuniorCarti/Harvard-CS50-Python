@@ -140,6 +140,13 @@ if __name__ == "__main__":
 def calculate_power(base, exponent):
     return math.pow(base, exponent)
 # Example of using the calculate_power function
+def main_power():
+    base = 2
+    exponent = 3
+    power_result = calculate_power(base, exponent)
+    print(f"{base} raised to the power of {exponent} is {power_result}")
+if __name__ == "__main__":
+    main_power()
 
 
 
