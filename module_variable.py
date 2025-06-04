@@ -188,6 +188,10 @@ def main_tangent():
     print(f"The tangent of {angle} degrees is {tangent_result}")
 if __name__ == "__main__":
     main_tangent()
+# Example of using the math module to calculate the greatest common divisor (GCD)
+def calculate_gcd(a, b):
+    return math.gcd(a, b)
+# Example of using the calculate_gcd function
 
 
 
