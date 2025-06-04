@@ -14,3 +14,6 @@ def main_person():
     print("Person Info:", person_info)
 if __name__ == "__main__":
     main_person()
+# Import the module named module_variable and call the get_person_info function
+import module_variable
+print("Person Info:", module_variable.get_person_info())
