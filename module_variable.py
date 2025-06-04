@@ -178,6 +178,9 @@ def main_cosine():
     print(f"The cosine of {angle} degrees is {cosine_result}")
 if __name__ == "__main__":
     main_cosine()
+# Example of using the math module to calculate the tangent of an angle
+def calculate_tangent(angle):
+    return math.tan(math.radians(angle))
 
 
 
