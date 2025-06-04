@@ -93,5 +93,15 @@ def main_json():
     print(f"JSON String: {json_string}")
 if __name__ == "__main__":
     main_json()
+# Example of using the json module to parse a JSON string
+def parse_json(json_string):
+    return json.loads(json_string)
+# Example of using the parse_json function
+def main_parse_json():
+    json_string = '{"name": "Bob", "age": 25, "city": "Los Angeles"}'
+    data = parse_json(json_string)
+    print(f"Parsed Data: {data}")
+if __name__ == "__main__":
+    main_parse_json()
 
 
