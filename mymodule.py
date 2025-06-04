@@ -32,3 +32,9 @@ def main_variable():
     print("Module variable:", get_module_variable())
 if __name__ == "__main__":
     main_variable()
+# Import the module named mymodule and call the get_module_variable function
+import mymodule
+print("Module variable:", mymodule.get_module_variable())
+# Import the module named mymodule and call the get_module_variable function
+import mymodule
+print("Module variable:", mymodule.get_module_variable())
