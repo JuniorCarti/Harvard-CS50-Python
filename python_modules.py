@@ -27,4 +27,9 @@ def main_power():
     print(f"{base} raised to the power of {exponent} is {result}")
 if __name__ == "__main__":
     main_power()
+# Example of importing all functions from a module
+from math import *
+# Using the factorial function from the math module
+def calculate_factorial(value):
+    return factorial(value)
 
