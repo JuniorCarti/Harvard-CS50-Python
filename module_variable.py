@@ -136,6 +136,10 @@ def main_factorial():
     print(f"The factorial of {value} is {factorial_result}")
 if __name__ == "__main__":
     main_factorial()
-    
+# Example of using the math module to calculate the power
+def calculate_power(base, exponent):
+    return math.pow(base, exponent)
+# Example of using the calculate_power function
+
 
 
