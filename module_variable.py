@@ -5,3 +5,6 @@ person1 = {
   "age": 36,
   "country": "Norway"
 }
+# Example of a variable in a module
+def get_person_info():
+    return person1
