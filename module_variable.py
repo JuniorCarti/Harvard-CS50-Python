@@ -134,5 +134,8 @@ def main_factorial():
     value = 5
     factorial_result = calculate_factorial(value)
     print(f"The factorial of {value} is {factorial_result}")
+if __name__ == "__main__":
+    main_factorial()
+    
 
 
