@@ -75,5 +75,11 @@ import sys
 # Example of using the sys module to get the Python version
 def get_python_version():
     return sys.version
+# Example of using the get_python_version function
+def main_sys():
+    python_version = get_python_version()
+    print(f"Python Version: {python_version}")
+if __name__ == "__main__":
+    main_sys()
 
 
