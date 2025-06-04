@@ -35,4 +35,5 @@ def get_system_info():
 def main_platform():
     system, release = get_system_info()
     print(f"System: {system}, Release: {release}")
-
+if __name__ == "__main__":
+    main_platform()
