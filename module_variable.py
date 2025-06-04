@@ -172,6 +172,11 @@ if __name__ == "__main__":
 def calculate_cosine(angle):
     return math.cos(math.radians(angle))
 # Example of using the calculate_cosine function
+def main_cosine():
+    angle = 60
+    cosine_result = calculate_cosine(angle)
+    print(f"The cosine of {angle} degrees is {cosine_result}")
+    
 
 
 
