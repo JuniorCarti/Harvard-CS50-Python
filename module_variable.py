@@ -202,6 +202,14 @@ if __name__ == "__main__":
 # Example of using the math module to calculate the least common multiple (LCM)
 def calculate_lcm(a, b):
     return abs(a * b) // math.gcd(a, b)
+# Example of using the calculate_lcm function
+def main_lcm():
+    a = 12
+    b = 15
+    lcm_result = calculate_lcm(a, b)
+    print(f"The LCM of {a} and {b} is {lcm_result}")
+if __name__ == "__main__":
+    main_lcm()
 
 
 
