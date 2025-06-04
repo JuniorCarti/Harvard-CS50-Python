@@ -14,4 +14,6 @@ def main():
     print(f"The square root of {value} is {result}")
 if __name__ == "__main__":
     main()
-    
+# Example of importing a specific function from a module
+from math import pow
+# Using the pow function to calculate power
