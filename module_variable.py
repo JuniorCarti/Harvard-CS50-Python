@@ -166,5 +166,7 @@ def main_sine():
     angle = 30
     sine_result = calculate_sine(angle)
     print(f"The sine of {angle} degrees is {sine_result}")
+if __name__ == "__main__":
+    main_sine()
 
 
