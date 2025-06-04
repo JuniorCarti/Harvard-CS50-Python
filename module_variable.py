@@ -119,5 +119,9 @@ if __name__ == "__main__":
 # Example of using the math module to calculate the square root
 def calculate_square_root(value):
     return math.sqrt(value)
-
+# Example of using the calculate_square_root function
+def main_square_root():
+    value = 25
+    square_root = calculate_square_root(value)
+    print(f"The square root of {value} is {square_root}")
 
