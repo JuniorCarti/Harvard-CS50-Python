@@ -168,5 +168,10 @@ def main_sine():
     print(f"The sine of {angle} degrees is {sine_result}")
 if __name__ == "__main__":
     main_sine()
+# Example of using the math module to calculate the cosine of an angle
+def calculate_cosine(angle):
+    return math.cos(math.radians(angle))
+# Example of using the calculate_cosine function
+
 
 
