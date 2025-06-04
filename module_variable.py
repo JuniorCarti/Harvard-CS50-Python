@@ -37,3 +37,8 @@ def main_platform():
     print(f"System: {system}, Release: {release}")
 if __name__ == "__main__":
     main_platform()
+# datetime module
+import datetime
+# Example of using the datetime module to get the current date and time
+def get_current_datetime():
+    return datetime.datetime.now()
