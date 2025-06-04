@@ -19,4 +19,10 @@ from math import pow
 # Using the pow function to calculate power
 def calculate_power(base, exponent):
     return pow(base, exponent)
+# Example of using the calculate_power function
+def main_power():
+    base = 2
+    exponent = 3
+    result = calculate_power(base, exponent)
+    print(f"{base} raised to the power of {exponent} is {result}")
 
