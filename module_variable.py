@@ -23,3 +23,7 @@ print("Person Info:", module_variable.get_person_info())
 import module_variable as person_info
 # Call the get_person_info function from the person_info module
 print("Person Info:", person_info.get_person_info())
+
+#Built-in Modules
+# Python provides a rich set of built-in modules that you can use to perform various tasks.
+
