@@ -151,5 +151,12 @@ if __name__ == "__main__":
 def calculate_logarithm(value, base):
     return math.log(value, base)
 # Example of using the calculate_logarithm function
+def main_logarithm():
+    value = 100
+    base = 10
+    logarithm_result = calculate_logarithm(value, base)
+    print(f"The logarithm of {value} to the base {base} is {logarithm_result}")
+if __name__ == "__main__":
+    main_logarithm()
 
 
