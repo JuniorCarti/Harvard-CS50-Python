@@ -17,3 +17,9 @@ if __name__ == "__main__":
 # Import the module named module_variable and call the get_person_info function
 import module_variable
 print("Person Info:", module_variable.get_person_info())
+
+#rename the module_variable.py to person_info.py
+# Import module_variable as person_info
+import module_variable as person_info
+# Call the get_person_info function from the person_info module
+print("Person Info:", person_info.get_person_info())
