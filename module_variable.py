@@ -53,4 +53,9 @@ import random
 # Example of using the random module to generate a random number
 def generate_random_number(start, end):
     return random.randint(start, end)
-
+# Example of using the generate_random_number function
+def main_random():
+    random_number = generate_random_number(1, 100)
+    print(f"Random Number: {random_number}")
+if __name__ == "__main__":
+    main_random()
