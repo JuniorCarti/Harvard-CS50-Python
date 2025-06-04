@@ -70,4 +70,10 @@ def main_os():
     print(f"Current Working Directory: {current_directory}")
 if __name__ == "__main__":
     main_os()
+# sys module
+import sys
+# Example of using the sys module to get the Python version
+def get_python_version():
+    return sys.version
+
 
