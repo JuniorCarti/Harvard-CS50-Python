@@ -176,7 +176,9 @@ def main_cosine():
     angle = 60
     cosine_result = calculate_cosine(angle)
     print(f"The cosine of {angle} degrees is {cosine_result}")
-    
+if __name__ == "__main__":
+    main_cosine()
+
 
 
 
