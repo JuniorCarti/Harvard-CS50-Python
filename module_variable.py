@@ -48,3 +48,9 @@ def main_datetime():
     print(f"Current Date and Time: {current_datetime}")
 if __name__ == "__main__":
     main_datetime()
+# random module
+import random
+# Example of using the random module to generate a random number
+def generate_random_number(start, end):
+    return random.randint(start, end)
+
