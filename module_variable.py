@@ -26,4 +26,9 @@ print("Person Info:", person_info.get_person_info())
 
 #Built-in Modules
 # Python provides a rich set of built-in modules that you can use to perform various tasks.
+#platform module
+import platform
+# Example of using the platform module to get system information
+def get_system_info():
+    return platform.system(), platform.release()
 
