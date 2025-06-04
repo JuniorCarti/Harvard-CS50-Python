@@ -81,5 +81,17 @@ def main_sys():
     print(f"Python Version: {python_version}")
 if __name__ == "__main__":
     main_sys()
+# json module
+import json
+# Example of using the json module to convert a Python object to a JSON string
+def convert_to_json(data):
+    return json.dumps(data)
+# Example of using the convert_to_json function
+def main_json():
+    data = {"name": "Alice", "age": 30, "city": "New York"}
+    json_string = convert_to_json(data)
+    print(f"JSON String: {json_string}")
+if __name__ == "__main__":
+    main_json()
 
 
