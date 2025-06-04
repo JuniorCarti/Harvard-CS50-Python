@@ -17,3 +17,6 @@ if __name__ == "__main__":
 # Example of importing a specific function from a module
 from math import pow
 # Using the pow function to calculate power
+def calculate_power(base, exponent):
+    return pow(base, exponent)
+
