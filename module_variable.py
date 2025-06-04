@@ -116,5 +116,8 @@ def main_math():
     print(f"The area of a circle with radius {radius} is {area}")
 if __name__ == "__main__":
     main_math()
+# Example of using the math module to calculate the square root
+def calculate_square_root(value):
+    return math.sqrt(value)
 
 
