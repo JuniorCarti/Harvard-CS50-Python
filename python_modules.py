@@ -12,3 +12,6 @@ def main():
     value = 16
     result = calculate_square_root(value)
     print(f"The square root of {value} is {result}")
+if __name__ == "__main__":
+    main()
+    
