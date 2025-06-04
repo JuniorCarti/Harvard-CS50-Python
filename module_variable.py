@@ -147,6 +147,9 @@ def main_power():
     print(f"{base} raised to the power of {exponent} is {power_result}")
 if __name__ == "__main__":
     main_power()
-
+# Example of using the math module to calculate the logarithm
+def calculate_logarithm(value, base):
+    return math.log(value, base)
+# Example of using the calculate_logarithm function
 
 
