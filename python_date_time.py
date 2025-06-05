@@ -14,3 +14,8 @@ if __name__ == "__main__":
 # Example of using the datetime module to format a date
 def format_date(date):
     return date.strftime("%Y-%m-%d %H:%M:%S")
+# Example of using the format_date function
+def main_format_date():
+    current_datetime = get_current_datetime()
+    formatted_date = format_date(current_datetime)
+    print(f"Formatted Date: {formatted_date}")
