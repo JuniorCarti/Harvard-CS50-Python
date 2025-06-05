@@ -47,5 +47,9 @@ if __name__ == "__main__":
 def create_specific_date(year, month, day):
     return datetime.date(year, month, day)
 # Example of using the create_specific_date function
+def main_create_specific_date():
+    specific_date = create_specific_date(2023, 10, 1)
+    print(f"Specific Date: {specific_date}")
+    
 
 
