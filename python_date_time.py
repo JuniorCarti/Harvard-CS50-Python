@@ -19,3 +19,5 @@ def main_format_date():
     current_datetime = get_current_datetime()
     formatted_date = format_date(current_datetime)
     print(f"Formatted Date: {formatted_date}")
+if __name__ == "__main__":
+    main_format_date()
