@@ -50,6 +50,8 @@ def create_specific_date(year, month, day):
 def main_create_specific_date():
     specific_date = create_specific_date(2023, 10, 1)
     print(f"Specific Date: {specific_date}")
-    
+if __name__ == "__main__":
+    main_create_specific_date()
+
 
 
