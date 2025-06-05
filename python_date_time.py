@@ -21,3 +21,9 @@ def main_format_date():
     print(f"Formatted Date: {formatted_date}")
 if __name__ == "__main__":
     main_format_date()
+# timedelta output
+# Example of using the datetime module to calculate a future date
+def calculate_future_date(days):
+    current_datetime = get_current_datetime()
+    future_date = current_datetime + datetime.timedelta(days=days)
+    return future_date
