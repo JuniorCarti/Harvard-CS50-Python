@@ -43,5 +43,9 @@ def main_get_current_time():
     print(f"Current Time: {current_time}")
 if __name__ == "__main__":
     main_get_current_time()
+# Example of creating a specific date object
+def create_specific_date(year, month, day):
+    return datetime.date(year, month, day)
+# Example of using the create_specific_date function
 
 
