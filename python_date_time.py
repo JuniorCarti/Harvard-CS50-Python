@@ -31,3 +31,6 @@ def calculate_future_date(days):
 def main_calculate_future_date():
     future_date = calculate_future_date(10)
     print(f"Future Date (10 days later): {future_date}")
+if __name__ == "__main__":
+    main_calculate_future_date()
+    
