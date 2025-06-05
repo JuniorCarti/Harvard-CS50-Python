@@ -37,5 +37,11 @@ if __name__ == "__main__":
 # Example of using the datetime module to get the current time
 def get_current_time():
     return datetime.datetime.now().time()
+#Creating Date Objects
+def main_get_current_time():
+    current_time = get_current_time()
+    print(f"Current Time: {current_time}")
+if __name__ == "__main__":
+    main_get_current_time()
 
 
