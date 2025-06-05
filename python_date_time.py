@@ -33,4 +33,9 @@ def main_calculate_future_date():
     print(f"Future Date (10 days later): {future_date}")
 if __name__ == "__main__":
     main_calculate_future_date()
-    
+# time output
+# Example of using the datetime module to get the current time
+def get_current_time():
+    return datetime.datetime.now().time()
+
+
