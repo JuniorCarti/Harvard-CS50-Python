@@ -27,3 +27,7 @@ def calculate_future_date(days):
     current_datetime = get_current_datetime()
     future_date = current_datetime + datetime.timedelta(days=days)
     return future_date
+# Example of using the calculate_future_date function
+def main_calculate_future_date():
+    future_date = calculate_future_date(10)
+    print(f"Future Date (10 days later): {future_date}")
