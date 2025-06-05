@@ -10,3 +10,7 @@ def main_datetime():
     print(f"Current Date and Time: {current_datetime}")
 if __name__ == "__main__":
     main_datetime()
+#date output
+# Example of using the datetime module to format a date
+def format_date(date):
+    return date.strftime("%Y-%m-%d %H:%M:%S")
