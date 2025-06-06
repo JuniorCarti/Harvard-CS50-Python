@@ -126,3 +126,8 @@ def main_triangle_area():
     print(f"Area of a triangle with base {base} and height {height}: {triangle_area}")
 if __name__ == "__main__":
     main_triangle_area()
+# Example of using the math module to calculate the area of a rectangle
+def calculate_rectangle_area(length, width):
+    return length * width
+# Example of using the calculate_rectangle_area function
+
