@@ -95,3 +95,7 @@ def main_lcm():
     print(f"LCM of {a} and {b}: {lcm_value}")
 if __name__ == "__main__":
     main_lcm()
+# Example of using the math module to calculate the area of a circle
+def calculate_circle_area(radius):
+    return math.pi * (radius ** 2)
+# Example of using the calculate_circle_area function
