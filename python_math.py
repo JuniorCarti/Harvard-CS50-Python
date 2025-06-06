@@ -15,3 +15,9 @@ if __name__ == "__main__":
 def calculate_factorial(number):
     return math.factorial(number)
 # Example of using the calculate_factorial function
+def main_factorial():
+    number = 5
+    factorial = calculate_factorial(number)
+    print(f"Factorial of {number}: {factorial}")
+if __name__ == "__main__":
+    main_factorial()
