@@ -257,4 +257,7 @@ def main_polygon_area():
     print(f"Area of a regular polygon with {num_sides} sides and side length {side_length}: {polygon_area}")
 if __name__ == "__main__":
     main_polygon_area()
+# Example of using the math module to calculate the area of a regular hexagon
+def calculate_hexagon_area(side_length):
+    return (3 * math.sqrt(3) * side_length ** 2) / 2
 
