@@ -151,4 +151,10 @@ if __name__ == "__main__":
 def calculate_sphere_volume(radius):
     return (4/3) * math.pi * (radius ** 3)
 # Example of using the calculate_sphere_volume function
+def main_sphere_volume():
+    radius = 3
+    sphere_volume = calculate_sphere_volume(radius)
+    print(f"Volume of a sphere with radius {radius}: {sphere_volume}")
+if __name__ == "__main__":
+    main_sphere_volume()
 
