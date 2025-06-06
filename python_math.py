@@ -44,3 +44,10 @@ if __name__ == "__main__":
 # Example of using the math module to calculate the tangent of an angle
 def calculate_tangent(angle):
     return math.tan(math.radians(angle))
+# Example of using the calculate_tangent function
+def main_tangent():
+    angle = 45
+    tangent_value = calculate_tangent(angle)
+    print(f"Tangent of {angle} degrees: {tangent_value}")
+if __name__ == "__main__":
+    main_tangent()
