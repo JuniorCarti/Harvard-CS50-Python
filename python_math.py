@@ -202,4 +202,8 @@ def main_parallelogram_area():
     print(f"Area of a parallelogram with base {base} and height {height}: {parallelogram_area}")
 if __name__ == "__main__":
     main_parallelogram_area()
+# Example of using the math module to calculate the area of a rhombus
+def calculate_rhombus_area(diagonal1, diagonal2):
+    return 0.5 * diagonal1 * diagonal2
+# Example of using the calculate_rhombus_area function
 
