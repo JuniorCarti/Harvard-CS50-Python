@@ -137,4 +137,8 @@ def main_rectangle_area():
     print(f"Area of a rectangle with length {length} and width {width}: {rectangle_area}")
 if __name__ == "__main__":
     main_rectangle_area()
+# Example of using the math module to calculate the area of a square
+def calculate_square_area(side):
+    return side ** 2
+# Example of using the calculate_square_area function
 
