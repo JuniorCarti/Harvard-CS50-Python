@@ -171,4 +171,12 @@ if __name__ == "__main__":
 # Example of using the math module to calculate the volume of a cone
 def calculate_cone_volume(radius, height):
     return (1/3) * math.pi * (radius ** 2) * height
+# Example of using the calculate_cone_volume function
+def main_cone_volume():
+    radius = 3
+    height = 5
+    cone_volume = calculate_cone_volume(radius, height)
+    print(f"Volume of a cone with radius {radius} and height {height}: {cone_volume}")
+if __name__ == "__main__":
+    main_cone_volume()
 
