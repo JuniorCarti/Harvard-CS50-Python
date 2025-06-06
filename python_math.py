@@ -77,3 +77,10 @@ if __name__ == "__main__":
 def calculate_gcd(a, b):
     return math.gcd(a, b)
 # Example of using the calculate_gcd function
+def main_gcd():
+    a = 48
+    b = 18
+    gcd_value = calculate_gcd(a, b)
+    print(f"GCD of {a} and {b}: {gcd_value}")
+if __name__ == "__main__":
+    main_gcd()
