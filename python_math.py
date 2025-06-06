@@ -115,3 +115,7 @@ def main_circle_circumference():
     print(f"Circumference of a circle with radius {radius}: {circle_circumference}")
 if __name__ == "__main__":
     main_circle_circumference()
+# Example of using the math module to calculate the area of a triangle
+def calculate_triangle_area(base, height):
+    return 0.5 * base * height
+# Example of using the calculate_triangle_area function
