@@ -291,4 +291,11 @@ if __name__ == "__main__":
 # Example of using the math module to calculate the area of a regular dodecagon
 def calculate_dodecagon_area(side_length):
     return 3 * (2 + math.sqrt(3)) * side_length ** 2
+# Example of using the calculate_dodecagon_area function
+def main_dodecagon_area():
+    side_length = 4
+    dodecagon_area = calculate_dodecagon_area(side_length)
+    print(f"Area of a regular dodecagon with side length {side_length}: {dodecagon_area}")
+if __name__ == "__main__":
+    main_dodecagon_area()
 
