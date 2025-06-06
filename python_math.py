@@ -308,4 +308,7 @@ def main_heptagon_area():
     print(f"Area of a regular heptagon with side length {side_length}: {heptagon_area}")
 if __name__ == "__main__":
     main_heptagon_area()
+# Example of using the math module to calculate the area of a regular nonagon
+def calculate_nonagon_area(side_length):
+    return (9 / 4) * side_length ** 2 / math.tan(math.pi / 9)
 
