@@ -246,4 +246,8 @@ def main_segment_area():
     print(f"Area of a segment of a circle with radius {radius} and angle {angle} degrees: {segment_area}")
 if __name__ == "__main__":
     main_segment_area()
+# Example of using the math module to calculate the area of a polygon
+def calculate_polygon_area(num_sides, side_length):
+    return (num_sides * side_length ** 2) / (4 * math.tan(math.pi / num_sides))
+# Example of using the calculate_polygon_area function
 
