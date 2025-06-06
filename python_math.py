@@ -147,4 +147,8 @@ def main_square_area():
     print(f"Area of a square with side {side}: {square_area}")
 if __name__ == "__main__":
     main_square_area()
+# Example of using the math module to calculate the volume of a sphere
+def calculate_sphere_volume(radius):
+    return (4/3) * math.pi * (radius ** 3)
+# Example of using the calculate_sphere_volume function
 
