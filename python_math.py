@@ -311,4 +311,11 @@ if __name__ == "__main__":
 # Example of using the math module to calculate the area of a regular nonagon
 def calculate_nonagon_area(side_length):
     return (9 / 4) * side_length ** 2 / math.tan(math.pi / 9)
+# Example of using the calculate_nonagon_area function  
+def main_nonagon_area():
+    side_length = 4
+    nonagon_area = calculate_nonagon_area(side_length)
+    print(f"Area of a regular nonagon with side length {side_length}: {nonagon_area}")
+if __name__ == "__main__":
+    main_nonagon_area()
 
