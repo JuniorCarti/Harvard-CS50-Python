@@ -224,4 +224,8 @@ def main_ellipse_area():
     print(f"Area of an ellipse with semi-major axis {semi_major_axis} and semi-minor axis {semi_minor_axis}: {ellipse_area}")
 if __name__ == "__main__":
     main_ellipse_area()
+# Example of using the math module to calculate the area of a sector of a circle
+def calculate_sector_area(radius, angle):
+    return 0.5 * radius ** 2 * math.radians(angle)
+# Example of using the calculate_sector_area function
 
