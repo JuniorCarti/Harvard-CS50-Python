@@ -278,4 +278,8 @@ def main_pentagon_area():
 if __name__ == "__main__":
 
     main_pentagon_area()
+# Example of using the math module to calculate the area of a regular octagon
+def calculate_octagon_area(side_length):
+    return 2 * (1 + math.sqrt(2)) * side_length ** 2
+# Example of using the calculate_octagon_area function
 
