@@ -288,4 +288,7 @@ def main_octagon_area():
     print(f"Area of a regular octagon with side length {side_length}: {octagon_area}")
 if __name__ == "__main__":
     main_octagon_area()
+# Example of using the math module to calculate the area of a regular dodecagon
+def calculate_dodecagon_area(side_length):
+    return 3 * (2 + math.sqrt(3)) * side_length ** 2
 
