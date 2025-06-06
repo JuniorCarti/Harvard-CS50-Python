@@ -99,3 +99,9 @@ if __name__ == "__main__":
 def calculate_circle_area(radius):
     return math.pi * (radius ** 2)
 # Example of using the calculate_circle_area function
+def main_circle_area():
+    radius = 5
+    circle_area = calculate_circle_area(radius)
+    print(f"Area of a circle with radius {radius}: {circle_area}")
+if __name__ == "__main__":
+    main_circle_area()
