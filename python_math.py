@@ -157,4 +157,8 @@ def main_sphere_volume():
     print(f"Volume of a sphere with radius {radius}: {sphere_volume}")
 if __name__ == "__main__":
     main_sphere_volume()
+# Example of using the math module to calculate the volume of a cylinder
+def calculate_cylinder_volume(radius, height):
+    return math.pi * (radius ** 2) * height
+# Example of using the calculate_cylinder_volume function
 
