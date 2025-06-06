@@ -260,4 +260,11 @@ if __name__ == "__main__":
 # Example of using the math module to calculate the area of a regular hexagon
 def calculate_hexagon_area(side_length):
     return (3 * math.sqrt(3) * side_length ** 2) / 2
+# Example of using the calculate_hexagon_area function
+def main_hexagon_area():
+    side_length = 4
+    hexagon_area = calculate_hexagon_area(side_length)
+    print(f"Area of a regular hexagon with side length {side_length}: {hexagon_area}")
+if __name__ == "__main__":
+    main_hexagon_area()
 
