@@ -191,4 +191,8 @@ def main_trapezoid_area():
     print(f"Area of a trapezoid with bases {base1} and {base2} and height {height}: {trapezoid_area}")
 if __name__ == "__main__":
     main_trapezoid_area()
+# Example of using the math module to calculate the area of a parallelogram
+def calculate_parallelogram_area(base, height):
+    return base * height
+# Example of using the calculate_parallelogram_area function
 
