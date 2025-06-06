@@ -25,3 +25,10 @@ if __name__ == "__main__":
 def calculate_sine(angle):
     return math.sin(math.radians(angle))
 # Example of using the calculate_sine function
+def main_sine():
+    angle = 30
+    sine_value = calculate_sine(angle)
+    print(f"Sine of {angle} degrees: {sine_value}")
+if __name__ == "__main__":
+    main_sine()
+    
