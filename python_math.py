@@ -302,4 +302,10 @@ if __name__ == "__main__":
 def calculate_heptagon_area(side_length):
     return (7 / 4) * side_length ** 2 / math.tan(math.pi / 7)
 # Example of using the calculate_heptagon_area function
+def main_heptagon_area():
+    side_length = 4
+    heptagon_area = calculate_heptagon_area(side_length)
+    print(f"Area of a regular heptagon with side length {side_length}: {heptagon_area}")
+if __name__ == "__main__":
+    main_heptagon_area()
 
