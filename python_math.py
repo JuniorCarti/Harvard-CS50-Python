@@ -217,4 +217,11 @@ if __name__ == "__main__":
 def calculate_ellipse_area(semi_major_axis, semi_minor_axis):
     return math.pi * semi_major_axis * semi_minor_axis
 # Example of using the calculate_ellipse_area function
+def main_ellipse_area():
+    semi_major_axis = 5
+    semi_minor_axis = 3
+    ellipse_area = calculate_ellipse_area(semi_major_axis, semi_minor_axis)
+    print(f"Area of an ellipse with semi-major axis {semi_major_axis} and semi-minor axis {semi_minor_axis}: {ellipse_area}")
+if __name__ == "__main__":
+    main_ellipse_area()
 
