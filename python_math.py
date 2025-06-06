@@ -88,3 +88,10 @@ if __name__ == "__main__":
 def calculate_lcm(a, b):
     return abs(a * b) // math.gcd(a, b)
 # Example of using the calculate_lcm function
+def main_lcm():
+    a = 12
+    b = 15
+    lcm_value = calculate_lcm(a, b)
+    print(f"LCM of {a} and {b}: {lcm_value}")
+if __name__ == "__main__":
+    main_lcm()
