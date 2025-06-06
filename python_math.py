@@ -73,3 +73,7 @@ def main_power():
     print(f"{base} raised to the power of {exponent}: {power_value}")
 if __name__ == "__main__":
     main_power()
+# Example of using the math module to calculate the greatest common divisor (GCD) of two numbers
+def calculate_gcd(a, b):
+    return math.gcd(a, b)
+# Example of using the calculate_gcd function
