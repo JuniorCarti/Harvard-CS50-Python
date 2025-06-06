@@ -51,3 +51,7 @@ def main_tangent():
     print(f"Tangent of {angle} degrees: {tangent_value}")
 if __name__ == "__main__":
     main_tangent()
+# Example of using the math module to calculate the logarithm of a number
+def calculate_logarithm(number, base=10):
+    return math.log(number, base)
+# Example of using the calculate_logarithm function
