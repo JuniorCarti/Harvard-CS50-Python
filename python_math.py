@@ -206,4 +206,11 @@ if __name__ == "__main__":
 def calculate_rhombus_area(diagonal1, diagonal2):
     return 0.5 * diagonal1 * diagonal2
 # Example of using the calculate_rhombus_area function
+def main_rhombus_area():
+    diagonal1 = 8
+    diagonal2 = 6
+    rhombus_area = calculate_rhombus_area(diagonal1, diagonal2)
+    print(f"Area of a rhombus with diagonals {diagonal1} and {diagonal2}: {rhombus_area}")
+if __name__ == "__main__":
+    main_rhombus_area()
 
