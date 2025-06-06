@@ -130,4 +130,11 @@ if __name__ == "__main__":
 def calculate_rectangle_area(length, width):
     return length * width
 # Example of using the calculate_rectangle_area function
+def main_rectangle_area():
+    length = 10
+    width = 5
+    rectangle_area = calculate_rectangle_area(length, width)
+    print(f"Area of a rectangle with length {length} and width {width}: {rectangle_area}")
+if __name__ == "__main__":
+    main_rectangle_area()
 
