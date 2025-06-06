@@ -298,4 +298,8 @@ def main_dodecagon_area():
     print(f"Area of a regular dodecagon with side length {side_length}: {dodecagon_area}")
 if __name__ == "__main__":
     main_dodecagon_area()
+# Example of using the math module to calculate the area of a regular heptagon
+def calculate_heptagon_area(side_length):
+    return (7 / 4) * side_length ** 2 / math.tan(math.pi / 7)
+# Example of using the calculate_heptagon_area function
 
