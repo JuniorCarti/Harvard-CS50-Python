@@ -21,3 +21,7 @@ def main_factorial():
     print(f"Factorial of {number}: {factorial}")
 if __name__ == "__main__":
     main_factorial()
+# Example of using the math module to calculate the sine of an angle
+def calculate_sine(angle):
+    return math.sin(math.radians(angle))
+# Example of using the calculate_sine function
