@@ -9,3 +9,5 @@ def main_square_root():
     number = 16
     square_root = calculate_square_root(number)
     print(f"Square Root of {number}: {square_root}")    
+if __name__ == "__main__":
+    main_square_root()
