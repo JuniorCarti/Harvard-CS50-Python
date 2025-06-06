@@ -119,3 +119,10 @@ if __name__ == "__main__":
 def calculate_triangle_area(base, height):
     return 0.5 * base * height
 # Example of using the calculate_triangle_area function
+def main_triangle_area():
+    base = 10
+    height = 5
+    triangle_area = calculate_triangle_area(base, height)
+    print(f"Area of a triangle with base {base} and height {height}: {triangle_area}")
+if __name__ == "__main__":
+    main_triangle_area()
