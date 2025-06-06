@@ -179,4 +179,8 @@ def main_cone_volume():
     print(f"Volume of a cone with radius {radius} and height {height}: {cone_volume}")
 if __name__ == "__main__":
     main_cone_volume()
+# Example of using the math module to calculate the area of a trapezoid
+def calculate_trapezoid_area(base1, base2, height):
+    return 0.5 * (base1 + base2) * height
+# Example of using the calculate_trapezoid_area function
 
