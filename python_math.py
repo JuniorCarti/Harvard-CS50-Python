@@ -271,4 +271,11 @@ if __name__ == "__main__":
 def calculate_pentagon_area(side_length):
     return (1/4) * math.sqrt(5 * (5 + 2 * math.sqrt(5))) * side_length ** 2
 # Example of using the calculate_pentagon_area function
+def main_pentagon_area():
+    side_length = 4
+    pentagon_area = calculate_pentagon_area(side_length)
+    print(f"Area of a regular pentagon with side length {side_length}: {pentagon_area}")
+if __name__ == "__main__":
+
+    main_pentagon_area()
 
