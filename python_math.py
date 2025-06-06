@@ -62,3 +62,7 @@ def main_logarithm():
     print(f"Logarithm of {number} to base {base}: {logarithm_value}")
 if __name__ == "__main__":
     main_logarithm()
+# Example of using the math module to calculate the power of a number
+def calculate_power(base, exponent):
+    return math.pow(base, exponent)
+# Example of using the calculate_power function
