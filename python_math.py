@@ -183,4 +183,12 @@ if __name__ == "__main__":
 def calculate_trapezoid_area(base1, base2, height):
     return 0.5 * (base1 + base2) * height
 # Example of using the calculate_trapezoid_area function
+def main_trapezoid_area():
+    base1 = 10
+    base2 = 5
+    height = 4
+    trapezoid_area = calculate_trapezoid_area(base1, base2, height)
+    print(f"Area of a trapezoid with bases {base1} and {base2} and height {height}: {trapezoid_area}")
+if __name__ == "__main__":
+    main_trapezoid_area()
 
