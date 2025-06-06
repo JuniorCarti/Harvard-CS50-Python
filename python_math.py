@@ -282,4 +282,10 @@ if __name__ == "__main__":
 def calculate_octagon_area(side_length):
     return 2 * (1 + math.sqrt(2)) * side_length ** 2
 # Example of using the calculate_octagon_area function
+def main_octagon_area():
+    side_length = 4
+    octagon_area = calculate_octagon_area(side_length)
+    print(f"Area of a regular octagon with side length {side_length}: {octagon_area}")
+if __name__ == "__main__":
+    main_octagon_area()
 
