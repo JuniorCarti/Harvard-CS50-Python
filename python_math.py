@@ -109,3 +109,9 @@ if __name__ == "__main__":
 def calculate_circle_circumference(radius):
     return 2 * math.pi * radius
 # Example of using the calculate_circle_circumference function
+def main_circle_circumference():
+    radius = 5
+    circle_circumference = calculate_circle_circumference(radius)
+    print(f"Circumference of a circle with radius {radius}: {circle_circumference}")
+if __name__ == "__main__":
+    main_circle_circumference()
