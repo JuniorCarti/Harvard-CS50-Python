@@ -195,4 +195,11 @@ if __name__ == "__main__":
 def calculate_parallelogram_area(base, height):
     return base * height
 # Example of using the calculate_parallelogram_area function
+def main_parallelogram_area():
+    base = 10
+    height = 5
+    parallelogram_area = calculate_parallelogram_area(base, height)
+    print(f"Area of a parallelogram with base {base} and height {height}: {parallelogram_area}")
+if __name__ == "__main__":
+    main_parallelogram_area()
 
