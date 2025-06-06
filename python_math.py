@@ -228,4 +228,11 @@ if __name__ == "__main__":
 def calculate_sector_area(radius, angle):
     return 0.5 * radius ** 2 * math.radians(angle)
 # Example of using the calculate_sector_area function
+def main_sector_area():
+    radius = 5
+    angle = 60
+    sector_area = calculate_sector_area(radius, angle)
+    print(f"Area of a sector of a circle with radius {radius} and angle {angle} degrees: {sector_area}")
+if __name__ == "__main__":
+    main_sector_area()
 
