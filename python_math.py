@@ -267,4 +267,8 @@ def main_hexagon_area():
     print(f"Area of a regular hexagon with side length {side_length}: {hexagon_area}")
 if __name__ == "__main__":
     main_hexagon_area()
+# Example of using the math module to calculate the area of a regular pentagon
+def calculate_pentagon_area(side_length):
+    return (1/4) * math.sqrt(5 * (5 + 2 * math.sqrt(5))) * side_length ** 2
+# Example of using the calculate_pentagon_area function
 
