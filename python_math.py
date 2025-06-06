@@ -161,4 +161,11 @@ if __name__ == "__main__":
 def calculate_cylinder_volume(radius, height):
     return math.pi * (radius ** 2) * height
 # Example of using the calculate_cylinder_volume function
+def main_cylinder_volume():
+    radius = 3
+    height = 5
+    cylinder_volume = calculate_cylinder_volume(radius, height)
+    print(f"Volume of a cylinder with radius {radius} and height {height}: {cylinder_volume}")
+if __name__ == "__main__":
+    main_cylinder_volume()
 
