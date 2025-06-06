@@ -105,3 +105,7 @@ def main_circle_area():
     print(f"Area of a circle with radius {radius}: {circle_area}")
 if __name__ == "__main__":
     main_circle_area()
+# Example of using the math module to calculate the circumference of a circle
+def calculate_circle_circumference(radius):
+    return 2 * math.pi * radius
+# Example of using the calculate_circle_circumference function
