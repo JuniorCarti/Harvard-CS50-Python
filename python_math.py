@@ -141,4 +141,10 @@ if __name__ == "__main__":
 def calculate_square_area(side):
     return side ** 2
 # Example of using the calculate_square_area function
+def main_square_area():
+    side = 4
+    square_area = calculate_square_area(side)
+    print(f"Area of a square with side {side}: {square_area}")
+if __name__ == "__main__":
+    main_square_area()
 
