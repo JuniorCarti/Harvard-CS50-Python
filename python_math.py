@@ -168,4 +168,7 @@ def main_cylinder_volume():
     print(f"Volume of a cylinder with radius {radius} and height {height}: {cylinder_volume}")
 if __name__ == "__main__":
     main_cylinder_volume()
+# Example of using the math module to calculate the volume of a cone
+def calculate_cone_volume(radius, height):
+    return (1/3) * math.pi * (radius ** 2) * height
 
