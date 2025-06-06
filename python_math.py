@@ -250,4 +250,11 @@ if __name__ == "__main__":
 def calculate_polygon_area(num_sides, side_length):
     return (num_sides * side_length ** 2) / (4 * math.tan(math.pi / num_sides))
 # Example of using the calculate_polygon_area function
+def main_polygon_area():
+    num_sides = 5
+    side_length = 6
+    polygon_area = calculate_polygon_area(num_sides, side_length)
+    print(f"Area of a regular polygon with {num_sides} sides and side length {side_length}: {polygon_area}")
+if __name__ == "__main__":
+    main_polygon_area()
 
