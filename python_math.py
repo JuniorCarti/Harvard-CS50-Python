@@ -213,4 +213,8 @@ def main_rhombus_area():
     print(f"Area of a rhombus with diagonals {diagonal1} and {diagonal2}: {rhombus_area}")
 if __name__ == "__main__":
     main_rhombus_area()
+# Example of using the math module to calculate the area of an ellipse
+def calculate_ellipse_area(semi_major_axis, semi_minor_axis):
+    return math.pi * semi_major_axis * semi_minor_axis
+# Example of using the calculate_ellipse_area function
 
