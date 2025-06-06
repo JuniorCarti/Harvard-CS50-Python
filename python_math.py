@@ -54,4 +54,11 @@ if __name__ == "__main__":
 # Example of using the math module to calculate the logarithm of a number
 def calculate_logarithm(number, base=10):
     return math.log(number, base)
-# Example of using the calculate_logarithm function
+# Example of using the calculate_logarithm 
+def main_logarithm():
+    number = 100
+    base = 10
+    logarithm_value = calculate_logarithm(number, base)
+    print(f"Logarithm of {number} to base {base}: {logarithm_value}")
+if __name__ == "__main__":
+    main_logarithm()
