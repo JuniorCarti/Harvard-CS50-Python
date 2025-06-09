@@ -51,5 +51,16 @@ if __name__ == "__main__":
     # Sorting keys in JSON
     sorted_json_string = json.dumps(data, sort_keys=True, indent=4)
     print("Sorted JSON String:\n", sorted_json_string)
+    # Handling non-serializable objects
+    class CustomObject:
+        def __init__(self, name):
+            self.name = name
+    def custom_object_serializer(obj):
+        if isinstance(obj, CustomObject):
+            return {"CustomObject": obj.name}
+        raise TypeError(f"Type {type(obj)} not serializable")
+    custom_obj = CustomObject("Example")
+    custom_json_string = json.dumps(custom_obj, default=custom_object_serializer)
+    print("Custom JSON String:", custom_json_string)
     
 
