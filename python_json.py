@@ -10,3 +10,8 @@ def json_dumps_example():
     }
     json_string = json.dumps(data)
     print("JSON String:", json_string)
+# json.loads() converts a JSON string into a Python object
+def json_loads_example():
+    json_string = '{"name": "John", "age": 30, "city": "New York"}'
+    data = json.loads(json_string)
+    print("Python Object:", data)
