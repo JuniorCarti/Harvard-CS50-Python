@@ -25,4 +25,31 @@ def json_dump_example():
     with open('data.json', 'w') as file:
         json.dump(data, file)
     print("Data written to data.json")
+# json.load() reads a JSON file and converts it into a Python object
+def json_load_example():
+    with open('data.json', 'r') as file:
+        data = json.load(file)
+    print("Data loaded from data.json:", data)
+# Example usage
+if __name__ == "__main__":
+    json_dumps_example()
+    json_loads_example()
+    json_dump_example()
+    json_load_example()
     
+    # Additional examples
+    # Pretty printing JSON
+    data = {
+        "name": "John",
+        "age": 30,
+        "city": "New York",
+        "children": ["Ann", "Billy"]
+    }
+    pretty_json_string = json.dumps(data, indent=4)
+    print("Pretty JSON String:\n", pretty_json_string)
+    
+    # Sorting keys in JSON
+    sorted_json_string = json.dumps(data, sort_keys=True, indent=4)
+    print("Sorted JSON String:\n", sorted_json_string)
+    
+
