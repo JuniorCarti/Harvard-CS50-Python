@@ -62,5 +62,24 @@ if __name__ == "__main__":
     custom_obj = CustomObject("Example")
     custom_json_string = json.dumps(custom_obj, default=custom_object_serializer)
     print("Custom JSON String:", custom_json_string)
+
+# Handling JSON with complex data types
+def complex_data_example():
+    data = {
+        "name": "John",
+        "age": 30,
+        "is_active": True,
+        "balance": 1234.56,
+        "tags": ["developer", "python", "json"],
+        "address": {
+            "street": "123 Main St",
+            "city": "New York",
+            "zip": "10001"
+        }
+    }
+    json_string = json.dumps(data, indent=4)
+    print("Complex JSON String:\n", json_string)
+if __name__ == "__main__":
+    complex_data_example()
     
 
