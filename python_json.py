@@ -15,3 +15,14 @@ def json_loads_example():
     json_string = '{"name": "John", "age": 30, "city": "New York"}'
     data = json.loads(json_string)
     print("Python Object:", data)
+# json.dump() writes a Python object to a file in JSON format
+def json_dump_example():
+    data = {
+        "name": "John",
+        "age": 30,
+        "city": "New York"
+    }
+    with open('data.json', 'w') as file:
+        json.dump(data, file)
+    print("Data written to data.json")
+    
