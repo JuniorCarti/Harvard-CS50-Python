@@ -323,4 +323,6 @@ if __name__ == "__main__":
 #the  min and max functions can be used to find the minimum and maximum values in a list or iterable
 def find_minimum(numbers):
     return min(numbers)
+def find_maximum(numbers):
+    return max(numbers)
 
