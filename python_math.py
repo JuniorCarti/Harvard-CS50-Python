@@ -364,5 +364,11 @@ def main_absolute_value():
     print(f"Absolute value of {x}: {absolute_value}")
 if __name__ == "__main__":
     main_absolute_value()
-
+#The pow(x, y) function returns the value of x to the power of y (xy).
+x = pow(2, 3)
+# Example of using the pow function
+def main_pow_example():
+    print(f"2 raised to the power of 3: {x}")
+if __name__ == "__main__":
+    main_pow_example()
 
