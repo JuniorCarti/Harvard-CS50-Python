@@ -342,4 +342,7 @@ def main_distance():
     point2 = (4, 6)
     distance = calculate_distance(point1, point2)
     print(f"Distance between {point1} and {point2}: {distance}")
+if __name__ == "__main__":
+    main_distance()
+    
 
