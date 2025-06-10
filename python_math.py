@@ -354,5 +354,9 @@ def main_min_max_example():
     print(f"Maximum value: {y}")
 if __name__ == "__main__":
     main_min_max_example()
+#The abs() function returns the absolute (positive) value of the specified number:
+def calculate_absolute_value(number):
+    return abs(number)
+# Example of using the calculate_absolute_value function
 
 
