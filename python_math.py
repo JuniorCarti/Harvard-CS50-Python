@@ -325,4 +325,10 @@ def find_minimum(numbers):
     return min(numbers)
 def find_maximum(numbers):
     return max(numbers)
+# Example of using the find_minimum and find_maximum functions
+def main_min_max():
+    numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5]
+    minimum = find_minimum(numbers)
+    maximum = find_maximum(numbers)
+    print(f"Minimum: {minimum}, Maximum: {maximum}")
 
