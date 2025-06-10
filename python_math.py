@@ -357,6 +357,12 @@ if __name__ == "__main__":
 #The abs() function returns the absolute (positive) value of the specified number:
 def calculate_absolute_value(number):
     return abs(number)
+x = -10
 # Example of using the calculate_absolute_value function
+def main_absolute_value():
+    absolute_value = calculate_absolute_value(x)
+    print(f"Absolute value of {x}: {absolute_value}")
+if __name__ == "__main__":
+    main_absolute_value()
 
 
