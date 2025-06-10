@@ -331,4 +331,6 @@ def main_min_max():
     minimum = find_minimum(numbers)
     maximum = find_maximum(numbers)
     print(f"Minimum: {minimum}, Maximum: {maximum}")
+if __name__ == "__main__":
+    main_min_max()
 
