@@ -113,6 +113,11 @@ python_object = {
 }
 json_string = json.dumps(python_object)
 print("Converted JSON String:", json_string)
+#convert JSON string to Python object
+json_string = '{"name": "Alice", "age": 25, "city": "Los Angeles"}'
+python_object = json.loads(json_string)
+print("Converted Python Object:", python_object)
+
 
 
 
