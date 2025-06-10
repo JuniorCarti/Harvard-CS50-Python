@@ -352,5 +352,7 @@ y = max(1, 2, 3, 4, 5)
 def main_min_max_example():
     print(f"Minimum value: {x}")
     print(f"Maximum value: {y}")
+if __name__ == "__main__":
+    main_min_max_example()
 
 
