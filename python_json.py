@@ -117,6 +117,14 @@ print("Converted JSON String:", json_string)
 json_string = '{"name": "Alice", "age": 25, "city": "Los Angeles"}'
 python_object = json.loads(json_string)
 print("Converted Python Object:", python_object)
+# Writing JSON to a file
+with open('output.json', 'w') as json_file:
+    json.dump(python_object, json_file)
+# Reading JSON from a file
+with open('output.json', 'r') as json_file:
+    loaded_object = json.load(json_file)
+    print("Loaded Python Object from File:", loaded_object)
+    
 
 
 
