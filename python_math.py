@@ -380,5 +380,14 @@ def main_ceil_floor():
     print(f"Floor of 4.8: {y}")
 if __name__ == "__main__":
     main_ceil_floor()
+# The round() function rounds a number to the nearest integer or to a specified number of decimal places
+def round_number(number, ndigits=None):
+    return round(number, ndigits)
+# Example of using the round function
+def main_round_example():
+    number = 4.56789
+    rounded_value = round_number(number, 2)  # Round to 2 decimal places
+    print(f"Rounded value of {number} to 2 decimal places: {rounded_value}")
     
+
 
