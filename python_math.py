@@ -344,5 +344,13 @@ def main_distance():
     print(f"Distance between {point1} and {point2}: {distance}")
 if __name__ == "__main__":
     main_distance()
-    
+
+x = min(1, 2, 3, 4, 5)
+y = max(1, 2, 3, 4, 5)
+
+# Example of using the min and max functions
+def main_min_max_example():
+    print(f"Minimum value: {x}")
+    print(f"Maximum value: {y}")
+
 
