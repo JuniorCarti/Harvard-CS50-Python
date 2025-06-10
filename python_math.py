@@ -372,3 +372,13 @@ def main_pow_example():
 if __name__ == "__main__":
     main_pow_example()
 
+x = math.ceil(4.2)  # Returns the smallest integer greater than or equal to 4.2
+y = math.floor(4.8)  # Returns the largest integer less than or equal to 4.8
+# Example of using the ceil and floor functions
+def main_ceil_floor():
+    print(f"Ceiling of 4.2: {x}")
+    print(f"Floor of 4.8: {y}")
+if __name__ == "__main__":
+    main_ceil_floor()
+    
+
