@@ -395,6 +395,13 @@ if __name__ == "__main__":
 def calculate_divmod(a, b):
     return divmod(a, b)
 # Example of using the calculate_divmod function
+def main_divmod_example():
+    a = 10
+    b = 3
+    quotient, remainder = calculate_divmod(a, b)
+    print(f"Divmod of {a} and {b}: Quotient = {quotient}, Remainder = {remainder}")
+if __name__ == "__main__":
+    main_divmod_example()
     
 
 
