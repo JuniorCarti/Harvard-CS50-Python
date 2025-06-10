@@ -81,6 +81,30 @@ def complex_data_example():
     print("Complex JSON String:\n", json_string)
 if __name__ == "__main__":
     complex_data_example()
+
+#json is a syntax for storing and exchanging data
+# It is language-independent, but uses conventions that are familiar to programmers of the C family of languages, 
+# which includes C, C++, C#, Java, JavaScript, Perl, Python, and many others.
+# JSON is often used when data is sent from a server to a web page.
+# It is easy for humans to read and write, and easy for machines to parse and generate.
+#Parse JSON - Convert from JSON to Python
+#Stringify JSON - Convert from Python to JSON
+#some JSON data
+json_data = '{"name": "John", "age": 30, "city": "New York"}'
+#parse JSON data
+parsed_data = json.loads(json_data)
+#access data
+print("Name:", parsed_data['name'])
+print("Age:", parsed_data['age'])
+print("City:", parsed_data['city'])
+# Stringify JSON data
+json_string = json.dumps(parsed_data)
+print("JSON String:", json_string)
+
+#convert Python object to JSON
+
+
+
     
 
 
