@@ -319,3 +319,8 @@ def main_nonagon_area():
 if __name__ == "__main__":
     main_nonagon_area()
 
+
+#the  min and max functions can be used to find the minimum and maximum values in a list or iterable
+def find_minimum(numbers):
+    return min(numbers)
+
