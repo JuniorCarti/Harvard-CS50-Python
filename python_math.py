@@ -333,4 +333,7 @@ def main_min_max():
     print(f"Minimum: {minimum}, Maximum: {maximum}")
 if __name__ == "__main__":
     main_min_max()
+# Example of using the math module to calculate the distance between two points in 2D space
+def calculate_distance(point1, point2):
+    return math.sqrt((point2[0] - point1[0]) ** 2 + (point2[1] - point1[1]) ** 2)
 
