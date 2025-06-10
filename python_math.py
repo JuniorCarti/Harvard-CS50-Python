@@ -388,6 +388,13 @@ def main_round_example():
     number = 4.56789
     rounded_value = round_number(number, 2)  # Round to 2 decimal places
     print(f"Rounded value of {number} to 2 decimal places: {rounded_value}")
+if __name__ == "__main__":
+    main_round_example()
+# The divmod() function returns a tuple containing the quotient and remainder of dividing two 
+# numbers
+def calculate_divmod(a, b):
+    return divmod(a, b)
+# Example of using the calculate_divmod function
     
 
 
