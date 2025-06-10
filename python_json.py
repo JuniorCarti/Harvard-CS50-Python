@@ -100,8 +100,20 @@ print("City:", parsed_data['city'])
 # Stringify JSON data
 json_string = json.dumps(parsed_data)
 print("JSON String:", json_string)
-
+# json.dumps() is used to convert a Python object into a JSON string
+# json.loads() is used to parse a JSON string into a Python object
+# json.dump() writes a Python object to a file in JSON format
+# json.load() reads a JSON file and converts it into a Python object
+# json.dumps() is used to convert a Python object into a JSON string
 #convert Python object to JSON
+python_object = {
+    "name": "Alice",
+    "age": 25,
+    "city": "Los Angeles"
+}
+json_string = json.dumps(python_object)
+print("Converted JSON String:", json_string)
+
 
 
 
