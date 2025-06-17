@@ -102,6 +102,11 @@ match = re.search(r"v=([\w-]+)", url)
 if match:
     print("Video ID:", match.group(1))
 
+emails = ["user@outlook.com", "test@company.co.ke"]
+domains = [re.search(r"@(.+)", email).group(1) for email in emails]
+print(domains)
+
+
 
 
 
