@@ -12,3 +12,7 @@ import re
 txt = "The rain in Spain"
 x = re.findall("ai", txt)
 print(x)
+
+text = "My number is 0712345678"
+match = re.search(r"07\d{8}", text)
+print(match.group())  # Output: 0712345678
