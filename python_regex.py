@@ -204,6 +204,9 @@ ip6 = "2001:0db8:85a3:0000:0000:8a2e:0370:7334"
 if re.match(r"^([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}$", ip6):
     print("Valid IPv6")
 
+text = "UNICEF and NASA are well-known organizations"
+acronyms = re.findall(r"\b[A-Z]{2,}\b", text)
+print(acronyms)  # ['UNICEF', 'NASA']
 
 
 
