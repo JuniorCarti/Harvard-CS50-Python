@@ -196,6 +196,11 @@ username = "ridge_jnr_99"
 if re.match(r"^[a-zA-Z0-9_]{3,15}$", username):
     print("Valid username")
 
+code = "first_name = 'Faith'; last_name = 'Kiprono';"
+snake_case = re.findall(r"\b[a-z]+(?:_[a-z]+)+\b", code)
+print(snake_case)
+
+
 
 
 
