@@ -135,6 +135,12 @@ if re.match(r"^(2[0-3]|[01]?[0-9]):[0-5][0-9]$", time):
     print("Valid time")
 
 
+text = "This is is a test test of repeated repeated words words."
+repeats = re.findall(r"\b(\w+)\s+\1\b", text)
+print(repeats)
+
+
+
 
 
 
