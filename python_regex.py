@@ -106,6 +106,16 @@ emails = ["user@outlook.com", "test@company.co.ke"]
 domains = [re.search(r"@(.+)", email).group(1) for email in emails]
 print(domains)
 
+import re
+
+plate = "KBX 321B"
+pattern = r"^[Kk][A-Z]{2} \d{3}[A-Z]$"
+
+if re.match(pattern, plate):
+    print("Valid plate")
+else:
+    print("Invalid")
+
 
 
 
