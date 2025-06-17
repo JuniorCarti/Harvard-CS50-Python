@@ -220,4 +220,11 @@ matches = re.findall(r"\b(?:\d{8}|[A-Z]{2}\d{7})\b", ids)
 print(matches)
 
 
+#Extract Kenyan MPESA Transaction Codes
+text = "Transaction: QJD23KJ92 confirmed for Ksh 500"
+mpesa_code = re.findall(r"\b[A-Z0-9]{10}\b", text)
+print(mpesa_code)
+
+
+
 
