@@ -16,3 +16,9 @@ print(x)
 text = "My number is 0712345678"
 match = re.search(r"07\d{8}", text)
 print(match.group())  # Output: 0712345678
+
+
+text = "Emails: test@example.com, hello@gmail.com"
+emails = re.findall(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+", text)
+print(emails)  # ['test@example.com', 'hello@gmail.com']
+
