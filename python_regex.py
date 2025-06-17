@@ -159,6 +159,10 @@ ip = "Server running at 192.168.1.1"
 found = re.findall(r"\b(?:\d{1,3}\.){3}\d{1,3}\b", ip)
 print(found)
 
+text = "Programming in Python is amazing"
+long_words = re.findall(r"\b\w{6,}\b", text)
+print(long_words)
+
 
 
 
