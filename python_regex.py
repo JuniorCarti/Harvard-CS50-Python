@@ -147,6 +147,10 @@ numbers = ["+254712345678", "+12025550123", "+442071838750"]
 codes = re.findall(r"\+\d{1,4}", " ".join(numbers))
 print(codes)
 
+text = "Follow us @openai and @sprntAce on Twitter!"
+handles = re.findall(r"@\w+", text)
+print(handles)
+
 
 
 
