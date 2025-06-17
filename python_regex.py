@@ -200,6 +200,9 @@ code = "first_name = 'Faith'; last_name = 'Kiprono';"
 snake_case = re.findall(r"\b[a-z]+(?:_[a-z]+)+\b", code)
 print(snake_case)
 
+ip6 = "2001:0db8:85a3:0000:0000:8a2e:0370:7334"
+if re.match(r"^([0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}$", ip6):
+    print("Valid IPv6")
 
 
 
