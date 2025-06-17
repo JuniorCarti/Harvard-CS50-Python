@@ -28,4 +28,10 @@ if re.match(r'^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$', password):
 else:
     print("Invalid")
 
+m = re.search(r"(\d+)", "Order number: 456")
+print(m.group(0))  # '456'
+print(m.start())   # Start index
+print(m.end())     # End index
+
+
 
