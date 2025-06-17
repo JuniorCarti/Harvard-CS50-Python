@@ -117,6 +117,11 @@ else:
     print("Invalid")
 
 
+text = "Visit https://openai.com or http://google.com for info."
+urls = re.findall(r"https?://[^\s]+", text)
+print(urls)
+
+
 
 
 
