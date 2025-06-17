@@ -88,6 +88,9 @@ text = "This product is shit and useless"
 censored = re.sub(r"\bshit\b", "****", text, flags=re.IGNORECASE)
 print(censored)
 
+text = "Important dates: 01/06/2024, 17/06/2025."
+dates = re.findall(r"\b\d{2}/\d{2}/\d{4}\b", text)
+print(dates)
 
 
 
