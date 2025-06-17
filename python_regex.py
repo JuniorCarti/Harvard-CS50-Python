@@ -213,6 +213,11 @@ decimals = re.findall(r"\b\d+\.\d+\b", text)
 print(decimals)
 
 
+#Extract Kenyan ID and Passport Format
+# National ID (8 digits) or Passport (2 letters + 7 digits)
+ids = "ID: 12345678, Passport: CK1234567"
+matches = re.findall(r"\b(?:\d{8}|[A-Z]{2}\d{7})\b", ids)
+print(matches)
 
 
 
