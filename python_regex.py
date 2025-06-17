@@ -163,6 +163,12 @@ text = "Programming in Python is amazing"
 long_words = re.findall(r"\b\w{6,}\b", text)
 print(long_words)
 
+url = "https://www.example.com/page"
+pattern = r"^https?://(www\.)?[\w\-]+\.\w+(/\S*)?$"
+
+if re.match(pattern, url):
+    print("Valid URL")
+
 
 
 
