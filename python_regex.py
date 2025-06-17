@@ -121,6 +121,10 @@ text = "Visit https://openai.com or http://google.com for info."
 urls = re.findall(r"https?://[^\s]+", text)
 print(urls)
 
+sentence = "Ridge and Faith live in Nairobi but visit Eldoret often."
+names = re.findall(r"\b[A-Z][a-z]+\b", sentence)
+print(names)
+
 
 
 
