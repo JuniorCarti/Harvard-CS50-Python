@@ -139,6 +139,10 @@ text = "This is is a test test of repeated repeated words words."
 repeats = re.findall(r"\b(\w+)\s+\1\b", text)
 print(repeats)
 
+html = "<p>This is a <strong>paragraph</strong></p>"
+tags = re.findall(r"</?[\w]+[^>]*>", html)
+print(tags)
+
 
 
 
