@@ -143,6 +143,11 @@ html = "<p>This is a <strong>paragraph</strong></p>"
 tags = re.findall(r"</?[\w]+[^>]*>", html)
 print(tags)
 
+numbers = ["+254712345678", "+12025550123", "+442071838750"]
+codes = re.findall(r"\+\d{1,4}", " ".join(numbers))
+print(codes)
+
+
 
 
 
