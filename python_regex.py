@@ -38,5 +38,10 @@ pattern = re.compile(r"\b\w{5}\b")  # Words of 5 letters
 results = pattern.findall("Hello world! These words have five chars.")
 print(results)  # ['Hello', 'world', 'These']
 
+text = "My email is test@example.com"
+new_text = re.sub(r"\S+@\S+", "[hidden email]", text)
+print(new_text)  # My email is [hidden email]
+
+
 
 
