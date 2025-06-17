@@ -178,6 +178,11 @@ numbers = re.findall(r"\d+", text)
 print(numbers)  # ['348', '2025', '06', '17', '2']
 
 
+name = "FaithWanjiru"
+if re.match(r"^[A-Za-z]+$", name):
+    print("Valid name")
+
+
 
 
 
