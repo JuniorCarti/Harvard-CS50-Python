@@ -187,6 +187,11 @@ email = "user1234@gmail.com"
 masked = re.sub(r"(?<=.).(?=[^@]*?@)", "*", email)
 print(masked)  # u*******@gmail.com
 
+text = "Pay KES 1200 or Ksh 150.75 by Friday."
+prices = re.findall(r"(?:KES|Ksh)\s?\d+(?:\.\d+)?", text)
+print(prices)
+
+
 
 
 
