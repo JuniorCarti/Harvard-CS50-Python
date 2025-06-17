@@ -93,5 +93,10 @@ dates = re.findall(r"\b\d{2}/\d{2}/\d{4}\b", text)
 print(dates)
 
 
+sentence = "Hey! How are you? I’m fine."
+words = re.findall(r"\b\w+\b", sentence)
+print(words)
+
+
 
 
