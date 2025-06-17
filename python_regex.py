@@ -126,6 +126,11 @@ names = re.findall(r"\b[A-Z][a-z]+\b", sentence)
 print(names)
 
 
+amounts = ["KES 1,200", "KES 2500", "Ksh 340.75"]
+cleaned = [re.sub(r"[^\d.]", "", amt) for amt in amounts]
+print(cleaned)
+
+
 
 
 
