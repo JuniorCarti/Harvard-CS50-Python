@@ -72,5 +72,9 @@ if re.match(pattern, password):
 else:
     print("Weak password")
 
+tweet = "Loving the #sunset at #LakeNaivasha! #KenyaVibes"
+hashtags = re.findall(r"#\w+", tweet)
+print(hashtags)
+
 
 
