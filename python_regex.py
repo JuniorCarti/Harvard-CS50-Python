@@ -84,5 +84,11 @@ else:
     print("Invalid ID")
 
 
+text = "This product is shit and useless"
+censored = re.sub(r"\bshit\b", "****", text, flags=re.IGNORECASE)
+print(censored)
+
+
+
 
 
