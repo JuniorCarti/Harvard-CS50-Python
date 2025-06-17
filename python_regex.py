@@ -34,4 +34,9 @@ print(m.start())   # Start index
 print(m.end())     # End index
 
 
+pattern = re.compile(r"\b\w{5}\b")  # Words of 5 letters
+results = pattern.findall("Hello world! These words have five chars.")
+print(results)  # ['Hello', 'world', 'These']
+
+
 
