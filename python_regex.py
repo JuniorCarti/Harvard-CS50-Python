@@ -208,6 +208,10 @@ text = "UNICEF and NASA are well-known organizations"
 acronyms = re.findall(r"\b[A-Z]{2,}\b", text)
 print(acronyms)  # ['UNICEF', 'NASA']
 
+text = "The values were 3.14, 2.71 and 100.0"
+decimals = re.findall(r"\b\d+\.\d+\b", text)
+print(decimals)
+
 
 
 
