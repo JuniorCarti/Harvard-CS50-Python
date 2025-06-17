@@ -130,6 +130,10 @@ amounts = ["KES 1,200", "KES 2500", "Ksh 340.75"]
 cleaned = [re.sub(r"[^\d.]", "", amt) for amt in amounts]
 print(cleaned)
 
+time = "23:45"
+if re.match(r"^(2[0-3]|[01]?[0-9]):[0-5][0-9]$", time):
+    print("Valid time")
+
 
 
 
