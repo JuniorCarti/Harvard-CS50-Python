@@ -42,6 +42,10 @@ text = "My email is test@example.com"
 new_text = re.sub(r"\S+@\S+", "[hidden email]", text)
 print(new_text)  # My email is [hidden email]
 
+text = "HELLO\nhello"
+matches = re.findall(r"^hello", text, re.IGNORECASE | re.MULTILINE)
+print(matches)  # ['HELLO', 'hello']
+
 
 
 
