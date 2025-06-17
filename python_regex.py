@@ -155,6 +155,9 @@ text = "Ref No: AB123456C"
 digits = re.findall(r"\d+", text)
 print("".join(digits))  # Output: 123456
 
+ip = "Server running at 192.168.1.1"
+found = re.findall(r"\b(?:\d{1,3}\.){3}\d{1,3}\b", ip)
+print(found)
 
 
 
