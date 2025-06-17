@@ -22,3 +22,10 @@ text = "Emails: test@example.com, hello@gmail.com"
 emails = re.findall(r"[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+", text)
 print(emails)  # ['test@example.com', 'hello@gmail.com']
 
+password = "Test1234"
+if re.match(r'^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$', password):
+    print("Valid")
+else:
+    print("Invalid")
+
+
