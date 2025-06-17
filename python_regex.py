@@ -172,6 +172,10 @@ if re.match(pattern, url):
 postal_code = "30100"
 if re.match(r"^\d{5}$", postal_code):
     print("Valid postal code")
+    
+text = "The invoice 348 was paid on 2025-06-17, with 2 items."
+numbers = re.findall(r"\d+", text)
+print(numbers)  # ['348', '2025', '06', '17', '2']
 
 
 
