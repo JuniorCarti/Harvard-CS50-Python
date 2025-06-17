@@ -169,6 +169,11 @@ pattern = r"^https?://(www\.)?[\w\-]+\.\w+(/\S*)?$"
 if re.match(pattern, url):
     print("Valid URL")
 
+postal_code = "30100"
+if re.match(r"^\d{5}$", postal_code):
+    print("Valid postal code")
+
+
 
 
 
