@@ -192,6 +192,11 @@ prices = re.findall(r"(?:KES|Ksh)\s?\d+(?:\.\d+)?", text)
 print(prices)
 
 
+username = "ridge_jnr_99"
+if re.match(r"^[a-zA-Z0-9_]{3,15}$", username):
+    print("Valid username")
+
+
 
 
 
