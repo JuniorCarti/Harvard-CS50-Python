@@ -183,6 +183,11 @@ if re.match(r"^[A-Za-z]+$", name):
     print("Valid name")
 
 
+email = "user1234@gmail.com"
+masked = re.sub(r"(?<=.).(?=[^@]*?@)", "*", email)
+print(masked)  # u*******@gmail.com
+
+
 
 
 
