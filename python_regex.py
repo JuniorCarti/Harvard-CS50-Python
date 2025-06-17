@@ -57,6 +57,11 @@ if re.match(pattern, number):
 else:
     print("Invalid")
 
+import re
+
+text = "Contact us at help@company.com or support@service.co.ke"
+emails = re.findall(r"[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}", text)
+print(emails)
 
 
 
