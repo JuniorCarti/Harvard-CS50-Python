@@ -151,7 +151,9 @@ text = "Follow us @openai and @sprntAce on Twitter!"
 handles = re.findall(r"@\w+", text)
 print(handles)
 
-
+text = "Ref No: AB123456C"
+digits = re.findall(r"\d+", text)
+print("".join(digits))  # Output: 123456
 
 
 
