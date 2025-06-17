@@ -47,5 +47,16 @@ matches = re.findall(r"^hello", text, re.IGNORECASE | re.MULTILINE)
 print(matches)  # ['HELLO', 'hello']
 
 
+import re
+
+number = "0712345678"
+pattern = r"^07\d{8}$"
+
+if re.match(pattern, number):
+    print("Valid Kenyan number")
+else:
+    print("Invalid")
+
+
 
 
