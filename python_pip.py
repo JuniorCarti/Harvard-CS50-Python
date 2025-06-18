@@ -10,9 +10,10 @@
 
 #Example
 import camelcase
-
 c = camelcase.CamelCase()
-
 txt = "hello world"
-
 print(c.hump(txt))
+
+
+#List Packages
+#Use the list command to list all the packages installed on your system:
