@@ -2,3 +2,8 @@
 #The except block lets you handle the error.
 #The else block lets you execute code when there is no error.
 #The finally block lets you execute code, regardless of the result of the try- and except blocks.
+#Exception Handling
+try:
+  print(x)
+except:
+  print("An exception occurred")
