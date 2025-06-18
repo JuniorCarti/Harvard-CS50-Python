@@ -19,3 +19,9 @@ from string import Template
 
 t = Template("Hey $name, your code is $code.")
 print(t.substitute(name="Ridge", code="ABC123"))
+
+
+from datetime import datetime
+
+now = datetime.now()
+print(f"Today is {now:%A, %d %B %Y}")  # Output: e.g., Wednesday, 18 June 2025
