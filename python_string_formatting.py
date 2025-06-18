@@ -13,3 +13,9 @@ print(template.format("Ridge", 87))
 name = "Ridge"
 score = 90.1234
 print("Hello %s, your score is %.1f" % (name, score))
+
+#4. Template Strings – Safe Substitution (useful for user input)
+from string import Template
+
+t = Template("Hey $name, your code is $code.")
+print(t.substitute(name="Ridge", code="ABC123"))
