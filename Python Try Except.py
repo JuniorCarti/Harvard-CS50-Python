@@ -116,3 +116,20 @@ except ValueError:
     print("You must enter a number.")
 except ZeroDivisionError:
     print("Division by zero occurred.")  # unlikely here but just in case
+
+# 4. Banking App – Withdraw Function (Custom Exception)
+class InsufficientBalance(Exception):
+    pass
+
+balance = 500
+
+def withdraw(amount):
+    if amount > balance:
+        raise InsufficientBalance("Not enough balance to withdraw.")
+    return balance - amount
+
+try:
+    new_balance = withdraw(600)
+    print("Withdrawal successful. New balance:", new_balance)
+except InsufficientBalance as e:
+    print(f"Error: {e}")
