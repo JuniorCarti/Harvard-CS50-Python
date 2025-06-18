@@ -73,3 +73,10 @@ except ZeroDivisionError:
     print("Cannot divide by zero!")
 except ValueError:
     print("Please enter a valid number.")
+
+#Example 2: Catching all errors (not recommended for production)
+try:
+    x = 5 / 0
+except Exception as e:
+    print(f"An error occurred: {e}")
+
