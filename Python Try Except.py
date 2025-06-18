@@ -154,3 +154,14 @@ except smtplib.SMTPAuthenticationError:
     print("Failed to authenticate. Check your email or password.")
 except smtplib.SMTPException as e:
     print(f"SMTP error occurred: {e}")
+
+#Parsing JSON (json.JSONDecodeError)
+import json
+
+data = '{"name": "Ridge", "age": 25'  # missing closing }
+
+try:
+    parsed = json.loads(data)
+    print(parsed)
+except json.JSONDecodeError:
+    print("Failed to parse JSON. Invalid format.")
