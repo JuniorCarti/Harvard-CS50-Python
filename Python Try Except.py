@@ -107,3 +107,12 @@ try:
     print(response.json())
 except requests.exceptions.ConnectionError:
     print("Network connection failed. Check your internet.")
+#3. User Input (ValueError, ZeroDivisionError)
+try:
+    age = int(input("Enter your age: "))
+    years_left = 100 - age
+    print(f"You have around {years_left} years to 100!")
+except ValueError:
+    print("You must enter a number.")
+except ZeroDivisionError:
+    print("Division by zero occurred.")  # unlikely here but just in case
