@@ -140,3 +140,17 @@ try:
         file.write("Top Secret Data")
 except PermissionError:
     print("Permission denied. You can't write to this location.")
+
+# 6. Sending an Email (smtplib.SMTPException)
+import smtplib
+
+try:
+    server = smtplib.SMTP('smtp.gmail.com', 587)
+    server.starttls()
+    server.login("your_email@gmail.com", "wrong_password")
+    server.sendmail("your_email@gmail.com", "receiver@gmail.com", "Test message")
+    server.quit()
+except smtplib.SMTPAuthenticationError:
+    print("Failed to authenticate. Check your email or password.")
+except smtplib.SMTPException as e:
+    print(f"SMTP error occurred: {e}")
