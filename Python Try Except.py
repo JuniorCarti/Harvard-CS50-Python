@@ -80,3 +80,14 @@ try:
 except Exception as e:
     print(f"An error occurred: {e}")
 
+#Example 3: Using else and finally
+try:
+    value = int(input("Enter a number: "))
+except ValueError:
+    print("That was not a number!")
+else:
+    print(f"You entered {value}")
+finally:
+    print("This always runs (cleanup, closing files, etc.)")
+
+
