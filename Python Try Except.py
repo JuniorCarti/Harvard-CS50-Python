@@ -99,3 +99,11 @@ except FileNotFoundError:
     print("The file was not found. Please check the file name or path.")
 
 
+# API Call or Internet Request (ConnectionError)
+import requests
+
+try:
+    response = requests.get("https://example.com/api/data")
+    print(response.json())
+except requests.exceptions.ConnectionError:
+    print("Network connection failed. Check your internet.")
