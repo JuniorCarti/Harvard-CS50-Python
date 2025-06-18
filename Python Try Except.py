@@ -18,3 +18,6 @@ except NameError:
   print("Variable x is not defined")
 except:
   print("Something else went wrong")
+
+  #Else
+  #You can use the else keyword to define a block of code to be executed if no errors were raised:
