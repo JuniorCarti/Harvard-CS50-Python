@@ -133,3 +133,10 @@ try:
     print("Withdrawal successful. New balance:", new_balance)
 except InsufficientBalance as e:
     print(f"Error: {e}")
+
+#5. Writing to a File (PermissionError)
+try:
+    with open("/root/secret.txt", "w") as file:
+        file.write("Top Secret Data")
+except PermissionError:
+    print("Permission denied. You can't write to this location.")
