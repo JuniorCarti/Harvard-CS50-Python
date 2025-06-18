@@ -165,3 +165,16 @@ try:
     print(parsed)
 except json.JSONDecodeError:
     print("Failed to parse JSON. Invalid format.")
+
+#8. Connecting to a Database (psycopg2 or sqlite3)
+import sqlite3
+
+try:
+    conn = sqlite3.connect("shop.db")
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM orders")
+    print(cursor.fetchall())
+except sqlite3.DatabaseError as e:
+    print(f"Database error: {e}")
+finally:
+    conn.close()
