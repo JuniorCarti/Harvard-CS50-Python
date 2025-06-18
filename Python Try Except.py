@@ -64,3 +64,12 @@ x = "hello"
 
 if not type(x) is int:
   raise TypeError("Only integers are allowed")
+
+#Example 1: Catching a specific error
+try:
+    number = int(input("Enter a number: "))
+    print(10 / number)
+except ZeroDivisionError:
+    print("Cannot divide by zero!")
+except ValueError:
+    print("Please enter a valid number.")
