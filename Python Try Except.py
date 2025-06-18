@@ -90,4 +90,12 @@ else:
 finally:
     print("This always runs (cleanup, closing files, etc.)")
 
+#1. Reading a File (FileNotFoundError)
+try:
+    with open("data.txt", "r") as file:
+        content = file.read()
+        print(content)
+except FileNotFoundError:
+    print("The file was not found. Please check the file name or path.")
+
 
