@@ -178,3 +178,16 @@ except sqlite3.DatabaseError as e:
     print(f"Database error: {e}")
 finally:
     conn.close()
+
+#10. Loop with Error Handling – Skipping Bad Data
+numbers = ["5", "ten", "15", "0", "-3"]
+
+for item in numbers:
+    try:
+        num = int(item)
+        result = 100 / num
+        print(f"100 divided by {num} = {result}")
+    except ValueError:
+        print(f"'{item}' is not a number. Skipping.")
+    except ZeroDivisionError:
+        print("Division by zero! Skipping.")
