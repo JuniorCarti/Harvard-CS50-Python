@@ -1,4 +1,4 @@
-# 🐍 JuniorCarti Python 
+# 🐍 JuniorCarti Python Projects
 
 Welcome to **JuniorCarti**, a Python-based repository exploring the fundamentals and applications of Python programming through hands-on projects and script-based examples. Whether you're a beginner learning Python or an intermediate developer reviewing core concepts, this repo offers structured content to guide and inspire your coding journey.
 
