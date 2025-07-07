@@ -28,15 +28,12 @@ The repository includes well-commented Python files that cover:
 | `pythonforloops.py`                         | Looping structures in Python               |
 
 ### 🔹 **Strings & Operations**
-
 | File                                                     | Description                         |
 | -------------------------------------------------------- | ----------------------------------- |
 | `pythonmodifystrings.py`, `pythonstringconcatenation.py` | String manipulation techniques      |
 | `pythonformatstrings.py`                                 | String formatting methods           |
 | `pythonescapecharacters.py`, `pythonslicingstrings.py`   | Escape characters & slicing strings |
-
 ### 🔹 **Functions & Modules**
-
 | File                                                     | Description                               |
 | -------------------------------------------------------- | ----------------------------------------- |
 | `pythonfunctions.py`                                     | Functions and a random password generator |
@@ -45,7 +42,6 @@ The repository includes well-commented Python files that cover:
 | `python_lambda.py`, `pythonLambda.py`                    | Lambda functions in Python                |
 
 ### 🔹 **Object-Oriented Programming (OOP)**
-
 | File                       | Description                             |
 | -------------------------- | --------------------------------------- |
 | `PythonClasses_Objects.py` | E-commerce product management using OOP |
