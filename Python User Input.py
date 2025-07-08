@@ -6,3 +6,9 @@
 
 name = input("What's your name? ")
 print("Hello, " + name + "!")
+
+v = 5
+print("The value of v is: " + str(v))
+
+d = 10
+print("The value of d is: " + str(d))
