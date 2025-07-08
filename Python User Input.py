@@ -12,3 +12,6 @@ print("The value of v is: " + str(v))
 
 d = 10
 print("The value of d is: " + str(d))
+
+e = 15
+print("The value of e is: " + str(e))
